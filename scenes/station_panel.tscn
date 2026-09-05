@@ -1,0 +1,50 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/station_panel.gd" id="1"]
+
+[sub_resource type="StyleBoxFlat" id="StationStyle"]
+bg_color = Color(0.055, 0.09, 0.13, 0.96)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.18, 0.29, 0.39, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+content_margin_left = 14.0
+content_margin_top = 12.0
+content_margin_right = 14.0
+content_margin_bottom = 12.0
+
+[node name="StationPanel" type="PanelContainer"]
+custom_minimum_size = Vector2(180, 92)
+size_flags_horizontal = 3
+theme_override_styles/panel = SubResource("StationStyle")
+script = ExtResource("1")
+
+[node name="Layout" type="HBoxContainer" parent="."]
+theme_override_constants/separation = 12
+
+[node name="Indicator" type="ColorRect" parent="Layout"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(5, 0)
+color = Color(0.32, 0.4, 0.48, 1)
+
+[node name="Text" type="VBoxContainer" parent="Layout"]
+size_flags_horizontal = 3
+theme_override_constants/separation = 5
+
+[node name="StationName" type="Label" parent="Layout/Text"]
+unique_name_in_owner = true
+theme_override_colors/font_color = Color(0.72, 0.8, 0.87, 1)
+theme_override_font_sizes/font_size = 15
+text = "STATION"
+
+[node name="StationStatus" type="Label" parent="Layout/Text"]
+unique_name_in_owner = true
+theme_override_colors/font_color = Color(0.6, 0.66, 0.72, 1)
+theme_override_font_sizes/font_size = 18
+text = "STANDBY"
+autowrap_mode = 2
