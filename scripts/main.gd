@@ -184,6 +184,8 @@ func _handle_scene_five(action: String) -> void:
         briefing.text = "A single signal can carry enormous meaning when the operator understands the system around it."
         for button in active_buttons:
             button.disabled = true
+        scan_controller.set_enabled(false)
+        scan_toggle.button_pressed = false
 
 func _advance_mission() -> void:
     if mission_controller.advance_mission():
