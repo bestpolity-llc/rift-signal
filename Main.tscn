@@ -192,33 +192,26 @@ size_flags_vertical = 3
 theme_override_constants/separation = 16
 alignment = 1
 
-[node name="Accessibility" type="PanelContainer" parent="."]
-layout_mode = 1
-anchors_preset = 1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = -698.0
-offset_top = 20.0
-offset_right = -158.0
-offset_bottom = 74.0
-grow_horizontal = 0
+[node name="Accessibility" type="PanelContainer" parent="Margin/Content"]
+layout_mode = 2
 theme_override_styles/panel = SubResource("AccessStyle")
 
-[node name="Controls" type="HBoxContainer" parent="Accessibility"]
+[node name="Controls" type="HBoxContainer" parent="Margin/Content/Accessibility"]
 layout_mode = 2
 theme_override_constants/separation = 12
+alignment = 2
 
-[node name="ScanToggle" type="CheckButton" parent="Accessibility/Controls"]
+[node name="ScanToggle" type="CheckButton" parent="Margin/Content/Accessibility/Controls"]
 unique_name_in_owner = true
 layout_mode = 2
 text = "SCAN"
 
-[node name="SpeedLabel" type="Label" parent="Accessibility/Controls"]
+[node name="SpeedLabel" type="Label" parent="Margin/Content/Accessibility/Controls"]
 layout_mode = 2
 text = "SPEED"
 vertical_alignment = 1
 
-[node name="ScanSpeed" type="HSlider" parent="Accessibility/Controls"]
+[node name="ScanSpeed" type="HSlider" parent="Margin/Content/Accessibility/Controls"]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
@@ -227,7 +220,7 @@ max_value = 5.0
 step = 0.1
 value = 2.0
 
-[node name="TextSize" type="OptionButton" parent="Accessibility/Controls"]
+[node name="TextSize" type="OptionButton" parent="Margin/Content/Accessibility/Controls"]
 unique_name_in_owner = true
 layout_mode = 2
 item_count = 3
@@ -239,12 +232,12 @@ popup/item_1/id = 1
 popup/item_2/text = "TEXT XL"
 popup/item_2/id = 2
 
-[node name="ReducedMotion" type="CheckButton" parent="Accessibility/Controls"]
+[node name="ReducedMotion" type="CheckButton" parent="Margin/Content/Accessibility/Controls"]
 unique_name_in_owner = true
 layout_mode = 2
 text = "REDUCED MOTION"
 
-[node name="SoundToggle" type="CheckButton" parent="Accessibility/Controls"]
+[node name="SoundToggle" type="CheckButton" parent="Margin/Content/Accessibility/Controls"]
 unique_name_in_owner = true
 layout_mode = 2
 button_pressed = true

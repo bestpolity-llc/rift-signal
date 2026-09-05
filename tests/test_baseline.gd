@@ -22,9 +22,19 @@ func _run() -> void:
         _expect(switch_area != null, "SwitchArea exists")
         if switch_area != null:
             _expect(switch_area.custom_minimum_size.y >= 150.0, "SwitchArea reserves permanent height")
-        _expect(main.get_node_or_null("Accessibility") is PanelContainer, "Accessibility panel exists")
+        var accessibility := main.get_node_or_null("Margin/Content/Accessibility") as PanelContainer
+        _expect(accessibility != null, "Accessibility panel participates in the main container layout")
         root.add_child(main)
         await process_frame
+        if accessibility != null and switch_area != null:
+            _expect(not accessibility.get_global_rect().intersects(switch_area.get_global_rect()), "Accessibility controls do not obscure SwitchArea")
+        var title := main.get_node("Margin/Content/MissionArea/MissionTitle") as Label
+        var original_title_size := title.get_theme_font_size("font_size")
+        main.get_node("Margin/Content/Accessibility/Controls/TextSize").select(2)
+        main._on_text_size_selected(2)
+        _expect(title.get_theme_font_size("font_size") > original_title_size, "Text-size control scales explicit typography")
+        var station_name := main.get_node("Margin/Content/StationRow").get_child(0).get_node("Layout/Text/StationName") as Label
+        _expect(station_name.get_theme_font_size("font_size") > 15, "Text-size control scales reusable station typography")
         var report_button := main.get_node("Margin/Content/SwitchArea/SwitchLayout/ActionRow").get_child(0) as Button
         _expect(report_button.text == "REPORT READY", "Scene 1 presents the readiness report")
         main.activate_switch_for_test()

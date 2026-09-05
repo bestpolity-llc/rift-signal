@@ -196,7 +196,14 @@ func _on_scan_speed_changed(value: float) -> void:
     scan_controller.set_interval(value)
 
 func _on_text_size_selected(index: int) -> void:
-    theme.default_font_size = [16, 20, 24][index]
+    var scale := [1.0, 1.2, 1.4][index] as float
+    theme.default_font_size = roundi(18 * scale)
+    chapter_label.add_theme_font_size_override("font_size", roundi(15 * scale))
+    mission_title.add_theme_font_size_override("font_size", roundi(25 * scale))
+    briefing.add_theme_font_size_override("font_size", roundi(17 * scale))
+    for panel in station_row.get_children():
+        panel.get_node("Layout/Text/StationName").add_theme_font_size_override("font_size", roundi(15 * scale))
+        panel.get_node("Layout/Text/StationStatus").add_theme_font_size_override("font_size", roundi(18 * scale))
 
 func _apply_console_theme() -> void:
     var console_theme := Theme.new()
