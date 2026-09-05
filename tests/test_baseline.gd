@@ -29,7 +29,8 @@ func _run() -> void:
         _expect(report_button.text == "REPORT READY", "Scene 1 presents the readiness report")
         main.activate_switch_for_test()
         await process_frame
-        _expect(report_button.disabled, "Direct switch input completes Scene 1 action")
+        var next_button := main.get_node("Margin/Content/SwitchArea/SwitchLayout/ActionRow").get_child(0) as Button
+        _expect(next_button.text == "ACCEPT ASSIGNMENT", "Direct switch input completes Scene 1 action")
         _expect("Readiness acknowledged" in main.get_node("Margin/Content/MessageLog/LogText").text, "Scene 1 records Command acknowledgement")
         main.free()
     _finish()
