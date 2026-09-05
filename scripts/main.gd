@@ -7,6 +7,7 @@ const Chapter01 = preload("res://missions/chapter_01.gd")
 @onready var chapter_label: Label = %ChapterLabel
 @onready var mission_title: Label = %MissionTitle
 @onready var briefing: Label = %Briefing
+@onready var vessel_status: Label = $Margin/Content/Header/HeaderRow/VesselStatus
 @onready var station_row: HBoxContainer = %StationRow
 @onready var log_text: RichTextLabel = %LogText
 @onready var action_row: HBoxContainer = %ActionRow
@@ -17,6 +18,7 @@ const Chapter01 = preload("res://missions/chapter_01.gd")
 @onready var text_size: OptionButton = %TextSize
 @onready var reduced_motion: CheckButton = %ReducedMotion
 @onready var sound_toggle: CheckButton = %SoundToggle
+@onready var instruction: Label = $Margin/Content/SwitchArea/SwitchLayout/Instruction
 
 var station_scene := preload("res://scenes/station_panel.tscn")
 var current_scene_index := 0
@@ -74,6 +76,7 @@ func _set_stations(states: Array) -> void:
         panel.station_name = state[0]
         station_row.add_child(panel)
         panel.set_station(state[0], state[1], state[2])
+    _apply_text_scale(text_size.selected)
 
 func _set_actions(actions: Array) -> void:
     for child in action_row.get_children():
@@ -203,11 +206,16 @@ func _on_scan_speed_changed(value: float) -> void:
     scan_controller.set_interval(value)
 
 func _on_text_size_selected(index: int) -> void:
+    _apply_text_scale(index)
+
+func _apply_text_scale(index: int) -> void:
     var scale := [1.0, 1.2, 1.4][index] as float
     theme.default_font_size = roundi(18 * scale)
     chapter_label.add_theme_font_size_override("font_size", roundi(15 * scale))
+    vessel_status.add_theme_font_size_override("font_size", roundi(15 * scale))
     mission_title.add_theme_font_size_override("font_size", roundi(25 * scale))
     briefing.add_theme_font_size_override("font_size", roundi(17 * scale))
+    instruction.add_theme_font_size_override("font_size", roundi(14 * scale))
     for panel in station_row.get_children():
         panel.get_node("Layout/Text/StationName").add_theme_font_size_override("font_size", roundi(15 * scale))
         panel.get_node("Layout/Text/StationStatus").add_theme_font_size_override("font_size", roundi(18 * scale))

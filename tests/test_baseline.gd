@@ -35,6 +35,10 @@ func _run() -> void:
         _expect(title.get_theme_font_size("font_size") > original_title_size, "Text-size control scales explicit typography")
         var station_name := main.get_node("Margin/Content/StationRow").get_child(0).get_node("Layout/Text/StationName") as Label
         _expect(station_name.get_theme_font_size("font_size") > 15, "Text-size control scales reusable station typography")
+        var vessel_status := main.get_node("Margin/Content/Header/HeaderRow/VesselStatus") as Label
+        var instruction := main.get_node("Margin/Content/SwitchArea/SwitchLayout/Instruction") as Label
+        _expect(vessel_status.get_theme_font_size("font_size") > 15, "Text-size control scales vessel status")
+        _expect(instruction.get_theme_font_size("font_size") > 14, "Text-size control scales switch instruction")
         var report_button := main.get_node("Margin/Content/SwitchArea/SwitchLayout/ActionRow").get_child(0) as Button
         _expect(report_button.text == "REPORT READY", "Scene 1 presents the readiness report")
         var scan_toggle := main.get_node("Margin/Content/Accessibility/Controls/ScanToggle") as CheckButton
@@ -53,6 +57,9 @@ func _run() -> void:
         var next_button := main.get_node("Margin/Content/SwitchArea/SwitchLayout/ActionRow").get_child(0) as Button
         _expect(next_button.text == "ACCEPT ASSIGNMENT", "Enter activates the focused mission action")
         _expect("Readiness acknowledged" in main.get_node("Margin/Content/MessageLog/LogText").text, "Scene 1 records Command acknowledgement")
+        main._advance_mission()
+        var recreated_station_name := main.get_node("Margin/Content/StationRow").get_child(0).get_node("Layout/Text/StationName") as Label
+        _expect(recreated_station_name.get_theme_font_size("font_size") > 15, "Text size persists when mission stations are recreated")
         main.free()
     _finish()
 
