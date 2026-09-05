@@ -40,15 +40,20 @@ func activate_switch_for_test() -> void:
     elif not active_buttons.is_empty() and not active_buttons[0].disabled:
         active_buttons[0].pressed.emit()
 
-func _input(event: InputEvent) -> void:
-    var switch_pressed := false
-    if event is InputEventKey and event.pressed and not event.echo:
-        switch_pressed = event.keycode == KEY_SPACE or event.keycode == KEY_ENTER or event.keycode == KEY_KP_ENTER
-    elif event is InputEventScreenTouch and event.pressed:
-        switch_pressed = true
-    if switch_pressed:
+func handle_unhandled_switch_key(event: InputEventKey) -> bool:
+    if not event.pressed or event.echo:
+        return false
+    if event.keycode != KEY_SPACE and event.keycode != KEY_ENTER and event.keycode != KEY_KP_ENTER:
+        return false
+    var focused := get_viewport().gui_get_focus_owner()
+    if focused != null and %Accessibility.is_ancestor_of(focused):
+        return false
+    activate_switch_for_test()
+    return true
+
+func _unhandled_key_input(event: InputEvent) -> void:
+    if event is InputEventKey and handle_unhandled_switch_key(event):
         get_viewport().set_input_as_handled()
-        activate_switch_for_test()
 
 func _render_mission() -> void:
     current_scene_index = mission_controller.current_index

@@ -37,10 +37,21 @@ func _run() -> void:
         _expect(station_name.get_theme_font_size("font_size") > 15, "Text-size control scales reusable station typography")
         var report_button := main.get_node("Margin/Content/SwitchArea/SwitchLayout/ActionRow").get_child(0) as Button
         _expect(report_button.text == "REPORT READY", "Scene 1 presents the readiness report")
-        main.activate_switch_for_test()
+        var scan_toggle := main.get_node("Margin/Content/Accessibility/Controls/ScanToggle") as CheckButton
+        scan_toggle.grab_focus()
+        var control_event := InputEventKey.new()
+        control_event.keycode = KEY_SPACE
+        control_event.pressed = true
+        _expect(not main.handle_unhandled_switch_key(control_event), "Focused accessibility controls retain Space input")
+        _expect(report_button.text == "REPORT READY", "Accessibility key input does not trigger the mission action")
+        scan_toggle.release_focus()
+        var switch_event := InputEventKey.new()
+        switch_event.keycode = KEY_ENTER
+        switch_event.pressed = true
+        _expect(main.handle_unhandled_switch_key(switch_event), "Unhandled Enter is accepted as switch input")
         await process_frame
         var next_button := main.get_node("Margin/Content/SwitchArea/SwitchLayout/ActionRow").get_child(0) as Button
-        _expect(next_button.text == "ACCEPT ASSIGNMENT", "Direct switch input completes Scene 1 action")
+        _expect(next_button.text == "ACCEPT ASSIGNMENT", "Enter activates the focused mission action")
         _expect("Readiness acknowledged" in main.get_node("Margin/Content/MessageLog/LogText").text, "Scene 1 records Command acknowledgement")
         main.free()
     _finish()
