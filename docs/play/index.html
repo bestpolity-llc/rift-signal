@@ -3,36 +3,53 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="Play Rift Signal First Shift online with direct, keyboard, touch, or single-switch scanning controls.">
-<title>Rift Signal | First Shift Online</title>
+<meta name="description" content="Play Rift Signal Mission 001: First Shift online with direct, keyboard, touch, or single-switch scanning controls.">
+<title>Rift Signal | Mission 001 — First Shift</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="topbar">
   <a class="brand" href="../">RIFT SIGNAL</a>
   <div class="top-actions">
+    <button id="replayBtn" class="ghost" type="button">REPLAY MESSAGE</button>
     <button id="fullscreenBtn" class="ghost" type="button">FULL SCREEN</button>
     <button id="restartBtn" class="ghost" type="button">RESTART</button>
   </div>
 </header>
 
 <main class="shell">
-  <section class="console" aria-labelledby="missionTitle">
+  <section class="console" aria-labelledby="sceneTitle">
     <div class="console-head">
       <div>
-        <p class="eyebrow" id="chapterLabel">ASTERION / SIGNAL OPERATIONS / FIRST SHIFT</p>
-        <h1 id="missionTitle">Loading mission…</h1>
+        <p class="eyebrow">ASTERION / MISSION 001 / FIRST SHIFT</p>
+        <h1 id="sceneTitle">Loading mission…</h1>
       </div>
-      <div class="vessel">ASTERION <span>ONLINE</span></div>
+      <div class="mission-progress">
+        <span id="sceneProgress">SCENE 01 / 22</span>
+        <strong id="systemState">SIGNAL OPS ONLINE</strong>
+      </div>
     </div>
 
-    <p id="briefing" class="briefing"></p>
+    <div class="story-grid">
+      <figure class="scene-media">
+        <img id="sceneImage" alt="">
+        <div id="sceneFallback" class="scene-fallback" aria-hidden="true">
+          <div class="orbital-ring ring-one"></div>
+          <div class="orbital-ring ring-two"></div>
+          <div id="fallbackLabel" class="fallback-label">ASTERION</div>
+        </div>
+      </figure>
 
-    <div id="stations" class="stations" aria-label="Station status"></div>
+      <section class="message-panel">
+        <p id="speakerRole" class="speaker-role"></p>
+        <h2 id="speakerName"></h2>
+        <p id="narration" class="narration" aria-live="polite"></p>
+        <div id="sceneHint" class="scene-hint"></div>
+      </section>
+    </div>
 
-    <div class="log-panel">
-      <div class="panel-label">OPERATIONS LOG</div>
-      <div id="logText" class="log-text" aria-live="polite"></div>
+    <div id="choiceMeter" class="choice-meter" hidden aria-hidden="true">
+      <span></span>
     </div>
 
     <div class="switch-zone">
@@ -46,7 +63,7 @@
     <h2>Operator controls</h2>
 
     <label class="toggle-row">
-      <span><strong>Single-switch scan</strong><small>Highlight available choices automatically.</small></span>
+      <span><strong>Single-switch scan</strong><small>Highlight available controls automatically.</small></span>
       <input id="scanToggle" type="checkbox">
     </label>
 
@@ -65,26 +82,26 @@
     </label>
 
     <label class="toggle-row">
-      <span><strong>Reduced motion</strong><small>Removes transition animation.</small></span>
+      <span><strong>Reduced motion</strong><small>Keeps the same choices with less animation.</small></span>
       <input id="reducedMotion" type="checkbox">
     </label>
 
     <label class="toggle-row">
-      <span><strong>Sound cues</strong><small>Short tones for scan and activation.</small></span>
+      <span><strong>Voice / sound</strong><small>Uses DVD narration when present; browser voice otherwise.</small></span>
       <input id="soundToggle" type="checkbox" checked>
     </label>
 
     <div class="access-note">
-      <strong>Switch users:</strong> enable scan, then use Space or Enter as the switch input. Touch and mouse work too.
+      <strong>Single-switch:</strong> enable scan, then use Space or Enter as the switch. The two picture choices rotate automatically just like the DVD choice sequence.
     </div>
   </aside>
 </main>
 
 <footer>
-  <span>First Shift — Web Edition</span>
+  <span>Mission 001 — First Shift · Web Edition</span>
   <a href="../">Return to Rift Signal</a>
 </footer>
 
-<script src="app.js"></script>
+<script type="module" src="app.js"></script>
 </body>
 </html>
