@@ -12,3 +12,12 @@
 @media(max-width:900px){
   .hero-media{max-width:600px;margin-left:auto;margin-right:auto}
 }
+
+/* Proper production artwork */
+.hero-media img{display:block;width:100%;height:auto;max-width:none;aspect-ratio:16/9;object-fit:cover}
+.crew-card img{display:block;width:100%;max-width:none;height:auto;aspect-ratio:4/5;object-fit:cover;margin:0}
+.ship-showcase{max-width:var(--max);margin:auto;padding:72px 24px;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(280px,.65fr);gap:32px;align-items:center;border-top:1px solid var(--line)}
+.ship-showcase img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border:1px solid var(--line);border-radius:12px}
+.ship-showcase>div{min-width:0}
+.ship-showcase>div>p:last-child{color:var(--muted);font-size:1.05rem}
+@media(max-width:800px){.ship-showcase{grid-template-columns:1fr;padding-top:56px;padding-bottom:56px}}
