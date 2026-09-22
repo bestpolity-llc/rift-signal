@@ -302,6 +302,6 @@ window.addEventListener("keydown", event => {
 });
 
 window.addEventListener("beforeunload", stopNarration);
-speechSynthesis?.addEventListener?.("voiceschanged", () => {});
+if ("speechSynthesis" in window) window.speechSynthesis.addEventListener?.("voiceschanged", () => {});
 
 renderScene({ narrate: false });
