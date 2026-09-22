@@ -1,0 +1,41 @@
+name: Import DVD Mission 001 assets
+on:
+  push:
+    branches: [web-first-shift-v0.1]
+    paths:
+      - '.github/workflows/import-dvd-source.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: web-first-shift-v0.1
+      - name: Download v1.0 source package
+        run: |
+          curl -L --fail --retry 3             -o /tmp/rift-source.zip             https://github.com/bestpolity-llc/rift-signal/releases/download/v1.0/RIFT-SIGNAL-Mission-Set-1-v1.0-SOURCE.zip
+          unzip -q /tmp/rift-source.zip -d /tmp/rift
+      - name: Import Mission 001 source and web media
+        run: |
+          ROOT=/tmp/rift/rift-signal-remaster
+          test -f "$ROOT/missions/mission-001/mission.json"
+          mkdir -p docs/play/source docs/play/assets/audio docs/play/assets/scenes
+          cp "$ROOT/missions/mission-001/mission.json" docs/play/source/
+          cp "$ROOT/missions/mission-001/flow.txt" docs/play/source/
+          cp "$ROOT/missions/mission-001/script.md" docs/play/source/
+          cp "$ROOT/missions/mission-001/voice-cast.json" docs/play/source/
+          cp "$ROOT/assets/audio/narration/"*.wav docs/play/assets/audio/
+          cp "$ROOT/assets/audio/cues/"*.wav docs/play/assets/audio/
+          cp "$ROOT/dvd/menus/"*.jpg docs/play/assets/scenes/
+      - name: Commit imported assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/play/source docs/play/assets
+          git diff --cached --quiet && exit 0
+          git commit -m "Import Mission 001 DVD source and media"
+          git push origin HEAD:web-first-shift-v0.1
