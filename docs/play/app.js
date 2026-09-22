@@ -134,6 +134,7 @@ async function renderVisual(scene) {
     scene.visual === "crew" ? "CREW QUARTERS" : "ASTERION";
 
   sceneImage.alt = sceneAlt(scene);
+  sceneImage.dataset.visual = scene.visual || "asterion";
   sceneImage.onerror = null;
 
   const exact = DVD_IMAGE_PATH(scene.id);
