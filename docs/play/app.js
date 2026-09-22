@@ -11,7 +11,7 @@ let scanTimer = null;
 let scanIndex = 0;
 let choiceTimer = null;
 let currentAudio = null;
-let cachedSiteArt = null;
+
 
 const DVD_AUDIO_PATH = id => `assets/audio/${id}.wav`;
 const DVD_IMAGE_PATH = id => `assets/scenes/${id}.jpg`;
@@ -92,23 +92,17 @@ function playNarration(scene) {
   audio.play().catch(fallback);
 }
 
-async function loadSiteArt() {
-  if (cachedSiteArt) return cachedSiteArt;
-  try {
-    const response = await fetch("../");
-    const text = await response.text();
-    const doc = new DOMParser().parseFromString(text, "text/html");
-    cachedSiteArt = {
-      hero: doc.querySelector(".hero-media img")?.src || "",
-      captain: doc.querySelectorAll(".crew-card img")[0]?.src || "",
-      mentor: doc.querySelectorAll(".crew-card img")[1]?.src || "",
-      pilot: doc.querySelectorAll(".crew-card img")[2]?.src || ""
-    };
-  } catch {
-    cachedSiteArt = {};
-  }
-  return cachedSiteArt;
-}
+const SITE_ART = {
+  hero: "../assets/asterion-crew-hero.webp",
+  ship: "../assets/asterion-starship.webp",
+  bridge: "../assets/asterion-starship.webp",
+  signal: "../assets/asterion-starship.webp",
+  choice: "../assets/asterion-starship.webp",
+  captain: "../assets/captain-marcus-vale.webp",
+  mentor: "../assets/mentor-elena-torres.webp",
+  pilot: "../assets/pilot-chase-mercer.webp",
+  crew: "../assets/asterion-crew-hero.webp"
+};
 
 function sceneAlt(scene) {
   const labels = {
@@ -138,8 +132,7 @@ async function renderVisual(scene) {
   sceneImage.onerror = null;
 
   const exact = DVD_IMAGE_PATH(scene.id);
-  const art = await loadSiteArt();
-  const fallback = art[scene.visual] || art.hero || "";
+  const fallback = SITE_ART[scene.visual] || SITE_ART.hero || "";
   const candidates = [exact, fallback].filter(Boolean);
   let position = 0;
 
@@ -259,6 +252,15 @@ async function renderScene({ narrate = true } = {}) {
   if (narrate) playNarration(scene);
 }
 
+function setAccessOpen(open) {
+  document.body.classList.toggle("access-open", open);
+  $("#accessPanel").setAttribute("aria-hidden", String(!open));
+  $("#accessBtn").setAttribute("aria-expanded", String(open));
+  $("#accessBtn").textContent = open ? "HIDE ACCESS" : "ACCESS";
+  if (open) $("#scanToggle").focus();
+  else actionRow.querySelector(".action:not(:disabled)")?.focus();
+}
+
 function activateSwitch() {
   const buttons = [...actionRow.querySelectorAll(".action:not(:disabled)")];
   if (!buttons.length) return;
@@ -267,6 +269,8 @@ function activateSwitch() {
   target.click();
 }
 
+$("#accessBtn").addEventListener("click", () => setAccessOpen(!document.body.classList.contains("access-open")));
+$("#closeAccessBtn").addEventListener("click", () => setAccessOpen(false));
 $("#scanToggle").addEventListener("change", resetScan);
 $("#scanSpeed").addEventListener("input", event => {
   $("#scanSpeedLabel").textContent = (Number(event.target.value) / 1000).toFixed(1) + "s";
@@ -305,4 +309,5 @@ window.addEventListener("keydown", event => {
 window.addEventListener("beforeunload", stopNarration);
 if ("speechSynthesis" in window) window.speechSynthesis.addEventListener?.("voiceschanged", () => {});
 
+setAccessOpen(false);
 renderScene({ narrate: false });
