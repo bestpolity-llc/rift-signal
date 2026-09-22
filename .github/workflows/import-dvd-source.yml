@@ -12,22 +12,23 @@ jobs:
   import:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: web-first-shift-v0.1
-          fetch-depth: 0
-      - name: Download v1.0 source package
+      - name: Clone working branch
         env:
-          GH_TOKEN: ${{ github.token }}
+          TOKEN: ${{ github.token }}
         run: |
-          mkdir -p /tmp/rift
-          gh release download v1.0             --repo bestpolity-llc/rift-signal             --pattern 'RIFT-SIGNAL-Mission-Set-1-v1.0-SOURCE.zip'             --dir /tmp/rift
-          unzip -q /tmp/rift/RIFT-SIGNAL-Mission-Set-1-v1.0-SOURCE.zip -d /tmp/rift/extracted
-          find /tmp/rift/extracted -maxdepth 3 -type f | head -50
+          git clone --branch web-first-shift-v0.1             "https://x-access-token:${TOKEN}@github.com/bestpolity-llc/rift-signal.git" repo
+      - name: Download exact v1.0 source release asset
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          curl -L --fail --retry 3             -H "Accept: application/octet-stream"             -H "Authorization: Bearer ${TOKEN}"             -H "X-GitHub-Api-Version: 2022-11-28"             -o /tmp/rift-source.zip             https://api.github.com/repos/bestpolity-llc/rift-signal/releases/assets/581544774
+          test -s /tmp/rift-source.zip
+          unzip -q /tmp/rift-source.zip -d /tmp/rift
       - name: Import Mission 001 source and web media
         run: |
-          ROOT=/tmp/rift/extracted/rift-signal-remaster
+          ROOT=/tmp/rift/rift-signal-remaster
           test -f "$ROOT/missions/mission-001/mission.json"
+          cd repo
           mkdir -p docs/play/source docs/play/assets/audio docs/play/assets/scenes
           cp "$ROOT/missions/mission-001/mission.json" docs/play/source/
           cp "$ROOT/missions/mission-001/flow.txt" docs/play/source/
@@ -37,13 +38,13 @@ jobs:
           cp "$ROOT/assets/audio/cues/"*.wav docs/play/assets/audio/
           cp "$ROOT/dvd/menus/"*.jpg docs/play/assets/scenes/
       - name: Commit imported assets
+        env:
+          TOKEN: ${{ github.token }}
         run: |
+          cd repo
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/play/source docs/play/assets
-          if git diff --cached --quiet; then
-            echo "No changes"
-            exit 0
-          fi
+          git diff --cached --quiet && exit 0
           git commit -m "Import Mission 001 DVD source and media"
           git push origin HEAD:web-first-shift-v0.1
