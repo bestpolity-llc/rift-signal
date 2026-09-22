@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Play Rift Signal First Shift online with direct, keyboard, touch, or single-switch scanning controls.">
+<title>Rift Signal | First Shift Online</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../">RIFT SIGNAL</a>
+  <div class="top-actions">
+    <button id="fullscreenBtn" class="ghost" type="button">FULL SCREEN</button>
+    <button id="restartBtn" class="ghost" type="button">RESTART</button>
+  </div>
+</header>
+
+<main class="shell">
+  <section class="console" aria-labelledby="missionTitle">
+    <div class="console-head">
+      <div>
+        <p class="eyebrow" id="chapterLabel">ASTERION / SIGNAL OPERATIONS / FIRST SHIFT</p>
+        <h1 id="missionTitle">Loading mission…</h1>
+      </div>
+      <div class="vessel">ASTERION <span>ONLINE</span></div>
+    </div>
+
+    <p id="briefing" class="briefing"></p>
+
+    <div id="stations" class="stations" aria-label="Station status"></div>
+
+    <div class="log-panel">
+      <div class="panel-label">OPERATIONS LOG</div>
+      <div id="logText" class="log-text" aria-live="polite"></div>
+    </div>
+
+    <div class="switch-zone">
+      <p id="instruction" class="instruction">SPACE / ENTER activates the selected control.</p>
+      <div id="actionRow" class="action-row"></div>
+    </div>
+  </section>
+
+  <aside class="accessibility" aria-label="Accessibility controls">
+    <p class="eyebrow">ACCESS</p>
+    <h2>Operator controls</h2>
+
+    <label class="toggle-row">
+      <span><strong>Single-switch scan</strong><small>Highlight available choices automatically.</small></span>
+      <input id="scanToggle" type="checkbox">
+    </label>
+
+    <label class="setting">
+      <span>Scan speed <strong id="scanSpeedLabel">2.0s</strong></span>
+      <input id="scanSpeed" type="range" min="800" max="5000" step="100" value="2000">
+    </label>
+
+    <label class="setting">
+      <span>Text size</span>
+      <select id="textSize">
+        <option value="1">Standard</option>
+        <option value="1.2">Large</option>
+        <option value="1.4">Extra large</option>
+      </select>
+    </label>
+
+    <label class="toggle-row">
+      <span><strong>Reduced motion</strong><small>Removes transition animation.</small></span>
+      <input id="reducedMotion" type="checkbox">
+    </label>
+
+    <label class="toggle-row">
+      <span><strong>Sound cues</strong><small>Short tones for scan and activation.</small></span>
+      <input id="soundToggle" type="checkbox" checked>
+    </label>
+
+    <div class="access-note">
+      <strong>Switch users:</strong> enable scan, then use Space or Enter as the switch input. Touch and mouse work too.
+    </div>
+  </aside>
+</main>
+
+<footer>
+  <span>First Shift — Web Edition</span>
+  <a href="../">Return to Rift Signal</a>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
