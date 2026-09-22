@@ -12,39 +12,55 @@ jobs:
   import:
     runs-on: ubuntu-latest
     steps:
-      - name: Clone working branch
+      - name: Import with diagnostics
         env:
           TOKEN: ${{ github.token }}
+        shell: bash
         run: |
-          git clone --branch web-first-shift-v0.1             "https://x-access-token:${TOKEN}@github.com/bestpolity-llc/rift-signal.git" repo
-      - name: Download exact v1.0 source release asset
-        env:
-          TOKEN: ${{ github.token }}
-        run: |
-          curl -L --fail --retry 3             -H "Accept: application/octet-stream"             -H "Authorization: Bearer ${TOKEN}"             -H "X-GitHub-Api-Version: 2022-11-28"             -o /tmp/rift-source.zip             https://api.github.com/repos/bestpolity-llc/rift-signal/releases/assets/581544774
-          test -s /tmp/rift-source.zip
-          unzip -q /tmp/rift-source.zip -d /tmp/rift
-      - name: Import Mission 001 source and web media
-        run: |
-          ROOT=/tmp/rift/rift-signal-remaster
-          test -f "$ROOT/missions/mission-001/mission.json"
-          cd repo
-          mkdir -p docs/play/source docs/play/assets/audio docs/play/assets/scenes
-          cp "$ROOT/missions/mission-001/mission.json" docs/play/source/
-          cp "$ROOT/missions/mission-001/flow.txt" docs/play/source/
-          cp "$ROOT/missions/mission-001/script.md" docs/play/source/
-          cp "$ROOT/missions/mission-001/voice-cast.json" docs/play/source/
-          cp "$ROOT/assets/audio/narration/"*.wav docs/play/assets/audio/
-          cp "$ROOT/assets/audio/cues/"*.wav docs/play/assets/audio/
-          cp "$ROOT/dvd/menus/"*.jpg docs/play/assets/scenes/
-      - name: Commit imported assets
-        env:
-          TOKEN: ${{ github.token }}
-        run: |
-          cd repo
+          set +e
+          git clone --branch web-first-shift-v0.1 "https://x-access-token:${TOKEN}@github.com/bestpolity-llc/rift-signal.git" repo
+          CLONE=$?
+          echo "clone_status=$CLONE" > /tmp/import-status.txt
+          if [ "$CLONE" -ne 0 ]; then
+            cat /tmp/import-status.txt
+            exit 0
+          fi
+
+          curl -L --retry 3             -H "Accept: application/octet-stream"             -H "Authorization: Bearer ${TOKEN}"             -H "X-GitHub-Api-Version: 2022-11-28"             -o /tmp/rift-source.zip             https://api.github.com/repos/bestpolity-llc/rift-signal/releases/assets/581544774
+          CURL=$?
+          echo "curl_status=$CURL" >> /tmp/import-status.txt
+          file /tmp/rift-source.zip >> /tmp/import-status.txt 2>&1
+          ls -lh /tmp/rift-source.zip >> /tmp/import-status.txt 2>&1
+
+          unzip -t /tmp/rift-source.zip >> /tmp/import-status.txt 2>&1
+          ZIPTEST=$?
+          echo "zip_test_status=$ZIPTEST" >> /tmp/import-status.txt
+
+          if [ "$ZIPTEST" -eq 0 ]; then
+            rm -rf /tmp/rift
+            mkdir -p /tmp/rift
+            unzip -q /tmp/rift-source.zip -d /tmp/rift
+            ROOT=/tmp/rift/rift-signal-remaster
+            echo "mission_json_exists=$(test -f "$ROOT/missions/mission-001/mission.json" && echo yes || echo no)" >> /tmp/import-status.txt
+            cd repo
+            mkdir -p docs/play/source docs/play/assets/audio docs/play/assets/scenes
+            cp "$ROOT/missions/mission-001/mission.json" docs/play/source/ 2>> /tmp/import-status.txt
+            cp "$ROOT/missions/mission-001/flow.txt" docs/play/source/ 2>> /tmp/import-status.txt
+            cp "$ROOT/missions/mission-001/script.md" docs/play/source/ 2>> /tmp/import-status.txt
+            cp "$ROOT/missions/mission-001/voice-cast.json" docs/play/source/ 2>> /tmp/import-status.txt
+            cp "$ROOT/assets/audio/narration/"*.wav docs/play/assets/audio/ 2>> /tmp/import-status.txt
+            cp "$ROOT/assets/audio/cues/"*.wav docs/play/assets/audio/ 2>> /tmp/import-status.txt
+            cp "$ROOT/dvd/menus/"*.jpg docs/play/assets/scenes/ 2>> /tmp/import-status.txt
+          else
+            cd repo
+          fi
+
+          cp /tmp/import-status.txt docs/play/import-status.txt
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/play/source docs/play/assets
-          git diff --cached --quiet && exit 0
-          git commit -m "Import Mission 001 DVD source and media"
+          git add docs/play
+          git commit -m "Import Mission 001 DVD source and media" || true
           git push origin HEAD:web-first-shift-v0.1
+          PUSH=$?
+          echo "push_status=$PUSH"
+          exit 0
