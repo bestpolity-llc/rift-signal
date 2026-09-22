@@ -1,39 +1,307 @@
-(() => {
-const missions=[
-{number:"01",title:"REPORT TO SIGNAL OPERATIONS",briefing:"You are the Signal Operations Specialist aboard Asterion. Your station completes sequences that no other station can complete alone.",stations:[["ENGINEERING","CAPABILITY",false],["NAVIGATION","PATH",false],["COMMAND","AUTHORITY",false],["SIGNAL OPS","AWAITING REPORT",false]],log:"OPERATIONS BRIEF\n\nEngineering supplies capability.\nNavigation supplies the path.\nCommand supplies authority.\nSignal Operations completes certain sequences.\n\nReport when your station is ready.",actions:[["REPORT READY","report_ready"]]},
-{number:"02",title:"FIRST ACTUATION",briefing:"Observe the readiness chain. Signal only when capability, path, and authority align.",stations:[["ENGINEERING","ALIGNING",false],["NAVIGATION","VERIFYING",false],["COMMAND","STANDBY",false],["SIGNAL OPS","READY",true]],log:"SEQUENCE ASSIGNMENT\n\nEngineering is aligning the transition capacitor. Observe the station reports.",actions:[["OBSERVE ENGINEERING","continue"]]},
-{number:"03",title:"PREMATURE SIGNAL",briefing:"A signal is information. If a sequence fails, trace where expectation and state diverged.",stations:[["ENGINEERING","READY",true],["NAVIGATION","VERIFYING",false],["COMMAND","AUTHORIZED",true],["SIGNAL OPS","READY",true]],log:"SEQUENCE STATUS\n\nENGINEERING: Drive charge available.\nCOMMAND: Transition authorized.\nNAVIGATION: Corridor verification in progress.",actions:[["ACTUATE","actuate"]]},
-{number:"04",title:"THE FIRST REAL JUDGMENT",briefing:"Primary reports are ready. Protective conditions remain part of the system state.",stations:[["ENGINEERING","READY",true],["NAVIGATION","READY",true],["COMMAND","AUTHORIZED",true],["THERMAL","RECOVERY LATCHED",false]],log:"TRANSITION WINDOW\n\nENGINEERING: READY\nNAVIGATION: READY\nCOMMAND: AUTHORIZED\n\nTHERMAL INTERLOCK: RECOVERY LATCHED\n\nCommand authority does not remove operator judgment.",actions:[["ACTUATE","actuate"],["HOLD SIGNAL","hold"]]},
-{number:"05",title:"PROCEDURE",briefing:"The sequence can be stated as procedure, then expressed as code.",stations:[["ENGINEERING","CONDITION",true],["NAVIGATION","CONDITION",true],["COMMAND","CONDITION",true],["PROTECTIVE","CONDITION",true]],log:"PROCEDURE ANALYSIS\n\nWHEN Engineering is ready\nAND Navigation is ready\nAND Command is authorized\nAND protective conditions are clear\nTHEN actuate\n\nif (\n    engineering.ready\n    and navigation.ready\n    and command.authorized\n    and protective_conditions.clear\n):\n    initiate_transition()\n\nThe syntax is new. The thought is not.\n\nYou have already used conditions, state, conjunction, sequence, inhibition, retry, debugging, and procedure.",actions:[["CHAPTER COMPLETE","complete"]]}
-];
+import { SCENES, SCENE_MAP, ROLE_VOICES } from "./mission.js";
 
-let index=0,step=0,flags={},stationStates=[],scanTimer=null,scanIndex=0,audioCtx=null;
-const $=s=>document.querySelector(s);
-const log=$("#logText"), actions=$("#actionRow"), stations=$("#stations");
-const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
+const $ = (selector) => document.querySelector(selector);
+const actionRow = $("#actionRow");
+const sceneImage = $("#sceneImage");
+const sceneFallback = $("#sceneFallback");
+const choiceMeter = $("#choiceMeter");
 
-function cue(freq=440,d=.05){if(!$("#soundToggle").checked)return;try{audioCtx ||= new (window.AudioContext||window.webkitAudioContext)();const o=audioCtx.createOscillator(),g=audioCtx.createGain();o.frequency.value=freq;g.gain.value=.035;o.connect(g);g.connect(audioCtx.destination);o.start();g.gain.exponentialRampToValueAtTime(.0001,audioCtx.currentTime+d);o.stop(audioCtx.currentTime+d+.01)}catch{}}
-function renderLog(text){log.innerHTML=esc(text).replace(/OPERATIONS BRIEF|SEQUENCE ASSIGNMENT|SEQUENCE STATUS|TRANSITION WINDOW|PROCEDURE ANALYSIS|TRACE THE SIGNAL/g,'<span class="muted">$&</span>').replace(/Signal received[^\n]*|SIGNAL OPERATIONS: Station ready.|SIGNAL OPERATIONS: Holding signal.|CHAPTER STATUS:[^\n]*/g,'<span class="good">$&</span>').replace(/Transition inhibited[^\n]*|THERMAL INTERLOCK: RECOVERY LATCHED/g,'<span class="warn">$&</span>').replace(/if \([\s\S]*?initiate_transition\(\)/g,m=>'<span class="code">'+m+'</span>')}
-function renderStations(){stations.innerHTML=stationStates.map(s=>`<div class="station ${s[2]?"ready":"wait"}"><div class="station-name">${esc(s[0])}</div><div class="station-status">${esc(s[1])}</div></div>`).join("")}
-function setStation(i,name,status,ready){stationStates[i]=[name,status,ready];renderStations()}
-function setActions(list){clearScan();actions.innerHTML="";list.forEach(([label,action])=>{const b=document.createElement("button");b.className="action";b.type="button";b.textContent=label;b.dataset.action=action;b.addEventListener("click",()=>handle(action));actions.appendChild(b)});const bs=[...actions.querySelectorAll(".action:not(:disabled)")];if(bs[0])bs[0].focus();resetScan()}
-function render(){const m=missions[index];$("#missionTitle").textContent=`${m.number}  ${m.title}`;$("#briefing").textContent=m.briefing;stationStates=m.stations.map(x=>[...x]);renderStations();renderLog(m.log);setActions(m.actions);step=0;flags={}}
-function append(text){log.textContent += "\n\n"+text;renderLog(log.textContent);log.parentElement.scrollTop=log.parentElement.scrollHeight}
-function next(){if(index<missions.length-1){index++;render()}}
-function handle(action){cue(720,.07);if(index===0){if(action==="report_ready"){setStation(3,"SIGNAL OPS","READY",true);$("#briefing").textContent="Station report accepted. Signal Operations is in the readiness chain.";append("SIGNAL OPERATIONS: Station ready.\nCOMMAND: Readiness acknowledged. Hold for sequence assignment.");setActions([["ACCEPT ASSIGNMENT","continue"]])}else if(action==="continue")next()}
-else if(index===1){if(action==="continue"){step++;if(step===1){setStation(0,"ENGINEERING","READY",true);append("ENGINEERING: Capacitor alignment complete.");setActions([["OBSERVE NAVIGATION","continue"]])}else if(step===2){setStation(1,"NAVIGATION","READY",true);append("NAVIGATION: Corridor confirmed.");setActions([["AWAIT COMMAND","continue"]])}else if(step===3){setStation(2,"COMMAND","AUTHORIZED",true);append("COMMAND: Signal Operations, initiate transition.");setActions([["ACTUATE","actuate"]])}else if(step===4)next()}else if(action==="actuate"){append("Signal received. Transition underway.");$("#briefing").textContent="The signal completed a sequence whose prerequisites were already established.";setActions([["CONTINUE","continue"]]);step=3}}
-else if(index===2){if(action==="actuate"&&!flags.corrected){append("Transition inhibited.\nNavigation corridor was not confirmed.\nEngineering returns drive charge to standby.\n\nTRACE THE SIGNAL\nWhat did we expect? A valid transition.\nWhat actually happened? The transition was inhibited.\nWhere did they diverge? Navigation corridor confirmation.\nWhat assumption was false? That all dependencies were ready.\nCorrection: confirm the corridor, then run the sequence again.");setStation(0,"ENGINEERING","STANDBY",false);setActions([["RUN SEQUENCE AGAIN","retry"]])}else if(action==="retry"){flags.corrected=true;setStation(0,"ENGINEERING","CHARGING",false);append("ENGINEERING: Restoring drive charge.\nNAVIGATION: Corridor verification complete.");setStation(1,"NAVIGATION","READY",true);setActions([["CONFIRM READY STATE","continue"]])}else if(action==="continue"&&flags.corrected){setStation(0,"ENGINEERING","READY",true);append("ENGINEERING: Drive charge restored. All dependencies report ready.");setActions([["ACTUATE","actuate"]])}else if(action==="actuate"&&flags.corrected){append("Signal received. Sequence completed.");setActions([["CONTINUE","next_scene"]])}else if(action==="next_scene")next()}
-else if(index===3){if(action==="actuate"&&!flags.held){append("Transition inhibited. Protective condition remains latched.\nThe primary reports were valid; the full ready state was not. Re-evaluate the complete station.");setActions([["HOLD SIGNAL","hold"]])}else if(action==="hold"){flags.held=true;append("SIGNAL OPERATIONS: Holding signal.\nENGINEERING: Hold acknowledged. Thermal recovery remains in progress.");setActions([["MONITOR INTERLOCK","continue"]])}else if(action==="continue"&&flags.held&&!flags.clear){flags.clear=true;setStation(3,"THERMAL","CLEAR",true);append("ENGINEERING: Thermal interlock CLEAR.\nCOMMAND: Signal Operations, re-evaluate transition state.");setActions([["ACTUATE","actuate"]])}else if(action==="actuate"&&flags.clear){append("Signal received. Transition underway. Judgment confirmed by system state.");$("#briefing").textContent="Mastery is not blind obedience. Authority and readiness must still agree.";flags.complete=true;setActions([["REVIEW PROCEDURE","continue"]])}else if(action==="continue"&&flags.complete)next()}
-else if(index===4&&action==="complete"){append("CHAPTER STATUS: Procedure understood. Station left ready.");$("#briefing").textContent="A single signal can carry enormous meaning when the operator understands the system around it.";actions.querySelectorAll("button").forEach(b=>b.disabled=true);$("#scanToggle").checked=false;clearScan()}}
-function clearScan(){clearInterval(scanTimer);scanTimer=null;actions.querySelectorAll(".action").forEach(b=>b.classList.remove("scan-focus"))}
-function resetScan(){clearScan();if(!$("#scanToggle").checked)return;const bs=[...actions.querySelectorAll(".action:not(:disabled)")];if(!bs.length)return;scanIndex=0;bs[0].classList.add("scan-focus");bs[0].focus();if(bs.length>1)scanTimer=setInterval(()=>{const cur=[...actions.querySelectorAll(".action:not(:disabled)")];if(!cur.length)return;cur.forEach(b=>b.classList.remove("scan-focus"));scanIndex=(scanIndex+1)%cur.length;cur[scanIndex].classList.add("scan-focus");cur[scanIndex].focus();cue(360,.025)},Number($("#scanSpeed").value))}
-function activateSwitch(){const bs=[...actions.querySelectorAll(".action:not(:disabled)")];if(!bs.length)return;let target=$("#scanToggle").checked?actions.querySelector(".scan-focus"):document.activeElement;if(!(target instanceof HTMLButtonElement)||!actions.contains(target))target=bs[0];target.click()}
-$("#scanToggle").addEventListener("change",resetScan);
-$("#scanSpeed").addEventListener("input",e=>{$("#scanSpeedLabel").textContent=(Number(e.target.value)/1000).toFixed(1)+"s";resetScan()});
-$("#textSize").addEventListener("change",e=>document.documentElement.style.setProperty("--scale",e.target.value));
-$("#reducedMotion").addEventListener("change",e=>document.body.classList.toggle("reduced-motion",e.target.checked));
-$("#restartBtn").addEventListener("click",()=>{index=0;render();cue(520,.06)});
-$("#fullscreenBtn").addEventListener("click",async()=>{try{if(!document.fullscreenElement)await document.documentElement.requestFullscreen();else await document.exitFullscreen()}catch{}});
-window.addEventListener("keydown",e=>{if((e.code==="Space"||e.code==="Enter"||e.code==="NumpadEnter")&&!["INPUT","SELECT","TEXTAREA"].includes(document.activeElement.tagName)){e.preventDefault();activateSwitch()}});
-render();
-})();
+let currentId = "welcome";
+let scanTimer = null;
+let scanIndex = 0;
+let choiceTimer = null;
+let currentAudio = null;
+let cachedSiteArt = null;
+
+const DVD_AUDIO_PATH = id => `assets/audio/${id}.wav`;
+const DVD_IMAGE_PATH = id => `assets/scenes/${id}.jpg`;
+
+function currentScene() {
+  return SCENE_MAP[currentId];
+}
+
+function stopNarration() {
+  if (currentAudio) {
+    currentAudio.pause();
+    currentAudio.currentTime = 0;
+    currentAudio = null;
+  }
+  if ("speechSynthesis" in window) window.speechSynthesis.cancel();
+}
+
+function tone(freq = 440, duration = 0.07) {
+  if (!$("#soundToggle").checked) return;
+  try {
+    const ctx = tone.ctx ||= new (window.AudioContext || window.webkitAudioContext)();
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.frequency.value = freq;
+    gain.gain.value = 0.035;
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+    osc.start();
+    gain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + duration);
+    osc.stop(ctx.currentTime + duration + 0.01);
+  } catch {}
+}
+
+function cue(name) {
+  if (!name || !$("#soundToggle").checked) return;
+  const frequencies = { incoming: 620, connected: 520, confirm: 760, sent: 880 };
+  tone(frequencies[name] || 500, 0.08);
+}
+
+function pickBrowserVoice(role) {
+  const voices = speechSynthesis.getVoices();
+  if (!voices.length) return null;
+  const english = voices.filter(v => /^en/i.test(v.lang));
+  const pool = english.length ? english : voices;
+  const preferred = {
+    captain: ["male", "david", "daniel", "alex"],
+    pilot: ["male", "guy", "ryan", "alex"],
+    mentor: ["female", "samantha", "victoria", "zira"],
+    haven: ["female", "samantha", "aria", "zira"],
+    ship: ["female", "samantha", "aria", "zira"]
+  }[role] || [];
+  return pool.find(v => preferred.some(key => v.name.toLowerCase().includes(key))) || pool[0];
+}
+
+function fallbackSpeech(scene) {
+  if (!$("#soundToggle").checked || !("speechSynthesis" in window)) return;
+  const utterance = new SpeechSynthesisUtterance(scene.narration);
+  const config = ROLE_VOICES[scene.role];
+  utterance.rate = config?.rate || 0.92;
+  const voice = pickBrowserVoice(scene.role);
+  if (voice) utterance.voice = voice;
+  speechSynthesis.speak(utterance);
+}
+
+function playNarration(scene) {
+  stopNarration();
+  if (!$("#soundToggle").checked) return;
+  const audio = new Audio(DVD_AUDIO_PATH(scene.id));
+  currentAudio = audio;
+  let fellBack = false;
+  const fallback = () => {
+    if (fellBack || currentAudio !== audio) return;
+    fellBack = true;
+    currentAudio = null;
+    fallbackSpeech(scene);
+  };
+  audio.addEventListener("error", fallback, { once: true });
+  audio.play().catch(fallback);
+}
+
+async function loadSiteArt() {
+  if (cachedSiteArt) return cachedSiteArt;
+  try {
+    const response = await fetch("../");
+    const text = await response.text();
+    const doc = new DOMParser().parseFromString(text, "text/html");
+    cachedSiteArt = {
+      hero: doc.querySelector(".hero-media img")?.src || "",
+      captain: doc.querySelectorAll(".crew-card img")[0]?.src || "",
+      mentor: doc.querySelectorAll(".crew-card img")[1]?.src || "",
+      pilot: doc.querySelectorAll(".crew-card img")[2]?.src || ""
+    };
+  } catch {
+    cachedSiteArt = {};
+  }
+  return cachedSiteArt;
+}
+
+function sceneAlt(scene) {
+  const labels = {
+    planet: "A blue planet seen from the Asterion",
+    stars: "A wide star field beyond the Asterion",
+    captain: "Captain Marcus Vale aboard the Asterion",
+    mentor: "Elena Torres aboard the Asterion",
+    pilot: "Pilot Chase Mercer aboard the Asterion",
+    crew: "The Asterion crew",
+    bridge: "The Asterion in deep space",
+    signal: "Signal Operations aboard the Asterion",
+    choice: "Asterion observation choices"
+  };
+  return labels[scene.visual] || "Aboard the Asterion";
+}
+
+async function renderVisual(scene) {
+  sceneImage.hidden = true;
+  sceneFallback.hidden = false;
+  $("#fallbackLabel").textContent = scene.visual === "planet" ? "BLUE PLANET" :
+    scene.visual === "stars" ? "STAR FIELD" :
+    scene.visual === "signal" ? "SIGNAL OPERATIONS" :
+    scene.visual === "crew" ? "CREW QUARTERS" : "ASTERION";
+
+  sceneImage.alt = sceneAlt(scene);
+  sceneImage.onerror = null;
+
+  const exact = DVD_IMAGE_PATH(scene.id);
+  const art = await loadSiteArt();
+  const fallback = art[scene.visual] || art.hero || "";
+  const candidates = [exact, fallback].filter(Boolean);
+  let position = 0;
+
+  const tryNext = () => {
+    if (position >= candidates.length) {
+      sceneImage.hidden = true;
+      sceneFallback.hidden = false;
+      return;
+    }
+    sceneImage.src = candidates[position++];
+    sceneImage.onerror = tryNext;
+    sceneImage.onload = () => {
+      sceneFallback.hidden = true;
+      sceneImage.hidden = false;
+    };
+  };
+  tryNext();
+}
+
+function clearScan() {
+  clearInterval(scanTimer);
+  scanTimer = null;
+  actionRow.querySelectorAll(".action").forEach(button => button.classList.remove("scan-focus"));
+}
+
+function resetScan() {
+  clearScan();
+  if (!$("#scanToggle").checked) return;
+  const buttons = [...actionRow.querySelectorAll(".action:not(:disabled)")];
+  if (!buttons.length) return;
+  scanIndex = 0;
+  buttons[0].classList.add("scan-focus");
+  buttons[0].focus();
+  if (buttons.length > 1) {
+    scanTimer = setInterval(() => {
+      const current = [...actionRow.querySelectorAll(".action:not(:disabled)")];
+      if (!current.length) return;
+      current.forEach(button => button.classList.remove("scan-focus"));
+      scanIndex = (scanIndex + 1) % current.length;
+      current[scanIndex].classList.add("scan-focus");
+      current[scanIndex].focus();
+      tone(360, 0.025);
+    }, Number($("#scanSpeed").value));
+  }
+}
+
+function clearChoiceTimer() {
+  clearTimeout(choiceTimer);
+  choiceTimer = null;
+  choiceMeter.hidden = true;
+}
+
+function startChoiceTimer(scene) {
+  clearChoiceTimer();
+  if (!scene.timed) return;
+  choiceMeter.hidden = false;
+  const bar = choiceMeter.querySelector("span");
+  bar.style.animation = "none";
+  void bar.offsetWidth;
+  bar.style.animation = "";
+  choiceTimer = setTimeout(() => {
+    currentId = scene.alternate;
+    renderScene({ narrate: true });
+  }, 5000);
+}
+
+function setAction(scene) {
+  clearScan();
+  actionRow.innerHTML = "";
+  const button = document.createElement("button");
+  button.className = "action";
+  button.type = "button";
+  button.textContent = scene.action;
+  button.addEventListener("click", () => activateScene(scene));
+  actionRow.appendChild(button);
+  button.focus();
+  resetScan();
+}
+
+function activateScene(scene) {
+  cue(scene.cue || "confirm");
+  clearChoiceTimer();
+  if (scene.timed) {
+    currentId = scene.choose;
+  } else {
+    currentId = scene.next;
+  }
+  renderScene({ narrate: true });
+}
+
+function progressFor(scene) {
+  const index = SCENES.findIndex(item => item.id === scene.id);
+  return `SCENE ${String(index + 1).padStart(2, "0")} / 22`;
+}
+
+async function renderScene({ narrate = true } = {}) {
+  clearChoiceTimer();
+  const scene = currentScene();
+  if (!scene) return;
+
+  $("#sceneTitle").textContent = scene.title;
+  $("#sceneProgress").textContent = progressFor(scene);
+  const role = ROLE_VOICES[scene.role];
+  $("#speakerRole").textContent = scene.role.toUpperCase();
+  $("#speakerName").textContent = role?.label || scene.role;
+  $("#narration").textContent = scene.narration;
+  $("#sceneHint").textContent = scene.timed
+    ? "One-button choice: press while this view is showing, or wait for the other view."
+    : scene.end
+      ? "First Shift complete. Restart whenever you want to run it again."
+      : "Press once to continue.";
+  $("#systemState").textContent = scene.id === "off_duty" ? "SHIFT COMPLETE" : "SIGNAL OPS ONLINE";
+
+  await renderVisual(scene);
+  setAction(scene);
+  startChoiceTimer(scene);
+  if (narrate) playNarration(scene);
+}
+
+function activateSwitch() {
+  const buttons = [...actionRow.querySelectorAll(".action:not(:disabled)")];
+  if (!buttons.length) return;
+  let target = $("#scanToggle").checked ? actionRow.querySelector(".scan-focus") : document.activeElement;
+  if (!(target instanceof HTMLButtonElement) || !actionRow.contains(target)) target = buttons[0];
+  target.click();
+}
+
+$("#scanToggle").addEventListener("change", resetScan);
+$("#scanSpeed").addEventListener("input", event => {
+  $("#scanSpeedLabel").textContent = (Number(event.target.value) / 1000).toFixed(1) + "s";
+  resetScan();
+});
+$("#textSize").addEventListener("change", event => {
+  document.documentElement.style.setProperty("--scale", event.target.value);
+});
+$("#reducedMotion").addEventListener("change", event => {
+  document.body.classList.toggle("reduced-motion", event.target.checked);
+});
+$("#soundToggle").addEventListener("change", () => {
+  if (!$("#soundToggle").checked) stopNarration();
+  else playNarration(currentScene());
+});
+$("#replayBtn").addEventListener("click", () => playNarration(currentScene()));
+$("#restartBtn").addEventListener("click", () => {
+  currentId = "welcome";
+  renderScene({ narrate: true });
+});
+$("#fullscreenBtn").addEventListener("click", async () => {
+  try {
+    if (!document.fullscreenElement) await document.documentElement.requestFullscreen();
+    else await document.exitFullscreen();
+  } catch {}
+});
+
+window.addEventListener("keydown", event => {
+  if ((event.code === "Space" || event.code === "Enter" || event.code === "NumpadEnter") &&
+      !["INPUT", "SELECT", "TEXTAREA"].includes(document.activeElement.tagName)) {
+    event.preventDefault();
+    activateSwitch();
+  }
+});
+
+window.addEventListener("beforeunload", stopNarration);
+speechSynthesis?.addEventListener?.("voiceschanged", () => {});
+
+renderScene({ narrate: false });
