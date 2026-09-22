@@ -11,7 +11,8 @@
 <header class="topbar">
   <a class="brand" href="../">RIFT SIGNAL</a>
   <div class="top-actions">
-    <button id="replayBtn" class="ghost" type="button">REPLAY MESSAGE</button>
+    <button id="accessBtn" class="ghost" type="button" aria-expanded="false" aria-controls="accessPanel">ACCESS</button>
+    <button id="replayBtn" class="ghost" type="button">REPLAY</button>
     <button id="fullscreenBtn" class="ghost" type="button">FULL SCREEN</button>
     <button id="restartBtn" class="ghost" type="button">RESTART</button>
   </div>
@@ -58,10 +59,11 @@
     </div>
   </section>
 
-  <aside class="accessibility" aria-label="Accessibility controls">
-    <p class="eyebrow">ACCESS</p>
-    <h2>Operator controls</h2>
-
+  <aside id="accessPanel" class="accessibility" aria-label="Accessibility controls" aria-hidden="true">
+    <div class="access-head">
+      <div><p class="eyebrow">ACCESS</p><h2>Switch settings</h2></div>
+      <button id="closeAccessBtn" class="ghost close-access" type="button">HIDE</button>
+    </div>
     <label class="toggle-row">
       <span><strong>Single-switch scan</strong><small>Highlight available controls automatically.</small></span>
       <input id="scanToggle" type="checkbox">
