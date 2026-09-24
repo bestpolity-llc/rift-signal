@@ -1,0 +1,13 @@
+SUCCESS: grid-menu review DVD created.
+Opening menu: six visible tiles with a moving highlight.
+Spoken scanning instructions play when the disc loads.
+Soft click included when the grid highlight changes.
+Three sets, fifteen episodes, and paged individual-scene grids.
+Options speak, then allow four seconds before advancing.
+Existing story videos, footer controls and session bookmark retained.
+Bookmark remains current-session only.
+New grid screens: 438
+ISO size: 1697.7 MB
+ISO: /home/william/Documents/Codex/rift-signal-audio/dvd/full-build/grid-draft-v5/rift-signal-grid-review.iso
+Preview: /home/william/Documents/Codex/rift-signal-audio/dvd/full-build/grid-draft-v5/index.html
+Physical-player testing remains. No disc burned.

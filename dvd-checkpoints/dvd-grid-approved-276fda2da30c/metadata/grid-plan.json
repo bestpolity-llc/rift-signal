@@ -1,0 +1,3460 @@
+{
+  "home": {
+    "title": "RIFT SIGNAL",
+    "subtitle": "Choose where to begin",
+    "top": true,
+    "options": [
+      {
+        "label": "Start from beginning",
+        "slot": 0,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 0; g9 = 0; jump titleset 1 menu 1;",
+        "link": null,
+        "speech": "Start from beginning"
+      },
+      {
+        "label": "Continue this session",
+        "slot": 1,
+        "action": "jump vmgm menu 19;",
+        "link": null,
+        "speech": "Continue this session"
+      },
+      {
+        "label": "Resume bookmark",
+        "slot": 2,
+        "action": "jump vmgm menu 21;",
+        "link": null,
+        "speech": "Resume bookmark from this playback session."
+      },
+      {
+        "label": "Set 1: Join the Crew",
+        "slot": 3,
+        "action": null,
+        "link": "set-1",
+        "speech": "Set 1: Join the Crew"
+      },
+      {
+        "label": "Set 2: Our Place in Space",
+        "slot": 4,
+        "action": null,
+        "link": "set-2",
+        "speech": "Set 2: Our Place in Space"
+      },
+      {
+        "label": "Set 3: The Wider Universe",
+        "slot": 5,
+        "action": null,
+        "link": "set-3",
+        "speech": "Set 3: The Wider Universe"
+      }
+    ]
+  },
+  "set-1": {
+    "title": "Join the Crew",
+    "subtitle": "Choose an episode",
+    "top": true,
+    "options": [
+      {
+        "label": "Episode 1",
+        "slot": 0,
+        "action": null,
+        "link": "episode-1-page-0",
+        "speech": "Episode 1"
+      },
+      {
+        "label": "Episode 2",
+        "slot": 1,
+        "action": null,
+        "link": "episode-2-page-0",
+        "speech": "Episode 2"
+      },
+      {
+        "label": "Episode 3",
+        "slot": 2,
+        "action": null,
+        "link": "episode-3-page-0",
+        "speech": "Episode 3"
+      },
+      {
+        "label": "Episode 4",
+        "slot": 3,
+        "action": null,
+        "link": "episode-4-page-0",
+        "speech": "Episode 4"
+      },
+      {
+        "label": "Episode 5",
+        "slot": 4,
+        "action": null,
+        "link": "episode-5-page-0",
+        "speech": "Episode 5"
+      },
+      {
+        "label": "Main menu",
+        "slot": 5,
+        "action": null,
+        "link": "home",
+        "speech": "Main menu"
+      }
+    ]
+  },
+  "set-2": {
+    "title": "Our Place in Space",
+    "subtitle": "Choose an episode",
+    "top": true,
+    "options": [
+      {
+        "label": "Episode 1",
+        "slot": 0,
+        "action": null,
+        "link": "episode-6-page-0",
+        "speech": "Episode 1"
+      },
+      {
+        "label": "Episode 2",
+        "slot": 1,
+        "action": null,
+        "link": "episode-7-page-0",
+        "speech": "Episode 2"
+      },
+      {
+        "label": "Episode 3",
+        "slot": 2,
+        "action": null,
+        "link": "episode-8-page-0",
+        "speech": "Episode 3"
+      },
+      {
+        "label": "Episode 4",
+        "slot": 3,
+        "action": null,
+        "link": "episode-9-page-0",
+        "speech": "Episode 4"
+      },
+      {
+        "label": "Episode 5",
+        "slot": 4,
+        "action": null,
+        "link": "episode-10-page-0",
+        "speech": "Episode 5"
+      },
+      {
+        "label": "Main menu",
+        "slot": 5,
+        "action": null,
+        "link": "home",
+        "speech": "Main menu"
+      }
+    ]
+  },
+  "set-3": {
+    "title": "The Wider Universe",
+    "subtitle": "Choose an episode",
+    "top": true,
+    "options": [
+      {
+        "label": "Episode 1",
+        "slot": 0,
+        "action": null,
+        "link": "episode-11-page-0",
+        "speech": "Episode 1"
+      },
+      {
+        "label": "Episode 2",
+        "slot": 1,
+        "action": null,
+        "link": "episode-12-page-0",
+        "speech": "Episode 2"
+      },
+      {
+        "label": "Episode 3",
+        "slot": 2,
+        "action": null,
+        "link": "episode-13-page-0",
+        "speech": "Episode 3"
+      },
+      {
+        "label": "Episode 4",
+        "slot": 3,
+        "action": null,
+        "link": "episode-14-page-0",
+        "speech": "Episode 4"
+      },
+      {
+        "label": "Episode 5",
+        "slot": 4,
+        "action": null,
+        "link": "episode-15-page-0",
+        "speech": "Episode 5"
+      },
+      {
+        "label": "Main menu",
+        "slot": 5,
+        "action": null,
+        "link": "home",
+        "speech": "Main menu"
+      }
+    ]
+  },
+  "episode-1-page-0": {
+    "title": "Set 1 \u00b7 Episode 1",
+    "subtitle": "Scenes \u00b7 page 1 of 4",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 1: Ship computer",
+        "slot": 0,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 0; jump titleset 1 menu 1;",
+        "link": null,
+        "speech": "Scene 1: Ship computer. Welcome aboard the Asterion. Your first shift begins at Signal."
+      },
+      {
+        "label": "Scene 2: Captain",
+        "slot": 1,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 0; jump titleset 1 menu 2;",
+        "link": null,
+        "speech": "Scene 2: Captain. Signal Operator, welcome aboard. Every station on this ship has."
+      },
+      {
+        "label": "Scene 3: Elena",
+        "slot": 2,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 0; jump titleset 1 menu 3;",
+        "link": null,
+        "speech": "Scene 3: Elena. I\u2019m Elena Torres. I\u2019ll stay with you through the shift.."
+      },
+      {
+        "label": "Scene 4: Ship computer",
+        "slot": 3,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 0; jump titleset 1 menu 4;",
+        "link": null,
+        "speech": "Scene 4: Ship computer. Signal Operations: incoming transmission detected. Source identified as Haven research."
+      },
+      {
+        "label": "Scene 5: Haven",
+        "slot": 4,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 0; jump titleset 1 menu 5;",
+        "link": null,
+        "speech": "Scene 5: Haven. Asterion, this is Haven research station. Our common room needs."
+      },
+      {
+        "label": "Scene 6: Chase",
+        "slot": 5,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 0; jump titleset 1 menu 6;",
+        "link": null,
+        "speech": "Scene 6: Chase. I can give you two clean views from here: the."
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-1-page-1",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-1-page-1": {
+    "title": "Set 1 \u00b7 Episode 1",
+    "subtitle": "Scenes \u00b7 page 2 of 4",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 7: Elena",
+        "slot": 0,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 0; jump titleset 1 menu 7;",
+        "link": null,
+        "speech": "Scene 7: Elena. The two views will take turns on your screen. When."
+      },
+      {
+        "label": "Scene 8: Chase",
+        "slot": 1,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 1 menu 10;",
+        "link": null,
+        "speech": "Scene 8: Chase. Planet view is steady. Cloud bands and the bright edge."
+      },
+      {
+        "label": "Scene 9: Elena",
+        "slot": 2,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 1 menu 11;",
+        "link": null,
+        "speech": "Scene 9: Elena. That\u2019s your view. When you\u2019re ready, capture the picture for."
+      },
+      {
+        "label": "Scene 10: Ship computer",
+        "slot": 3,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 1 menu 12;",
+        "link": null,
+        "speech": "Scene 10: Ship computer. Picture captured. Establishing a signal link to Haven research station.."
+      },
+      {
+        "label": "Scene 11: Ship computer",
+        "slot": 4,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 1 menu 13;",
+        "link": null,
+        "speech": "Scene 11: Ship computer. Connection confirmed. The planet picture has been transmitted to Haven.."
+      },
+      {
+        "label": "Scene 12: Haven",
+        "slot": 5,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 1 menu 14;",
+        "link": null,
+        "speech": "Scene 12: Haven. We received it. The blue planet looks beautiful from there.."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-1-page-0",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-1-page-2",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-1-page-2": {
+    "title": "Set 1 \u00b7 Episode 1",
+    "subtitle": "Scenes \u00b7 page 3 of 4",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 13: Chase",
+        "slot": 0,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 2; jump titleset 1 menu 15;",
+        "link": null,
+        "speech": "Scene 13: Chase. Star field is steady. You\u2019ve got a clear view beyond."
+      },
+      {
+        "label": "Scene 14: Elena",
+        "slot": 1,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 2; jump titleset 1 menu 16;",
+        "link": null,
+        "speech": "Scene 14: Elena. That\u2019s your view. When you\u2019re ready, capture the picture for."
+      },
+      {
+        "label": "Scene 15: Ship computer",
+        "slot": 2,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 2; jump titleset 1 menu 17;",
+        "link": null,
+        "speech": "Scene 15: Ship computer. Picture captured. Establishing a signal link to Haven research station.."
+      },
+      {
+        "label": "Scene 16: Ship computer",
+        "slot": 3,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 2; jump titleset 1 menu 18;",
+        "link": null,
+        "speech": "Scene 16: Ship computer. Connection confirmed. The star picture has been transmitted to Haven.."
+      },
+      {
+        "label": "Scene 17: Haven",
+        "slot": 4,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 2; jump titleset 1 menu 19;",
+        "link": null,
+        "speech": "Scene 17: Haven. We received it. Those stars will be a good reminder."
+      },
+      {
+        "label": "Scene 18: Captain",
+        "slot": 5,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 1 menu 20;",
+        "link": null,
+        "speech": "Scene 18: Captain. Good work. Haven asked for something, you made the choice."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-1-page-1",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-1-page-3",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-1-page-3": {
+    "title": "Set 1 \u00b7 Episode 1",
+    "subtitle": "Scenes \u00b7 page 4 of 4",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 19: Elena",
+        "slot": 0,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 1 menu 21;",
+        "link": null,
+        "speech": "Scene 19: Elena. We\u2019re off duty now. This is a good time to."
+      },
+      {
+        "label": "Scene 20: Elena",
+        "slot": 1,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 1 menu 22;",
+        "link": null,
+        "speech": "Scene 20: Elena. Your first shift aboard the Asterion is complete. Signal Operations."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-1-page-2",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-2-page-0": {
+    "title": "Set 1 \u00b7 Episode 2",
+    "subtitle": "Scenes \u00b7 page 1 of 5",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 1: Ship computer",
+        "slot": 0,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 1;",
+        "link": null,
+        "speech": "Scene 1: Ship computer. Haven research station has requested an observation session. Their common-room."
+      },
+      {
+        "label": "Scene 2: Captain",
+        "slot": 1,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 2;",
+        "link": null,
+        "speech": "Scene 2: Captain. We have a little time before they call. Chase is."
+      },
+      {
+        "label": "Scene 3: Chase",
+        "slot": 2,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 3;",
+        "link": null,
+        "speech": "Scene 3: Chase. Hello, Signal Operations. I am just finishing the route check.."
+      },
+      {
+        "label": "Scene 4: Elena",
+        "slot": 3,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 4;",
+        "link": null,
+        "speech": "Scene 4: Elena. I have seen that picture on your console, but I."
+      },
+      {
+        "label": "Scene 5: Chase",
+        "slot": 4,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 5;",
+        "link": null,
+        "speech": "Scene 5: Chase. My sister sent it. She visited an observatory and took."
+      },
+      {
+        "label": "Scene 6: Elena",
+        "slot": 5,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 6;",
+        "link": null,
+        "speech": "Scene 6: Elena. But you kept it.."
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-2-page-1",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-2-page-1": {
+    "title": "Set 1 \u00b7 Episode 2",
+    "subtitle": "Scenes \u00b7 page 2 of 5",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 7: Chase",
+        "slot": 0,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 7;",
+        "link": null,
+        "speech": "Scene 7: Chase. Of course. I like knowing what she could see from."
+      },
+      {
+        "label": "Scene 8: Elena",
+        "slot": 1,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 8;",
+        "link": null,
+        "speech": "Scene 8: Elena. Now I understand why it stays on his console. A."
+      },
+      {
+        "label": "Scene 9: Elena",
+        "slot": 2,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 9;",
+        "link": null,
+        "speech": "Scene 9: Elena. What did your sister enjoy about the visit?."
+      },
+      {
+        "label": "Scene 10: Elena",
+        "slot": 3,
+        "action": "g0 = 0; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 10;",
+        "link": null,
+        "speech": "Scene 10: Elena. What do you like about the picture?."
+      },
+      {
+        "label": "Scene 11: Chase",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 13;",
+        "link": null,
+        "speech": "Scene 11: Chase. She liked the moment when the telescope came into focus.."
+      },
+      {
+        "label": "Scene 12: Elena",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 14;",
+        "link": null,
+        "speech": "Scene 12: Elena. So part of what she enjoyed was getting to show."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-2-page-0",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-2-page-2",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-2-page-2": {
+    "title": "Set 1 \u00b7 Episode 2",
+    "subtitle": "Scenes \u00b7 page 3 of 5",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 13: Chase",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 15;",
+        "link": null,
+        "speech": "Scene 13: Chase. Yes. And then she sent it to me, so I."
+      },
+      {
+        "label": "Scene 14: Chase",
+        "slot": 1,
+        "action": "g0 = 1; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 16;",
+        "link": null,
+        "speech": "Scene 14: Chase. I like that it is a little crooked. The planet."
+      },
+      {
+        "label": "Scene 15: Elena",
+        "slot": 2,
+        "action": "g0 = 1; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 17;",
+        "link": null,
+        "speech": "Scene 15: Elena. The crooked part helps you imagine her taking it.."
+      },
+      {
+        "label": "Scene 16: Chase",
+        "slot": 3,
+        "action": "g0 = 1; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 18;",
+        "link": null,
+        "speech": "Scene 16: Chase. Exactly. A perfect picture would show me the planet. This."
+      },
+      {
+        "label": "Scene 17: Ship computer",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 19;",
+        "link": null,
+        "speech": "Scene 17: Ship computer. Navigation report ready.."
+      },
+      {
+        "label": "Scene 18: Chase",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 20;",
+        "link": null,
+        "speech": "Scene 18: Chase. That is my route check. I need to read it."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-2-page-1",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-2-page-3",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-2-page-3": {
+    "title": "Set 1 \u00b7 Episode 2",
+    "subtitle": "Scenes \u00b7 page 4 of 5",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 19: Elena",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 21;",
+        "link": null,
+        "speech": "Scene 19: Elena. We will let you get back to it.."
+      },
+      {
+        "label": "Scene 20: Chase",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 22;",
+        "link": null,
+        "speech": "Scene 20: Chase. I will join the observation channel when the captain calls.."
+      },
+      {
+        "label": "Scene 21: Haven",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 23;",
+        "link": null,
+        "speech": "Scene 21: Haven. Haven to Asterion. Our receiver is ready. Can you hear."
+      },
+      {
+        "label": "Scene 22: Elena",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 24;",
+        "link": null,
+        "speech": "Scene 22: Elena. Their voice is coming through clearly. Let us check that."
+      },
+      {
+        "label": "Scene 23: Captain",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 25;",
+        "link": null,
+        "speech": "Scene 23: Captain. Asterion to Haven. Our Signal Operator is at the station.."
+      },
+      {
+        "label": "Scene 24: Ship computer",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 26;",
+        "link": null,
+        "speech": "Scene 24: Ship computer. Reply ready to transmit.."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-2-page-2",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-2-page-4",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-2-page-4": {
+    "title": "Set 1 \u00b7 Episode 2",
+    "subtitle": "Scenes \u00b7 page 5 of 5",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 25: Haven",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 27;",
+        "link": null,
+        "speech": "Scene 25: Haven. We hear you clearly. The picture you sent earlier has."
+      },
+      {
+        "label": "Scene 26: Captain",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 28;",
+        "link": null,
+        "speech": "Scene 26: Captain. We can do that. Our pilot has prepared two observation."
+      },
+      {
+        "label": "Scene 27: Haven",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 29;",
+        "link": null,
+        "speech": "Scene 27: Haven. Then we will make room. Call when you are in."
+      },
+      {
+        "label": "Scene 28: Ship computer",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 30;",
+        "link": null,
+        "speech": "Scene 28: Ship computer. Connection confirmed.."
+      },
+      {
+        "label": "Scene 29: Elena",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 31;",
+        "link": null,
+        "speech": "Scene 29: Elena. Chase had a picture from someone else's window on the."
+      },
+      {
+        "label": "Scene 30: Captain",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 3 menu 32;",
+        "link": null,
+        "speech": "Scene 30: Captain. The channel is ready and navigation has its report. That."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-2-page-3",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-3-page-0": {
+    "title": "Set 1 \u00b7 Episode 3",
+    "subtitle": "Scenes \u00b7 page 1 of 4",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 1: Captain",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 1;",
+        "link": null,
+        "speech": "Scene 1: Captain. Our connection with Haven is ready. Now we need a."
+      },
+      {
+        "label": "Scene 2: Chase",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 2;",
+        "link": null,
+        "speech": "Scene 2: Chase. I have kept the observation window covered while we travel.."
+      },
+      {
+        "label": "Scene 3: Chase",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 3;",
+        "link": null,
+        "speech": "Scene 3: Chase. Here is the planet. From this position, its curved edge."
+      },
+      {
+        "label": "Scene 4: Chase",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 4;",
+        "link": null,
+        "speech": "Scene 4: Chase. Here is the open star field. With the planet out."
+      },
+      {
+        "label": "Scene 5: Elena",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 5;",
+        "link": null,
+        "speech": "Scene 5: Elena. I noticed the clouds first. Chase noticed the pair of."
+      },
+      {
+        "label": "Scene 6: Chase",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 6;",
+        "link": null,
+        "speech": "Scene 6: Chase. Both positions are ready. My job is to get us."
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-3-page-1",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-3-page-1": {
+    "title": "Set 1 \u00b7 Episode 3",
+    "subtitle": "Scenes \u00b7 page 2 of 4",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 7: Elena",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 7;",
+        "link": null,
+        "speech": "Scene 7: Elena. The planet and the star field will take turns on."
+      },
+      {
+        "label": "Scene 8: Elena",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 8;",
+        "link": null,
+        "speech": "Scene 8: Elena. Planet view.."
+      },
+      {
+        "label": "Scene 9: Elena",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 9;",
+        "link": null,
+        "speech": "Scene 9: Elena. Star field.."
+      },
+      {
+        "label": "Scene 10: Chase",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 12;",
+        "link": null,
+        "speech": "Scene 10: Chase. Planet view selected. I will bring the bright edge and."
+      },
+      {
+        "label": "Scene 11: Chase",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 2; jump titleset 5 menu 13;",
+        "link": null,
+        "speech": "Scene 11: Chase. Star field selected. I will position the ship so the."
+      },
+      {
+        "label": "Scene 12: Captain",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 14;",
+        "link": null,
+        "speech": "Scene 12: Captain. We have our destination. Let us prepare the ship.."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-3-page-0",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-3-page-2",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-3-page-2": {
+    "title": "Set 1 \u00b7 Episode 3",
+    "subtitle": "Scenes \u00b7 page 3 of 4",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 13: Ship computer",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 15;",
+        "link": null,
+        "speech": "Scene 13: Ship computer. Observation camera secured. Communication link available. Cabin systems ready.."
+      },
+      {
+        "label": "Scene 14: Chase",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 16;",
+        "link": null,
+        "speech": "Scene 14: Chase. The route is clear, and the ship is ready to."
+      },
+      {
+        "label": "Scene 15: Captain",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 17;",
+        "link": null,
+        "speech": "Scene 15: Captain. I authorize the change of position.."
+      },
+      {
+        "label": "Scene 16: Elena",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 18;",
+        "link": null,
+        "speech": "Scene 16: Elena. You have heard the reports. The crew has prepared its."
+      },
+      {
+        "label": "Scene 17: Ship computer",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 19;",
+        "link": null,
+        "speech": "Scene 17: Ship computer. Ready signal received. Changing observation position.."
+      },
+      {
+        "label": "Scene 18: Chase",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 20;",
+        "link": null,
+        "speech": "Scene 18: Chase. The movement you see is our view changing as the."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-3-page-1",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-3-page-3",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-3-page-3": {
+    "title": "Set 1 \u00b7 Episode 3",
+    "subtitle": "Scenes \u00b7 page 4 of 4",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 19: Elena",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 21;",
+        "link": null,
+        "speech": "Scene 19: Elena. Haven is getting its room ready while we get our."
+      },
+      {
+        "label": "Scene 20: Chase",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 22;",
+        "link": null,
+        "speech": "Scene 20: Chase. We are in position. The ship is holding steady, and."
+      },
+      {
+        "label": "Scene 21: Haven",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 23;",
+        "link": null,
+        "speech": "Scene 21: Haven. We heard your arrival report. People are coming into the."
+      },
+      {
+        "label": "Scene 22: Captain",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 24;",
+        "link": null,
+        "speech": "Scene 22: Captain. Position confirmed. You helped choose our destination and brought the."
+      },
+      {
+        "label": "Scene 23: Elena",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 5 menu 25;",
+        "link": null,
+        "speech": "Scene 23: Elena. We now have a connection and a place to look.."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-3-page-2",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-4-page-0": {
+    "title": "Set 1 \u00b7 Episode 4",
+    "subtitle": "Scenes \u00b7 page 1 of 5",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 1: Captain",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 7 menu 1;",
+        "link": null,
+        "speech": "Scene 1: Captain. We have reached the place you chose. Today we will."
+      },
+      {
+        "label": "Scene 2: Chase",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 7 menu 3;",
+        "link": null,
+        "speech": "Scene 2: Chase. The whole planet view is on the display. The bright."
+      },
+      {
+        "label": "Scene 3: Chase",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 2; jump titleset 7 menu 4;",
+        "link": null,
+        "speech": "Scene 3: Chase. The whole star field is on the display. The bright."
+      },
+      {
+        "label": "Scene 4: Elena",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 7 menu 5;",
+        "link": null,
+        "speech": "Scene 4: Elena. We have saved the wide picture. Now we can choose."
+      },
+      {
+        "label": "Scene 5: Elena",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 7 menu 7;",
+        "link": null,
+        "speech": "Scene 5: Elena. Bright edge.."
+      },
+      {
+        "label": "Scene 6: Elena",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 7 menu 8;",
+        "link": null,
+        "speech": "Scene 6: Elena. Cloud bands.."
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-4-page-1",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-4-page-1": {
+    "title": "Set 1 \u00b7 Episode 4",
+    "subtitle": "Scenes \u00b7 page 2 of 5",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 7: Elena",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 2; jump titleset 7 menu 9;",
+        "link": null,
+        "speech": "Scene 7: Elena. Bright pair.."
+      },
+      {
+        "label": "Scene 8: Elena",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 0; g2 = 0; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 2; jump titleset 7 menu 10;",
+        "link": null,
+        "speech": "Scene 8: Elena. Wider group.."
+      },
+      {
+        "label": "Scene 9: Chase",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 7 menu 15;",
+        "link": null,
+        "speech": "Scene 9: Chase. Here is the bright edge. From this angle, the light."
+      },
+      {
+        "label": "Scene 10: Chase",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 0; g2 = 1; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 7 menu 16;",
+        "link": null,
+        "speech": "Scene 10: Chase. Here are the cloud bands. Some areas look brighter and."
+      },
+      {
+        "label": "Scene 11: Chase",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 0; g2 = 4; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 2; jump titleset 7 menu 17;",
+        "link": null,
+        "speech": "Scene 11: Chase. Here are the two bright points. On our display, they."
+      },
+      {
+        "label": "Scene 12: Chase",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 0; g2 = 3; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 2; jump titleset 7 menu 18;",
+        "link": null,
+        "speech": "Scene 12: Chase. Here is the wider group. The lights do not fill."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-4-page-0",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-4-page-2",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-4-page-2": {
+    "title": "Set 1 \u00b7 Episode 4",
+    "subtitle": "Scenes \u00b7 page 3 of 5",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 13: Elena",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 7 menu 19;",
+        "link": null,
+        "speech": "Scene 13: Elena. Now we have two pictures with different jobs. The wide."
+      },
+      {
+        "label": "Scene 14: Elena",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 7 menu 21;",
+        "link": null,
+        "speech": "Scene 14: Elena. Does the bright edge look like that all the way."
+      },
+      {
+        "label": "Scene 15: Chase",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 7 menu 22;",
+        "link": null,
+        "speech": "Scene 15: Chase. We cannot see the whole planet from here. We can."
+      },
+      {
+        "label": "Scene 16: Elena",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 0; g2 = 1; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 7 menu 23;",
+        "link": null,
+        "speech": "Scene 16: Elena. Are those clouds moving?."
+      },
+      {
+        "label": "Scene 17: Chase",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 0; g2 = 1; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 7 menu 24;",
+        "link": null,
+        "speech": "Scene 17: Chase. This picture cannot tell us. We could take another one."
+      },
+      {
+        "label": "Scene 18: Elena",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 0; g2 = 4; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 2; jump titleset 7 menu 25;",
+        "link": null,
+        "speech": "Scene 18: Elena. Are those two lights really next to each other?."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-4-page-1",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-4-page-3",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-4-page-3": {
+    "title": "Set 1 \u00b7 Episode 4",
+    "subtitle": "Scenes \u00b7 page 4 of 5",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 19: Chase",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 0; g2 = 4; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 2; jump titleset 7 menu 26;",
+        "link": null,
+        "speech": "Scene 19: Chase. They look close together from our window. One could be."
+      },
+      {
+        "label": "Scene 20: Elena",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 0; g2 = 3; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 2; jump titleset 7 menu 27;",
+        "link": null,
+        "speech": "Scene 20: Elena. I can almost see a shape in that group. Does."
+      },
+      {
+        "label": "Scene 21: Chase",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 0; g2 = 3; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 2; jump titleset 7 menu 28;",
+        "link": null,
+        "speech": "Scene 21: Chase. I would need to check our star chart. We can."
+      },
+      {
+        "label": "Scene 22: Elena",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 7 menu 29;",
+        "link": null,
+        "speech": "Scene 22: Elena. Then our report can include what we noticed and something."
+      },
+      {
+        "label": "Scene 23: Elena",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 7 menu 30;",
+        "link": null,
+        "speech": "Scene 23: Elena. We can send an invitation with the pictures. One message."
+      },
+      {
+        "label": "Scene 24: Elena",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 7 menu 31;",
+        "link": null,
+        "speech": "Scene 24: Elena. Look at this detail.."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-4-page-2",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-4-page-4",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-4-page-4": {
+    "title": "Set 1 \u00b7 Episode 4",
+    "subtitle": "Scenes \u00b7 page 5 of 5",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 25: Elena",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 7 menu 32;",
+        "link": null,
+        "speech": "Scene 25: Elena. What do you notice?."
+      },
+      {
+        "label": "Scene 26: Ship computer",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 0; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 7 menu 33;",
+        "link": null,
+        "speech": "Scene 26: Ship computer. Observation report. One wide picture. One selected detail. One invitation.."
+      },
+      {
+        "label": "Scene 27: Captain",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 7 menu 36;",
+        "link": null,
+        "speech": "Scene 27: Captain. Here is the view from our ship. Our Signal Operator."
+      },
+      {
+        "label": "Scene 28: Captain",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 2; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 7 menu 37;",
+        "link": null,
+        "speech": "Scene 28: Captain. Here is the view from our ship. Our Signal Operator."
+      },
+      {
+        "label": "Scene 29: Captain",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 7 menu 38;",
+        "link": null,
+        "speech": "Scene 29: Captain. Report approved. You chose what to explore and how to."
+      },
+      {
+        "label": "Scene 30: Elena",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 7 menu 39;",
+        "link": null,
+        "speech": "Scene 30: Elena. The pictures are saved. We do not have to do."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-4-page-3",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-5-page-0": {
+    "title": "Set 1 \u00b7 Episode 5",
+    "subtitle": "Scenes \u00b7 page 1 of 5",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 1: Haven",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 1;",
+        "link": null,
+        "speech": "Scene 1: Haven. Haven to Asterion. Our gathering is ready. Some people are."
+      },
+      {
+        "label": "Scene 2: Elena",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 2;",
+        "link": null,
+        "speech": "Scene 2: Elena. Everything you prepared is still here: the wide picture, the."
+      },
+      {
+        "label": "Scene 3: Ship computer",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 3;",
+        "link": null,
+        "speech": "Scene 3: Ship computer. Haven connection open. Receiver check complete. Observation report available.."
+      },
+      {
+        "label": "Scene 4: Captain",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 4;",
+        "link": null,
+        "speech": "Scene 4: Captain. Haven, this is the Asterion. Our Signal Operator has prepared."
+      },
+      {
+        "label": "Scene 5: Elena",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 5;",
+        "link": null,
+        "speech": "Scene 5: Elena. The connection is ready, and the report is ready. One."
+      },
+      {
+        "label": "Scene 6: Haven",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 7;",
+        "link": null,
+        "speech": "Scene 6: Haven. We have the planet view. The curve reaches across our."
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-5-page-1",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-5-page-1": {
+    "title": "Set 1 \u00b7 Episode 5",
+    "subtitle": "Scenes \u00b7 page 2 of 5",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 7: Haven",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 0; g2 = 4; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 2; jump titleset 10 menu 8;",
+        "link": null,
+        "speech": "Scene 7: Haven. We have the star field. The lights spread across our."
+      },
+      {
+        "label": "Scene 8: Haven",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 9;",
+        "link": null,
+        "speech": "Scene 8: Haven. Now we know where your ship has been looking.."
+      },
+      {
+        "label": "Scene 9: Haven",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 10;",
+        "link": null,
+        "speech": "Scene 9: Haven. The closer picture has arrived beside the first one. That."
+      },
+      {
+        "label": "Scene 10: Chase",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 11;",
+        "link": null,
+        "speech": "Scene 10: Chase. That is the detail our Signal Operator selected. We kept."
+      },
+      {
+        "label": "Scene 11: Captain",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 13;",
+        "link": null,
+        "speech": "Scene 11: Captain. Our Signal Operator invites you to look closely at this."
+      },
+      {
+        "label": "Scene 12: Captain",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 2; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 14;",
+        "link": null,
+        "speech": "Scene 12: Captain. Our Signal Operator asks: what do you notice in these."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-5-page-0",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-5-page-2",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-5-page-2": {
+    "title": "Set 1 \u00b7 Episode 5",
+    "subtitle": "Scenes \u00b7 page 3 of 5",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 13: Haven",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 15;",
+        "link": null,
+        "speech": "Scene 13: Haven. Thank you. We can use that question here together. People."
+      },
+      {
+        "label": "Scene 14: Haven",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 16;",
+        "link": null,
+        "speech": "Scene 14: Haven. We have put the two pictures beside each other. From."
+      },
+      {
+        "label": "Scene 15: Chase",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 17;",
+        "link": null,
+        "speech": "Scene 15: Chase. I wondered which one would work better on your display.."
+      },
+      {
+        "label": "Scene 16: Haven",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 18;",
+        "link": null,
+        "speech": "Scene 16: Haven. They work together. And your invitation gives us somewhere to."
+      },
+      {
+        "label": "Scene 17: Elena",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 19;",
+        "link": null,
+        "speech": "Scene 17: Elena. Our observation has reached its destination. Before we close the."
+      },
+      {
+        "label": "Scene 18: Elena",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 20;",
+        "link": null,
+        "speech": "Scene 18: Elena. Thank you for joining us.."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-5-page-1",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-5-page-3",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-5-page-3": {
+    "title": "Set 1 \u00b7 Episode 5",
+    "subtitle": "Scenes \u00b7 page 4 of 5",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 19: Elena",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 0; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 21;",
+        "link": null,
+        "speech": "Scene 19: Elena. Have a good evening.."
+      },
+      {
+        "label": "Scene 20: Captain",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 24;",
+        "link": null,
+        "speech": "Scene 20: Captain. Thank you for joining us, Haven. We were glad to."
+      },
+      {
+        "label": "Scene 21: Captain",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 1; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 25;",
+        "link": null,
+        "speech": "Scene 21: Captain. Have a good evening, Haven. We hope you enjoy the."
+      },
+      {
+        "label": "Scene 22: Haven",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 26;",
+        "link": null,
+        "speech": "Scene 22: Haven. And thank you, Signal Operator. Your choices brought this observation."
+      },
+      {
+        "label": "Scene 23: Ship computer",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 27;",
+        "link": null,
+        "speech": "Scene 23: Ship computer. Conversation complete. Closing the channel.."
+      },
+      {
+        "label": "Scene 24: Captain",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 28;",
+        "link": null,
+        "speech": "Scene 24: Captain. You answered a request, checked our connection, helped choose a."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-5-page-2",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-5-page-4",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-5-page-4": {
+    "title": "Set 1 \u00b7 Episode 5",
+    "subtitle": "Scenes \u00b7 page 5 of 5",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 25: Elena",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 10 menu 29;",
+        "link": null,
+        "speech": "Scene 25: Elena. That is the end of this mission set. You can."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-5-page-3",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-1",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-6-page-0": {
+    "title": "Set 2 \u00b7 Episode 1",
+    "subtitle": "Scenes \u00b7 page 1 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 1: Ship computer",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 12 menu 1;",
+        "link": null,
+        "speech": "Scene 1: Ship computer. Signal Operations. Observation display available. Today's assignment: Our Place in."
+      },
+      {
+        "label": "Scene 2: Haven",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 12 menu 2;",
+        "link": null,
+        "speech": "Scene 2: Haven. Hello, Asterion. After your last observation, we kept talking about."
+      },
+      {
+        "label": "Scene 3: Captain",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 12 menu 3;",
+        "link": null,
+        "speech": "Scene 3: Captain. That sounds like a job for our map display. Operator."
+      },
+      {
+        "label": "Scene 4: Elena",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 12 menu 4;",
+        "link": null,
+        "speech": "Scene 4: Elena. This time, we are exploring a map. We are not."
+      },
+      {
+        "label": "Scene 5: Chase",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 12 menu 5;",
+        "link": null,
+        "speech": "Scene 5: Chase. Here is Earth. It is a planet, a large, nearly."
+      },
+      {
+        "label": "Scene 6: Elena",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 12 menu 6;",
+        "link": null,
+        "speech": "Scene 6: Elena. The room where you are listening is on that world.."
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-6-page-1",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-2",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-6-page-1": {
+    "title": "Set 2 \u00b7 Episode 1",
+    "subtitle": "Scenes \u00b7 page 2 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 7: Chase",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 12 menu 7;",
+        "link": null,
+        "speech": "Scene 7: Chase. Around Earth is a layer of gases called the atmosphere.."
+      },
+      {
+        "label": "Scene 8: Elena",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 12 menu 8;",
+        "link": null,
+        "speech": "Scene 8: Elena. We can take a closer look at the ocean or."
+      },
+      {
+        "label": "Scene 9: Elena",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 12 menu 9;",
+        "link": null,
+        "speech": "Scene 9: Elena. Look at the ocean.."
+      },
+      {
+        "label": "Scene 10: Elena",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 0; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 12 menu 10;",
+        "link": null,
+        "speech": "Scene 10: Elena. Look at the land.."
+      },
+      {
+        "label": "Scene 11: Chase",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 12 menu 13;",
+        "link": null,
+        "speech": "Scene 11: Chase. The ocean view is selected. Water stretches across a huge."
+      },
+      {
+        "label": "Scene 12: Chase",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 1; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 12 menu 14;",
+        "link": null,
+        "speech": "Scene 12: Chase. The land view is selected. We can see different colors."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-6-page-0",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-6-page-2",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-2",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-6-page-2": {
+    "title": "Set 2 \u00b7 Episode 1",
+    "subtitle": "Scenes \u00b7 page 3 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 13: Ship computer",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 12 menu 15;",
+        "link": null,
+        "speech": "Scene 13: Ship computer. Home picture saved.."
+      },
+      {
+        "label": "Scene 14: Captain",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 12 menu 16;",
+        "link": null,
+        "speech": "Scene 14: Captain. We have our starting point. Whatever else we discover, Earth."
+      },
+      {
+        "label": "Scene 15: Elena",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 12 menu 17;",
+        "link": null,
+        "speech": "Scene 15: Elena. We do not have to leave everything familiar behind to."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-6-page-1",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-2",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-7-page-0": {
+    "title": "Set 2 \u00b7 Episode 2",
+    "subtitle": "Scenes \u00b7 page 1 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 1: Ship computer",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 14 menu 1;",
+        "link": null,
+        "speech": "Scene 1: Ship computer. Map view expanding. Earth and its Moon.."
+      },
+      {
+        "label": "Scene 2: Chase",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 14 menu 2;",
+        "link": null,
+        "speech": "Scene 2: Chase. There is Earth again. Beside it on our diagram is."
+      },
+      {
+        "label": "Scene 3: Elena",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 14 menu 3;",
+        "link": null,
+        "speech": "Scene 3: Elena. We sometimes see the Moon from a window or outside."
+      },
+      {
+        "label": "Scene 4: Chase",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 14 menu 4;",
+        "link": null,
+        "speech": "Scene 4: Chase. The Moon travels around Earth. That journey is called an."
+      },
+      {
+        "label": "Scene 5: Captain",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 14 menu 5;",
+        "link": null,
+        "speech": "Scene 5: Captain. Let us bring the lunar surface closer. Operator, open the."
+      },
+      {
+        "label": "Scene 6: Ship computer",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 14 menu 6;",
+        "link": null,
+        "speech": "Scene 6: Ship computer. Close view available.."
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-7-page-1",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-2",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-7-page-1": {
+    "title": "Set 2 \u00b7 Episode 2",
+    "subtitle": "Scenes \u00b7 page 2 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 7: Chase",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 14 menu 7;",
+        "link": null,
+        "speech": "Scene 7: Chase. These round hollows are craters. Many formed when objects from."
+      },
+      {
+        "label": "Scene 8: Elena",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 14 menu 8;",
+        "link": null,
+        "speech": "Scene 8: Elena. A picture can make it seem as though we could."
+      },
+      {
+        "label": "Scene 9: Haven",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 14 menu 9;",
+        "link": null,
+        "speech": "Scene 9: Haven. We have another question. Sometimes the Moon looks round, and."
+      },
+      {
+        "label": "Scene 10: Chase",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 14 menu 10;",
+        "link": null,
+        "speech": "Scene 10: Chase. No. The Moon stays a whole, nearly round world. The."
+      },
+      {
+        "label": "Scene 11: Elena",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 14 menu 11;",
+        "link": null,
+        "speech": "Scene 11: Elena. Imagine holding a ball beside a lamp. One side catches."
+      },
+      {
+        "label": "Scene 12: Chase",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 14 menu 12;",
+        "link": null,
+        "speech": "Scene 12: Chase. Moonlight is sunlight reflected from the Moon's surface. The Moon."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-7-page-0",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-7-page-2",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-2",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-7-page-2": {
+    "title": "Set 2 \u00b7 Episode 2",
+    "subtitle": "Scenes \u00b7 page 3 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 13: Ship computer",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 14 menu 13;",
+        "link": null,
+        "speech": "Scene 13: Ship computer. Earth and Moon picture ready to save.."
+      },
+      {
+        "label": "Scene 14: Captain",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 14 menu 14;",
+        "link": null,
+        "speech": "Scene 14: Captain. Add it to the guide. We have home, and we."
+      },
+      {
+        "label": "Scene 15: Elena",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 14 menu 15;",
+        "link": null,
+        "speech": "Scene 15: Elena. Now there is another question waiting. If sunlight lights the."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-7-page-1",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-2",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-8-page-0": {
+    "title": "Set 2 \u00b7 Episode 3",
+    "subtitle": "Scenes \u00b7 page 1 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 1: Ship computer",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 15 menu 1;",
+        "link": null,
+        "speech": "Scene 1: Ship computer. Solar system map available.."
+      },
+      {
+        "label": "Scene 2: Captain",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 15 menu 2;",
+        "link": null,
+        "speech": "Scene 2: Captain. Our guide has reached the Sun. It is the star."
+      },
+      {
+        "label": "Scene 3: Chase",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 15 menu 3;",
+        "link": null,
+        "speech": "Scene 3: Chase. The Sun makes its own light. Deep inside, nuclear reactions."
+      },
+      {
+        "label": "Scene 4: Elena",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 15 menu 4;",
+        "link": null,
+        "speech": "Scene 4: Elena. So the light on a sunny wall has come from."
+      },
+      {
+        "label": "Scene 5: Chase",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 15 menu 5;",
+        "link": null,
+        "speech": "Scene 5: Chase. There are eight planets in our solar system. Starting nearest."
+      },
+      {
+        "label": "Scene 6: Elena",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 15 menu 6;",
+        "link": null,
+        "speech": "Scene 6: Elena. Here is our Earth marker again. It sits on the."
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-8-page-1",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-2",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-8-page-1": {
+    "title": "Set 2 \u00b7 Episode 3",
+    "subtitle": "Scenes \u00b7 page 2 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 7: Chase",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 15 menu 7;",
+        "link": null,
+        "speech": "Scene 7: Chase. The four inner planets have rocky surfaces. The four outer."
+      },
+      {
+        "label": "Scene 8: Captain",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 15 menu 8;",
+        "link": null,
+        "speech": "Scene 8: Captain. We have room for a closer look in Haven's guide.."
+      },
+      {
+        "label": "Scene 9: Elena",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 15 menu 9;",
+        "link": null,
+        "speech": "Scene 9: Elena. Explore Mars.."
+      },
+      {
+        "label": "Scene 10: Elena",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 0; g6 = 0; g7 = 0; g8 = 1; jump titleset 15 menu 10;",
+        "link": null,
+        "speech": "Scene 10: Elena. Explore Saturn.."
+      },
+      {
+        "label": "Scene 11: Chase",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 15 menu 13;",
+        "link": null,
+        "speech": "Scene 11: Chase. Mars is a rocky world. Much of its surface looks."
+      },
+      {
+        "label": "Scene 12: Chase",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 2; g6 = 0; g7 = 0; g8 = 1; jump titleset 15 menu 14;",
+        "link": null,
+        "speech": "Scene 12: Chase. Saturn is surrounded by bright rings. From far away, they."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-8-page-0",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-8-page-2",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-2",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-8-page-2": {
+    "title": "Set 2 \u00b7 Episode 3",
+    "subtitle": "Scenes \u00b7 page 3 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 13: Haven",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 15 menu 15;",
+        "link": null,
+        "speech": "Scene 13: Haven. That gives us something to compare with Earth. These are."
+      },
+      {
+        "label": "Scene 14: Elena",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 15 menu 16;",
+        "link": null,
+        "speech": "Scene 14: Elena. Exactly. A shared name can belong to very different places.."
+      },
+      {
+        "label": "Scene 15: Chase",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 15 menu 17;",
+        "link": null,
+        "speech": "Scene 15: Chase. The solar system also includes moons, asteroids, comets, and dwarf."
+      },
+      {
+        "label": "Scene 16: Captain",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 15 menu 18;",
+        "link": null,
+        "speech": "Scene 16: Captain. Save the planet view. Next we will explore something the."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-8-page-1",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-2",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-9-page-0": {
+    "title": "Set 2 \u00b7 Episode 4",
+    "subtitle": "Scenes \u00b7 page 1 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 1: Ship computer",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 17 menu 1;",
+        "link": null,
+        "speech": "Scene 1: Ship computer. Map display changing. The Sun's surrounding region.."
+      },
+      {
+        "label": "Scene 2: Elena",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 17 menu 2;",
+        "link": null,
+        "speech": "Scene 2: Elena. We have been looking at worlds with surfaces or visible."
+      },
+      {
+        "label": "Scene 3: Chase",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 17 menu 3;",
+        "link": null,
+        "speech": "Scene 3: Chase. The Sun sends out more than light. A stream of."
+      },
+      {
+        "label": "Scene 4: Captain",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 17 menu 4;",
+        "link": null,
+        "speech": "Scene 4: Captain. As that flow spreads outward, it helps make a huge."
+      },
+      {
+        "label": "Scene 5: Elena",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 17 menu 5;",
+        "link": null,
+        "speech": "Scene 5: Elena. That is a long name for a useful idea. We."
+      },
+      {
+        "label": "Scene 6: Chase",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 17 menu 6;",
+        "link": null,
+        "speech": "Scene 6: Chase. This illustration draws a simple outline so we can talk."
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-9-page-1",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-2",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-9-page-1": {
+    "title": "Set 2 \u00b7 Episode 4",
+    "subtitle": "Scenes \u00b7 page 2 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 7: Haven",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 17 menu 7;",
+        "link": null,
+        "speech": "Scene 7: Haven. How do people know about a place they cannot see."
+      },
+      {
+        "label": "Scene 8: Chase",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 17 menu 8;",
+        "link": null,
+        "speech": "Scene 8: Chase. They use instruments. A spacecraft can measure particles and magnetic."
+      },
+      {
+        "label": "Scene 9: Captain",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 17 menu 9;",
+        "link": null,
+        "speech": "Scene 9: Captain. There is a real example for our guide. Both Voyager."
+      },
+      {
+        "label": "Scene 10: Elena",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 17 menu 10;",
+        "link": null,
+        "speech": "Scene 10: Elena. They did not reach another star when they crossed that."
+      },
+      {
+        "label": "Scene 11: Chase",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 17 menu 11;",
+        "link": null,
+        "speech": "Scene 11: Chase. The Sun's gravity reaches beyond this bubble, too. Some objects."
+      },
+      {
+        "label": "Scene 12: Haven",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 17 menu 12;",
+        "link": null,
+        "speech": "Scene 12: Haven. Then we should not label this picture, the place where."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-9-page-0",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-9-page-2",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-2",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-9-page-2": {
+    "title": "Set 2 \u00b7 Episode 4",
+    "subtitle": "Scenes \u00b7 page 3 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 13: Elena",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 17 menu 13;",
+        "link": null,
+        "speech": "Scene 13: Elena. Right. We can label it, the Sun's surrounding bubble. Beyond."
+      },
+      {
+        "label": "Scene 14: Ship computer",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 17 menu 14;",
+        "link": null,
+        "speech": "Scene 14: Ship computer. Heliosphere illustration ready.."
+      },
+      {
+        "label": "Scene 15: Captain",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 17 menu 15;",
+        "link": null,
+        "speech": "Scene 15: Captain. Add it to the guide, with its explanation. Our map."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-9-page-1",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-2",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-10-page-0": {
+    "title": "Set 2 \u00b7 Episode 5",
+    "subtitle": "Scenes \u00b7 page 1 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 1: Ship computer",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 18 menu 1;",
+        "link": null,
+        "speech": "Scene 1: Ship computer. Wider map available. The Milky Way galaxy.."
+      },
+      {
+        "label": "Scene 2: Chase",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 18 menu 2;",
+        "link": null,
+        "speech": "Scene 2: Chase. As we pull back, the planets disappear into the tiny."
+      },
+      {
+        "label": "Scene 3: Elena",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 18 menu 3;",
+        "link": null,
+        "speech": "Scene 3: Elena. This is the moment to check what each mark means.."
+      },
+      {
+        "label": "Scene 4: Captain",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 18 menu 4;",
+        "link": null,
+        "speech": "Scene 4: Captain. Our Sun belongs to the Milky Way, our home galaxy.."
+      },
+      {
+        "label": "Scene 5: Chase",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 18 menu 5;",
+        "link": null,
+        "speech": "Scene 5: Chase. This outside view of the Milky Way is an illustration."
+      },
+      {
+        "label": "Scene 6: Elena",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 18 menu 6;",
+        "link": null,
+        "speech": "Scene 6: Elena. The illustration shows a broad disk with spiral arms. Our."
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-10-page-1",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-2",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-10-page-1": {
+    "title": "Set 2 \u00b7 Episode 5",
+    "subtitle": "Scenes \u00b7 page 2 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 7: Haven",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 18 menu 7;",
+        "link": null,
+        "speech": "Scene 7: Haven. When people talk about seeing the Milky Way in the."
+      },
+      {
+        "label": "Scene 8: Chase",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 18 menu 8;",
+        "link": null,
+        "speech": "Scene 8: Chase. They are seeing it from inside. Under a dark sky."
+      },
+      {
+        "label": "Scene 9: Elena",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 18 menu 9;",
+        "link": null,
+        "speech": "Scene 9: Elena. Like being inside a building instead of looking at a."
+      },
+      {
+        "label": "Scene 10: Captain",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 18 menu 10;",
+        "link": null,
+        "speech": "Scene 10: Captain. Our guide is ready. Before we send it, let us."
+      },
+      {
+        "label": "Scene 11: Ship computer",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 18 menu 11;",
+        "link": null,
+        "speech": "Scene 11: Ship computer. Milky Way. Our solar system. The Sun and its planets.."
+      },
+      {
+        "label": "Scene 12: Elena",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 18 menu 12;",
+        "link": null,
+        "speech": "Scene 12: Elena. Here are the oceans and land again. Somewhere on this."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-10-page-0",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-10-page-2",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-2",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-10-page-2": {
+    "title": "Set 2 \u00b7 Episode 5",
+    "subtitle": "Scenes \u00b7 page 3 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 13: Haven",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 18 menu 13;",
+        "link": null,
+        "speech": "Scene 13: Haven. Guide received, Asterion. We will put the pictures in order."
+      },
+      {
+        "label": "Scene 14: Chase",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 18 menu 14;",
+        "link": null,
+        "speech": "Scene 14: Chase. There are other galaxies beyond ours. That can be another."
+      },
+      {
+        "label": "Scene 15: Captain",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 18 menu 15;",
+        "link": null,
+        "speech": "Scene 15: Captain. For today, the assignment is complete. Operator, you helped give."
+      },
+      {
+        "label": "Scene 16: Elena",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 18 menu 16;",
+        "link": null,
+        "speech": "Scene 16: Elena. Our place in space includes the place you are right."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-10-page-1",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-2",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-11-page-0": {
+    "title": "Set 3 \u00b7 Episode 1",
+    "subtitle": "Scenes \u00b7 page 1 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 1: Ship computer",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 20 menu 1;",
+        "link": null,
+        "speech": "Scene 1: Ship computer. Signal Operations. Wider universe map available.."
+      },
+      {
+        "label": "Scene 2: Haven",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 20 menu 2;",
+        "link": null,
+        "speech": "Scene 2: Haven. Hello again, Asterion. We followed your guide from Earth out."
+      },
+      {
+        "label": "Scene 3: Captain",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 20 menu 3;",
+        "link": null,
+        "speech": "Scene 3: Captain. Then we have a place to begin. Operator, we will."
+      },
+      {
+        "label": "Scene 4: Elena",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 20 menu 4;",
+        "link": null,
+        "speech": "Scene 4: Elena. The map is changing scale again. A small patch of."
+      },
+      {
+        "label": "Scene 5: Chase",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 20 menu 5;",
+        "link": null,
+        "speech": "Scene 5: Chase. Here is the Milky Way marker. Around it are other."
+      },
+      {
+        "label": "Scene 6: Elena",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 20 menu 6;",
+        "link": null,
+        "speech": "Scene 6: Elena. It is tempting to imagine that a galaxy has a."
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-11-page-1",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-3",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-11-page-1": {
+    "title": "Set 3 \u00b7 Episode 1",
+    "subtitle": "Scenes \u00b7 page 2 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 7: Chase",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 20 menu 7;",
+        "link": null,
+        "speech": "Scene 7: Chase. One of our large neighbors is Andromeda. Like the Milky."
+      },
+      {
+        "label": "Scene 8: Haven",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 20 menu 8;",
+        "link": null,
+        "speech": "Scene 8: Haven. When we see that picture, we are seeing something real."
+      },
+      {
+        "label": "Scene 9: Chase",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 20 menu 9;",
+        "link": null,
+        "speech": "Scene 9: Chase. That is right. Light carries information, and it takes time."
+      },
+      {
+        "label": "Scene 10: Captain",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 20 menu 10;",
+        "link": null,
+        "speech": "Scene 10: Captain. For our first comparison, we have a spiral galaxy and."
+      },
+      {
+        "label": "Scene 11: Elena",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 20 menu 11;",
+        "link": null,
+        "speech": "Scene 11: Elena. Explore the spiral.."
+      },
+      {
+        "label": "Scene 12: Elena",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 0; g7 = 0; g8 = 1; jump titleset 20 menu 12;",
+        "link": null,
+        "speech": "Scene 12: Elena. Explore the elliptical galaxy.."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-11-page-0",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-11-page-2",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-3",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-11-page-2": {
+    "title": "Set 3 \u00b7 Episode 1",
+    "subtitle": "Scenes \u00b7 page 3 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 13: Chase",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 20 menu 15;",
+        "link": null,
+        "speech": "Scene 13: Chase. The spiral view shows a broad disk and curved arms.."
+      },
+      {
+        "label": "Scene 14: Chase",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 1; g7 = 0; g8 = 1; jump titleset 20 menu 16;",
+        "link": null,
+        "speech": "Scene 14: Chase. The elliptical view looks smoother and rounder, or stretched into."
+      },
+      {
+        "label": "Scene 15: Elena",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 20 menu 17;",
+        "link": null,
+        "speech": "Scene 15: Elena. There are other shapes too, including galaxies called irregular because."
+      },
+      {
+        "label": "Scene 16: Ship computer",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 20 menu 18;",
+        "link": null,
+        "speech": "Scene 16: Ship computer. Galaxy comparison saved.."
+      },
+      {
+        "label": "Scene 17: Captain",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 20 menu 19;",
+        "link": null,
+        "speech": "Scene 17: Captain. Next, let us see how some of these galaxies belong."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-11-page-1",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-3",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-12-page-0": {
+    "title": "Set 3 \u00b7 Episode 2",
+    "subtitle": "Scenes \u00b7 page 1 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 1: Ship computer",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 22 menu 1;",
+        "link": null,
+        "speech": "Scene 1: Ship computer. Neighborhood view. The Local Group.."
+      },
+      {
+        "label": "Scene 2: Chase",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 22 menu 2;",
+        "link": null,
+        "speech": "Scene 2: Chase. The Milky Way and Andromeda are members of a collection."
+      },
+      {
+        "label": "Scene 3: Elena",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 22 menu 3;",
+        "link": null,
+        "speech": "Scene 3: Elena. On a street map, nearby might mean the next building.."
+      },
+      {
+        "label": "Scene 4: Captain",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 22 menu 4;",
+        "link": null,
+        "speech": "Scene 4: Captain. Gravity connects the galaxies in a group. They move under."
+      },
+      {
+        "label": "Scene 5: Haven",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 22 menu 5;",
+        "link": null,
+        "speech": "Scene 5: Haven. Is a group of galaxies the same thing as a."
+      },
+      {
+        "label": "Scene 6: Chase",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 22 menu 6;",
+        "link": null,
+        "speech": "Scene 6: Chase. They are different sizes of structure. A star cluster is."
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-12-page-1",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-3",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-12-page-1": {
+    "title": "Set 3 \u00b7 Episode 2",
+    "subtitle": "Scenes \u00b7 page 2 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 7: Elena",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 22 menu 7;",
+        "link": null,
+        "speech": "Scene 7: Elena. Our picture labels matter here. If every bright mark looks."
+      },
+      {
+        "label": "Scene 8: Ship computer",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 22 menu 8;",
+        "link": null,
+        "speech": "Scene 8: Ship computer. Map labels enabled. Each marked object in this view is."
+      },
+      {
+        "label": "Scene 9: Chase",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 22 menu 9;",
+        "link": null,
+        "speech": "Scene 9: Chase. Some small galaxies orbit larger ones. We call them satellite."
+      },
+      {
+        "label": "Scene 10: Captain",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 22 menu 10;",
+        "link": null,
+        "speech": "Scene 10: Captain. There is also a difference between looking close together and."
+      },
+      {
+        "label": "Scene 11: Elena",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 22 menu 11;",
+        "link": null,
+        "speech": "Scene 11: Elena. Like seeing two lights down a road at night. They."
+      },
+      {
+        "label": "Scene 12: Chase",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 22 menu 12;",
+        "link": null,
+        "speech": "Scene 12: Chase. Astronomers combine measurements of distance and motion with their images.."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-12-page-0",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-12-page-2",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-3",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-12-page-2": {
+    "title": "Set 3 \u00b7 Episode 2",
+    "subtitle": "Scenes \u00b7 page 3 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 13: Haven",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 22 menu 13;",
+        "link": null,
+        "speech": "Scene 13: Haven. Then our guide can show what we have learned without."
+      },
+      {
+        "label": "Scene 14: Captain",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 22 menu 14;",
+        "link": null,
+        "speech": "Scene 14: Captain. Exactly. A useful map can improve. Operator, save this neighborhood."
+      },
+      {
+        "label": "Scene 15: Elena",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 22 menu 15;",
+        "link": null,
+        "speech": "Scene 15: Elena. We have found our galaxy inside a group. But groups."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-12-page-1",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-3",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-13-page-0": {
+    "title": "Set 3 \u00b7 Episode 3",
+    "subtitle": "Scenes \u00b7 page 1 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 1: Ship computer",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 23 menu 1;",
+        "link": null,
+        "speech": "Scene 1: Ship computer. Galaxy cluster view available.."
+      },
+      {
+        "label": "Scene 2: Chase",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 23 menu 2;",
+        "link": null,
+        "speech": "Scene 2: Chase. This picture shows a galaxy cluster. A cluster can contain."
+      },
+      {
+        "label": "Scene 3: Elena",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 23 menu 3;",
+        "link": null,
+        "speech": "Scene 3: Elena. A photograph can make a cluster seem tightly packed. But."
+      },
+      {
+        "label": "Scene 4: Captain",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 23 menu 4;",
+        "link": null,
+        "speech": "Scene 4: Captain. Our Local Group is not itself a giant galaxy cluster.."
+      },
+      {
+        "label": "Scene 5: Chase",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 23 menu 5;",
+        "link": null,
+        "speech": "Scene 5: Chase. There is more in a cluster than its galaxies. Very."
+      },
+      {
+        "label": "Scene 6: Elena",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 23 menu 6;",
+        "link": null,
+        "speech": "Scene 6: Elena. Let us add that information to the display. The colored."
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-13-page-1",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-3",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-13-page-1": {
+    "title": "Set 3 \u00b7 Episode 3",
+    "subtitle": "Scenes \u00b7 page 2 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 7: Ship computer",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 23 menu 7;",
+        "link": null,
+        "speech": "Scene 7: Ship computer. X-ray information added to the illustration.."
+      },
+      {
+        "label": "Scene 8: Haven",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 23 menu 8;",
+        "link": null,
+        "speech": "Scene 8: Haven. The same place looks different when we use a different."
+      },
+      {
+        "label": "Scene 9: Chase",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 23 menu 9;",
+        "link": null,
+        "speech": "Scene 9: Chase. Yes. Each instrument can reveal something another misses. There is."
+      },
+      {
+        "label": "Scene 10: Captain",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 23 menu 10;",
+        "link": null,
+        "speech": "Scene 10: Captain. We can be clear about both parts: there is strong."
+      },
+      {
+        "label": "Scene 11: Elena",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 23 menu 11;",
+        "link": null,
+        "speech": "Scene 11: Elena. Now pull back a little farther. Groups and clusters can."
+      },
+      {
+        "label": "Scene 12: Chase",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 23 menu 12;",
+        "link": null,
+        "speech": "Scene 12: Chase. A galaxy cluster is bound together by gravity. A supercluster."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-13-page-0",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-13-page-2",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-3",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-13-page-2": {
+    "title": "Set 3 \u00b7 Episode 3",
+    "subtitle": "Scenes \u00b7 page 3 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 13: Haven",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 23 menu 13;",
+        "link": null,
+        "speech": "Scene 13: Haven. More like a map that shows relationships at different scales."
+      },
+      {
+        "label": "Scene 14: Captain",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 23 menu 14;",
+        "link": null,
+        "speech": "Scene 14: Captain. That is a useful way to put it. Operator, add."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-13-page-1",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-3",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-14-page-0": {
+    "title": "Set 3 \u00b7 Episode 4",
+    "subtitle": "Scenes \u00b7 page 1 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 1: Ship computer",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 24 menu 1;",
+        "link": null,
+        "speech": "Scene 1: Ship computer. Large-scale map available. The cosmic web.."
+      },
+      {
+        "label": "Scene 2: Elena",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 24 menu 2;",
+        "link": null,
+        "speech": "Scene 2: Elena. At first, this picture looks like threads and knots, with."
+      },
+      {
+        "label": "Scene 3: Chase",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 24 menu 3;",
+        "link": null,
+        "speech": "Scene 3: Chase. Galaxies do not spread out perfectly evenly. Many lie along."
+      },
+      {
+        "label": "Scene 4: Captain",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 24 menu 4;",
+        "link": null,
+        "speech": "Scene 4: Captain. The web is not a net made by someone, and."
+      },
+      {
+        "label": "Scene 5: Elena",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 24 menu 5;",
+        "link": null,
+        "speech": "Scene 5: Elena. Our illustration makes the pattern easier to see. It is."
+      },
+      {
+        "label": "Scene 6: Chase",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 24 menu 6;",
+        "link": null,
+        "speech": "Scene 6: Chase. A model is something we can compare with measurements. Scientists."
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-14-page-1",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-3",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-14-page-1": {
+    "title": "Set 3 \u00b7 Episode 4",
+    "subtitle": "Scenes \u00b7 page 2 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 7: Haven",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 24 menu 7;",
+        "link": null,
+        "speech": "Scene 7: Haven. We would like a picture of the strands and a."
+      },
+      {
+        "label": "Scene 8: Elena",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 24 menu 8;",
+        "link": null,
+        "speech": "Scene 8: Elena. Follow a strand.."
+      },
+      {
+        "label": "Scene 9: Elena",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 0; g8 = 1; jump titleset 24 menu 9;",
+        "link": null,
+        "speech": "Scene 9: Elena. Explore a void.."
+      },
+      {
+        "label": "Scene 10: Chase",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 24 menu 12;",
+        "link": null,
+        "speech": "Scene 10: Chase. We are following a filament on the map. Galaxy markers."
+      },
+      {
+        "label": "Scene 11: Chase",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 2; g8 = 1; jump titleset 24 menu 13;",
+        "link": null,
+        "speech": "Scene 11: Chase. We are looking into a void on the map. There."
+      },
+      {
+        "label": "Scene 12: Elena",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 24 menu 14;",
+        "link": null,
+        "speech": "Scene 12: Elena. Now let us bring both parts back into view. The."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-14-page-0",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-14-page-2",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-3",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-14-page-2": {
+    "title": "Set 3 \u00b7 Episode 4",
+    "subtitle": "Scenes \u00b7 page 3 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 13: Captain",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 24 menu 15;",
+        "link": null,
+        "speech": "Scene 13: Captain. Our guide now reaches from one planet to a pattern."
+      },
+      {
+        "label": "Scene 14: Haven",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 24 menu 16;",
+        "link": null,
+        "speech": "Scene 14: Haven. How far can we keep pulling back? Can we make."
+      },
+      {
+        "label": "Scene 15: Chase",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 24 menu 17;",
+        "link": null,
+        "speech": "Scene 15: Chase. That is where the limits of observation become important. We."
+      },
+      {
+        "label": "Scene 16: Ship computer",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 24 menu 18;",
+        "link": null,
+        "speech": "Scene 16: Ship computer. Cosmic web view saved. Final topic available: the observable universe.."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-14-page-1",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-3",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-15-page-0": {
+    "title": "Set 3 \u00b7 Episode 5",
+    "subtitle": "Scenes \u00b7 page 1 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 1: Captain",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 26 menu 1;",
+        "link": null,
+        "speech": "Scene 1: Captain. We have reached the widest part of today's guide. Scientists."
+      },
+      {
+        "label": "Scene 2: Elena",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 26 menu 2;",
+        "link": null,
+        "speech": "Scene 2: Elena. Observable means available to observation. It does not mean that."
+      },
+      {
+        "label": "Scene 3: Chase",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 26 menu 3;",
+        "link": null,
+        "speech": "Scene 3: Chase. The universe has a history, and light has a travel."
+      },
+      {
+        "label": "Scene 4: Haven",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 26 menu 4;",
+        "link": null,
+        "speech": "Scene 4: Haven. So if a diagram puts a circle around the observable."
+      },
+      {
+        "label": "Scene 5: Chase",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 26 menu 5;",
+        "link": null,
+        "speech": "Scene 5: Chase. Correct. It marks a limit associated with what can reach."
+      },
+      {
+        "label": "Scene 6: Elena",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 26 menu 6;",
+        "link": null,
+        "speech": "Scene 6: Elena. There may be much more universe beyond what we can."
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-15-page-1",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-3",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-15-page-1": {
+    "title": "Set 3 \u00b7 Episode 5",
+    "subtitle": "Scenes \u00b7 page 2 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 7: Captain",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 26 menu 7;",
+        "link": null,
+        "speech": "Scene 7: Captain. There is another important idea. On very large scales, the."
+      },
+      {
+        "label": "Scene 8: Chase",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 26 menu 8;",
+        "link": null,
+        "speech": "Scene 8: Chase. That does not mean Earth is stretching, or that your."
+      },
+      {
+        "label": "Scene 9: Elena",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 26 menu 9;",
+        "link": null,
+        "speech": "Scene 9: Elena. And our map today is not a movie of that."
+      },
+      {
+        "label": "Scene 10: Haven",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 26 menu 10;",
+        "link": null,
+        "speech": "Scene 10: Haven. That helps. We have a journey through a map, and."
+      },
+      {
+        "label": "Scene 11: Captain",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 26 menu 11;",
+        "link": null,
+        "speech": "Scene 11: Captain. They are. Now, Operator, let us return through the places."
+      },
+      {
+        "label": "Scene 12: Ship computer",
+        "slot": 5,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 26 menu 12;",
+        "link": null,
+        "speech": "Scene 12: Ship computer. The cosmic web. Galaxy clusters and groups. Our Local Group.."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-15-page-0",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Next page",
+        "slot": 7,
+        "action": null,
+        "link": "episode-15-page-2",
+        "speech": "Next page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-3",
+        "speech": "Episodes"
+      }
+    ]
+  },
+  "episode-15-page-2": {
+    "title": "Set 3 \u00b7 Episode 5",
+    "subtitle": "Scenes \u00b7 page 3 of 3",
+    "top": false,
+    "options": [
+      {
+        "label": "Scene 13: Elena",
+        "slot": 0,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 26 menu 13;",
+        "link": null,
+        "speech": "Scene 13: Elena. Earth is back on the display. The room where you."
+      },
+      {
+        "label": "Scene 14: Haven",
+        "slot": 1,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 26 menu 14;",
+        "link": null,
+        "speech": "Scene 14: Haven. Your guide has arrived. We can start with home, explore."
+      },
+      {
+        "label": "Scene 15: Chase",
+        "slot": 2,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 26 menu 15;",
+        "link": null,
+        "speech": "Scene 15: Chase. That is something I like about a good map. It."
+      },
+      {
+        "label": "Scene 16: Captain",
+        "slot": 3,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 26 menu 16;",
+        "link": null,
+        "speech": "Scene 16: Captain. Mission complete. Thank you, Signal Operator.."
+      },
+      {
+        "label": "Scene 17: Elena",
+        "slot": 4,
+        "action": "g0 = 2; g1 = 2; g2 = 2; g3 = 1; g4 = 2; g5 = 1; g6 = 2; g7 = 1; g8 = 1; jump titleset 26 menu 17;",
+        "link": null,
+        "speech": "Scene 17: Elena. We will leave the final picture at Earth. There is."
+      },
+      {
+        "label": "Previous page",
+        "slot": 6,
+        "action": null,
+        "link": "episode-15-page-1",
+        "speech": "Previous page"
+      },
+      {
+        "label": "Episodes",
+        "slot": 8,
+        "action": null,
+        "link": "set-3",
+        "speech": "Episodes"
+      }
+    ]
+  }
+}

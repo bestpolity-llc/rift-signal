@@ -1,0 +1,5973 @@
+{
+  "status": "Navigation prepared; media rendering and authoring pending.",
+  "registers": {
+    "conversation": "g0",
+    "farewell": "g1",
+    "feature": "g2",
+    "message": "g3",
+    "set2_earth": "g4",
+    "set2_planet_visit": "g5",
+    "set3_galaxy_shape": "g6",
+    "set3_web_region": "g7",
+    "view": "g8"
+  },
+  "value_codes": {
+    "conversation": {
+      "picture": 1,
+      "visit": 2
+    },
+    "farewell": {
+      "evening": 1,
+      "thanks": 2
+    },
+    "feature": {
+      "cloud": 1,
+      "edge": 2,
+      "group": 3,
+      "pair": 4
+    },
+    "message": {
+      "detail": 1,
+      "discovery": 2
+    },
+    "set2_earth": {
+      "land": 1,
+      "ocean": 2
+    },
+    "set2_planet_visit": {
+      "mars": 1,
+      "saturn": 2
+    },
+    "set3_galaxy_shape": {
+      "elliptical": 1,
+      "spiral": 2
+    },
+    "set3_web_region": {
+      "strand": 1,
+      "void": 2
+    },
+    "view": {
+      "planet": 1,
+      "stars": 2
+    }
+  },
+  "chapters": [
+    {
+      "set": 1,
+      "episode": 1,
+      "entry": "n0001",
+      "note": "Direct chapter entry requires inherited story state."
+    },
+    {
+      "set": 1,
+      "episode": 2,
+      "entry": "n0022",
+      "note": "Direct chapter entry requires inherited story state."
+    },
+    {
+      "set": 1,
+      "episode": 3,
+      "entry": "n0053",
+      "note": "Direct chapter entry requires inherited story state."
+    },
+    {
+      "set": 1,
+      "episode": 4,
+      "entry": "n0077",
+      "note": "Direct chapter entry requires inherited story state."
+    },
+    {
+      "set": 1,
+      "episode": 5,
+      "entry": "n0112",
+      "note": "Direct chapter entry requires inherited story state."
+    },
+    {
+      "set": 2,
+      "episode": 1,
+      "entry": "n0140",
+      "note": "Direct chapter entry requires inherited story state."
+    },
+    {
+      "set": 2,
+      "episode": 2,
+      "entry": "n0156",
+      "note": "Direct chapter entry requires inherited story state."
+    },
+    {
+      "set": 2,
+      "episode": 3,
+      "entry": "n0171",
+      "note": "Direct chapter entry requires inherited story state."
+    },
+    {
+      "set": 2,
+      "episode": 4,
+      "entry": "n0188",
+      "note": "Direct chapter entry requires inherited story state."
+    },
+    {
+      "set": 2,
+      "episode": 5,
+      "entry": "n0203",
+      "note": "Direct chapter entry requires inherited story state."
+    },
+    {
+      "set": 3,
+      "episode": 1,
+      "entry": "n0219",
+      "note": "Direct chapter entry requires inherited story state."
+    },
+    {
+      "set": 3,
+      "episode": 2,
+      "entry": "n0237",
+      "note": "Direct chapter entry requires inherited story state."
+    },
+    {
+      "set": 3,
+      "episode": 3,
+      "entry": "n0252",
+      "note": "Direct chapter entry requires inherited story state."
+    },
+    {
+      "set": 3,
+      "episode": 4,
+      "entry": "n0266",
+      "note": "Direct chapter entry requires inherited story state."
+    },
+    {
+      "set": 3,
+      "episode": 5,
+      "entry": "n0283",
+      "note": "Direct chapter entry requires inherited story state."
+    }
+  ],
+  "node_locations": {
+    "n0001": [
+      1,
+      1
+    ],
+    "n0002": [
+      1,
+      2
+    ],
+    "n0003": [
+      1,
+      3
+    ],
+    "n0004": [
+      1,
+      4
+    ],
+    "n0005": [
+      1,
+      5
+    ],
+    "n0006": [
+      1,
+      6
+    ],
+    "n0007": [
+      1,
+      7
+    ],
+    "n0008": [
+      1,
+      8
+    ],
+    "n0009": [
+      1,
+      10
+    ],
+    "n0010": [
+      1,
+      11
+    ],
+    "n0011": [
+      1,
+      12
+    ],
+    "n0012": [
+      1,
+      13
+    ],
+    "n0013": [
+      1,
+      14
+    ],
+    "n0014": [
+      1,
+      15
+    ],
+    "n0015": [
+      1,
+      16
+    ],
+    "n0016": [
+      1,
+      17
+    ],
+    "n0017": [
+      1,
+      18
+    ],
+    "n0018": [
+      1,
+      19
+    ],
+    "n0019": [
+      1,
+      20
+    ],
+    "n0020": [
+      1,
+      21
+    ],
+    "n0021": [
+      1,
+      22
+    ],
+    "n0022": [
+      2,
+      1
+    ],
+    "n0023": [
+      2,
+      2
+    ],
+    "n0024": [
+      2,
+      3
+    ],
+    "n0025": [
+      2,
+      4
+    ],
+    "n0026": [
+      2,
+      5
+    ],
+    "n0027": [
+      2,
+      6
+    ],
+    "n0028": [
+      2,
+      7
+    ],
+    "n0029": [
+      2,
+      8
+    ],
+    "n0030": [
+      2,
+      9
+    ],
+    "n0031": [
+      2,
+      10
+    ],
+    "n0032": [
+      2,
+      11
+    ],
+    "n0033": [
+      2,
+      13
+    ],
+    "n0034": [
+      2,
+      14
+    ],
+    "n0035": [
+      2,
+      15
+    ],
+    "n0036": [
+      2,
+      16
+    ],
+    "n0037": [
+      2,
+      17
+    ],
+    "n0038": [
+      2,
+      18
+    ],
+    "n0039": [
+      2,
+      19
+    ],
+    "n0040": [
+      2,
+      20
+    ],
+    "n0041": [
+      2,
+      21
+    ],
+    "n0042": [
+      2,
+      22
+    ],
+    "n0043": [
+      2,
+      23
+    ],
+    "n0044": [
+      2,
+      24
+    ],
+    "n0045": [
+      2,
+      25
+    ],
+    "n0046": [
+      2,
+      26
+    ],
+    "n0047": [
+      2,
+      27
+    ],
+    "n0048": [
+      2,
+      28
+    ],
+    "n0049": [
+      2,
+      29
+    ],
+    "n0050": [
+      2,
+      30
+    ],
+    "n0051": [
+      2,
+      31
+    ],
+    "n0052": [
+      2,
+      32
+    ],
+    "n0053": [
+      3,
+      1
+    ],
+    "n0054": [
+      3,
+      2
+    ],
+    "n0055": [
+      3,
+      3
+    ],
+    "n0056": [
+      3,
+      4
+    ],
+    "n0057": [
+      3,
+      5
+    ],
+    "n0058": [
+      3,
+      6
+    ],
+    "n0059": [
+      3,
+      7
+    ],
+    "n0060": [
+      3,
+      8
+    ],
+    "n0061": [
+      3,
+      9
+    ],
+    "n0062": [
+      3,
+      10
+    ],
+    "n0063": [
+      3,
+      12
+    ],
+    "n0064": [
+      3,
+      13
+    ],
+    "n0065": [
+      3,
+      14
+    ],
+    "n0066": [
+      3,
+      15
+    ],
+    "n0067": [
+      3,
+      16
+    ],
+    "n0068": [
+      3,
+      17
+    ],
+    "n0069": [
+      3,
+      18
+    ],
+    "n0070": [
+      3,
+      19
+    ],
+    "n0071": [
+      3,
+      20
+    ],
+    "n0072": [
+      3,
+      21
+    ],
+    "n0073": [
+      3,
+      22
+    ],
+    "n0074": [
+      3,
+      23
+    ],
+    "n0075": [
+      3,
+      24
+    ],
+    "n0076": [
+      3,
+      25
+    ],
+    "n0077": [
+      4,
+      1
+    ],
+    "n0078": [
+      4,
+      2
+    ],
+    "n0079": [
+      4,
+      3
+    ],
+    "n0080": [
+      4,
+      4
+    ],
+    "n0081": [
+      4,
+      5
+    ],
+    "n0082": [
+      4,
+      6
+    ],
+    "n0083": [
+      4,
+      7
+    ],
+    "n0084": [
+      4,
+      8
+    ],
+    "n0085": [
+      4,
+      9
+    ],
+    "n0086": [
+      4,
+      10
+    ],
+    "n0087": [
+      4,
+      11
+    ],
+    "n0088": [
+      4,
+      15
+    ],
+    "n0089": [
+      4,
+      16
+    ],
+    "n0090": [
+      4,
+      17
+    ],
+    "n0091": [
+      4,
+      18
+    ],
+    "n0092": [
+      4,
+      19
+    ],
+    "n0093": [
+      4,
+      20
+    ],
+    "n0094": [
+      4,
+      21
+    ],
+    "n0095": [
+      4,
+      22
+    ],
+    "n0096": [
+      4,
+      23
+    ],
+    "n0097": [
+      4,
+      24
+    ],
+    "n0098": [
+      4,
+      25
+    ],
+    "n0099": [
+      4,
+      26
+    ],
+    "n0100": [
+      4,
+      27
+    ],
+    "n0101": [
+      4,
+      28
+    ],
+    "n0102": [
+      4,
+      29
+    ],
+    "n0103": [
+      4,
+      30
+    ],
+    "n0104": [
+      4,
+      31
+    ],
+    "n0105": [
+      4,
+      32
+    ],
+    "n0106": [
+      4,
+      33
+    ],
+    "n0107": [
+      4,
+      34
+    ],
+    "n0108": [
+      4,
+      36
+    ],
+    "n0109": [
+      4,
+      37
+    ],
+    "n0110": [
+      4,
+      38
+    ],
+    "n0111": [
+      4,
+      39
+    ],
+    "n0112": [
+      5,
+      1
+    ],
+    "n0113": [
+      5,
+      2
+    ],
+    "n0114": [
+      5,
+      3
+    ],
+    "n0115": [
+      5,
+      4
+    ],
+    "n0116": [
+      5,
+      5
+    ],
+    "n0117": [
+      5,
+      6
+    ],
+    "n0118": [
+      5,
+      7
+    ],
+    "n0119": [
+      5,
+      8
+    ],
+    "n0120": [
+      5,
+      9
+    ],
+    "n0121": [
+      5,
+      10
+    ],
+    "n0122": [
+      5,
+      11
+    ],
+    "n0123": [
+      5,
+      12
+    ],
+    "n0124": [
+      5,
+      13
+    ],
+    "n0125": [
+      5,
+      14
+    ],
+    "n0126": [
+      5,
+      15
+    ],
+    "n0127": [
+      5,
+      16
+    ],
+    "n0128": [
+      5,
+      17
+    ],
+    "n0129": [
+      5,
+      18
+    ],
+    "n0130": [
+      5,
+      19
+    ],
+    "n0131": [
+      5,
+      20
+    ],
+    "n0132": [
+      5,
+      21
+    ],
+    "n0133": [
+      5,
+      22
+    ],
+    "n0134": [
+      5,
+      24
+    ],
+    "n0135": [
+      5,
+      25
+    ],
+    "n0136": [
+      5,
+      26
+    ],
+    "n0137": [
+      5,
+      27
+    ],
+    "n0138": [
+      5,
+      28
+    ],
+    "n0139": [
+      5,
+      29
+    ],
+    "n0140": [
+      6,
+      1
+    ],
+    "n0141": [
+      6,
+      2
+    ],
+    "n0142": [
+      6,
+      3
+    ],
+    "n0143": [
+      6,
+      4
+    ],
+    "n0144": [
+      6,
+      5
+    ],
+    "n0145": [
+      6,
+      6
+    ],
+    "n0146": [
+      6,
+      7
+    ],
+    "n0147": [
+      6,
+      8
+    ],
+    "n0148": [
+      6,
+      9
+    ],
+    "n0149": [
+      6,
+      10
+    ],
+    "n0150": [
+      6,
+      11
+    ],
+    "n0151": [
+      6,
+      13
+    ],
+    "n0152": [
+      6,
+      14
+    ],
+    "n0153": [
+      6,
+      15
+    ],
+    "n0154": [
+      6,
+      16
+    ],
+    "n0155": [
+      6,
+      17
+    ],
+    "n0156": [
+      7,
+      1
+    ],
+    "n0157": [
+      7,
+      2
+    ],
+    "n0158": [
+      7,
+      3
+    ],
+    "n0159": [
+      7,
+      4
+    ],
+    "n0160": [
+      7,
+      5
+    ],
+    "n0161": [
+      7,
+      6
+    ],
+    "n0162": [
+      7,
+      7
+    ],
+    "n0163": [
+      7,
+      8
+    ],
+    "n0164": [
+      7,
+      9
+    ],
+    "n0165": [
+      7,
+      10
+    ],
+    "n0166": [
+      7,
+      11
+    ],
+    "n0167": [
+      7,
+      12
+    ],
+    "n0168": [
+      7,
+      13
+    ],
+    "n0169": [
+      7,
+      14
+    ],
+    "n0170": [
+      7,
+      15
+    ],
+    "n0171": [
+      8,
+      1
+    ],
+    "n0172": [
+      8,
+      2
+    ],
+    "n0173": [
+      8,
+      3
+    ],
+    "n0174": [
+      8,
+      4
+    ],
+    "n0175": [
+      8,
+      5
+    ],
+    "n0176": [
+      8,
+      6
+    ],
+    "n0177": [
+      8,
+      7
+    ],
+    "n0178": [
+      8,
+      8
+    ],
+    "n0179": [
+      8,
+      9
+    ],
+    "n0180": [
+      8,
+      10
+    ],
+    "n0181": [
+      8,
+      11
+    ],
+    "n0182": [
+      8,
+      13
+    ],
+    "n0183": [
+      8,
+      14
+    ],
+    "n0184": [
+      8,
+      15
+    ],
+    "n0185": [
+      8,
+      16
+    ],
+    "n0186": [
+      8,
+      17
+    ],
+    "n0187": [
+      8,
+      18
+    ],
+    "n0188": [
+      9,
+      1
+    ],
+    "n0189": [
+      9,
+      2
+    ],
+    "n0190": [
+      9,
+      3
+    ],
+    "n0191": [
+      9,
+      4
+    ],
+    "n0192": [
+      9,
+      5
+    ],
+    "n0193": [
+      9,
+      6
+    ],
+    "n0194": [
+      9,
+      7
+    ],
+    "n0195": [
+      9,
+      8
+    ],
+    "n0196": [
+      9,
+      9
+    ],
+    "n0197": [
+      9,
+      10
+    ],
+    "n0198": [
+      9,
+      11
+    ],
+    "n0199": [
+      9,
+      12
+    ],
+    "n0200": [
+      9,
+      13
+    ],
+    "n0201": [
+      9,
+      14
+    ],
+    "n0202": [
+      9,
+      15
+    ],
+    "n0203": [
+      10,
+      1
+    ],
+    "n0204": [
+      10,
+      2
+    ],
+    "n0205": [
+      10,
+      3
+    ],
+    "n0206": [
+      10,
+      4
+    ],
+    "n0207": [
+      10,
+      5
+    ],
+    "n0208": [
+      10,
+      6
+    ],
+    "n0209": [
+      10,
+      7
+    ],
+    "n0210": [
+      10,
+      8
+    ],
+    "n0211": [
+      10,
+      9
+    ],
+    "n0212": [
+      10,
+      10
+    ],
+    "n0213": [
+      10,
+      11
+    ],
+    "n0214": [
+      10,
+      12
+    ],
+    "n0215": [
+      10,
+      13
+    ],
+    "n0216": [
+      10,
+      14
+    ],
+    "n0217": [
+      10,
+      15
+    ],
+    "n0218": [
+      10,
+      16
+    ],
+    "n0219": [
+      11,
+      1
+    ],
+    "n0220": [
+      11,
+      2
+    ],
+    "n0221": [
+      11,
+      3
+    ],
+    "n0222": [
+      11,
+      4
+    ],
+    "n0223": [
+      11,
+      5
+    ],
+    "n0224": [
+      11,
+      6
+    ],
+    "n0225": [
+      11,
+      7
+    ],
+    "n0226": [
+      11,
+      8
+    ],
+    "n0227": [
+      11,
+      9
+    ],
+    "n0228": [
+      11,
+      10
+    ],
+    "n0229": [
+      11,
+      11
+    ],
+    "n0230": [
+      11,
+      12
+    ],
+    "n0231": [
+      11,
+      13
+    ],
+    "n0232": [
+      11,
+      15
+    ],
+    "n0233": [
+      11,
+      16
+    ],
+    "n0234": [
+      11,
+      17
+    ],
+    "n0235": [
+      11,
+      18
+    ],
+    "n0236": [
+      11,
+      19
+    ],
+    "n0237": [
+      12,
+      1
+    ],
+    "n0238": [
+      12,
+      2
+    ],
+    "n0239": [
+      12,
+      3
+    ],
+    "n0240": [
+      12,
+      4
+    ],
+    "n0241": [
+      12,
+      5
+    ],
+    "n0242": [
+      12,
+      6
+    ],
+    "n0243": [
+      12,
+      7
+    ],
+    "n0244": [
+      12,
+      8
+    ],
+    "n0245": [
+      12,
+      9
+    ],
+    "n0246": [
+      12,
+      10
+    ],
+    "n0247": [
+      12,
+      11
+    ],
+    "n0248": [
+      12,
+      12
+    ],
+    "n0249": [
+      12,
+      13
+    ],
+    "n0250": [
+      12,
+      14
+    ],
+    "n0251": [
+      12,
+      15
+    ],
+    "n0252": [
+      13,
+      1
+    ],
+    "n0253": [
+      13,
+      2
+    ],
+    "n0254": [
+      13,
+      3
+    ],
+    "n0255": [
+      13,
+      4
+    ],
+    "n0256": [
+      13,
+      5
+    ],
+    "n0257": [
+      13,
+      6
+    ],
+    "n0258": [
+      13,
+      7
+    ],
+    "n0259": [
+      13,
+      8
+    ],
+    "n0260": [
+      13,
+      9
+    ],
+    "n0261": [
+      13,
+      10
+    ],
+    "n0262": [
+      13,
+      11
+    ],
+    "n0263": [
+      13,
+      12
+    ],
+    "n0264": [
+      13,
+      13
+    ],
+    "n0265": [
+      13,
+      14
+    ],
+    "n0266": [
+      14,
+      1
+    ],
+    "n0267": [
+      14,
+      2
+    ],
+    "n0268": [
+      14,
+      3
+    ],
+    "n0269": [
+      14,
+      4
+    ],
+    "n0270": [
+      14,
+      5
+    ],
+    "n0271": [
+      14,
+      6
+    ],
+    "n0272": [
+      14,
+      7
+    ],
+    "n0273": [
+      14,
+      8
+    ],
+    "n0274": [
+      14,
+      9
+    ],
+    "n0275": [
+      14,
+      10
+    ],
+    "n0276": [
+      14,
+      12
+    ],
+    "n0277": [
+      14,
+      13
+    ],
+    "n0278": [
+      14,
+      14
+    ],
+    "n0279": [
+      14,
+      15
+    ],
+    "n0280": [
+      14,
+      16
+    ],
+    "n0281": [
+      14,
+      17
+    ],
+    "n0282": [
+      14,
+      18
+    ],
+    "n0283": [
+      15,
+      1
+    ],
+    "n0284": [
+      15,
+      2
+    ],
+    "n0285": [
+      15,
+      3
+    ],
+    "n0286": [
+      15,
+      4
+    ],
+    "n0287": [
+      15,
+      5
+    ],
+    "n0288": [
+      15,
+      6
+    ],
+    "n0289": [
+      15,
+      7
+    ],
+    "n0290": [
+      15,
+      8
+    ],
+    "n0291": [
+      15,
+      9
+    ],
+    "n0292": [
+      15,
+      10
+    ],
+    "n0293": [
+      15,
+      11
+    ],
+    "n0294": [
+      15,
+      12
+    ],
+    "n0295": [
+      15,
+      13
+    ],
+    "n0296": [
+      15,
+      14
+    ],
+    "n0297": [
+      15,
+      15
+    ],
+    "n0298": [
+      15,
+      16
+    ],
+    "n0299": [
+      15,
+      17
+    ],
+    "n0300": [
+      15,
+      18
+    ]
+  },
+  "render": [
+    {
+      "kind": "welcome",
+      "media": "media/welcome.mpg",
+      "title": "Rift Signal",
+      "action": "JOIN YOUR CREW",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0001",
+      "kind": "dialogue",
+      "chapter": 1,
+      "menu": 1,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0001.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/001-ship.wav",
+      "role": "ship",
+      "text": "Welcome aboard the Asterion. Your first shift begins at Signal Operations. The crew is ready when you are.",
+      "tag": "all",
+      "source": "mission-set-one:0",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0002",
+      "kind": "dialogue",
+      "chapter": 1,
+      "menu": 2,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0002.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/002-captain.wav",
+      "role": "captain",
+      "text": "Signal Operator, welcome aboard. Every station on this ship has a job. Yours is to notice the signal, make the choice, and send it when the crew is ready.",
+      "tag": "all",
+      "source": "mission-set-one:1",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0003",
+      "kind": "dialogue",
+      "chapter": 1,
+      "menu": 3,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0003.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/003-elena.wav",
+      "role": "elena",
+      "text": "I’m Elena Torres. I’ll stay with you through the shift. There is no rush. One clear choice at a time is enough.",
+      "tag": "all",
+      "source": "mission-set-one:2",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0004",
+      "kind": "dialogue",
+      "chapter": 1,
+      "menu": 4,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0004.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/004-ship.wav",
+      "role": "ship",
+      "text": "Signal Operations: incoming transmission detected. Source identified as Haven research station.",
+      "tag": "all",
+      "source": "mission-set-one:3",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0005",
+      "kind": "dialogue",
+      "chapter": 1,
+      "menu": 5,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0005.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/005-haven.wav",
+      "role": "haven",
+      "text": "Asterion, this is Haven research station. Our common room needs something from the outside. Could your Signal Operator send us a picture from your current position?",
+      "tag": "all",
+      "source": "mission-set-one:4",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0006",
+      "kind": "dialogue",
+      "chapter": 1,
+      "menu": 6,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0006.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/006-chase.wav",
+      "role": "chase",
+      "text": "I can give you two clean views from here: the blue planet below us, or the stars beyond the ship. You choose which picture we send.",
+      "tag": "all",
+      "source": "mission-set-one:5",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0007",
+      "kind": "dialogue",
+      "chapter": 1,
+      "menu": 7,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0007.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/007-elena.wav",
+      "role": "elena",
+      "text": "The two views will take turns on your screen. When the one you want is showing, press once to choose it.",
+      "tag": "all",
+      "source": "mission-set-one:6",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0008",
+      "kind": "choice",
+      "option": "planet",
+      "chapter": 1,
+      "menu": 8,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0008-planet.mpg",
+      "label": "Blue planet",
+      "choice_audio": [
+        {
+          "source": "mission-set-one:7",
+          "text": "The blue planet is in view. Press now to choose the planet, or wait and the stars will appear.",
+          "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/008-elena.wav"
+        }
+      ],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0008",
+      "kind": "choice",
+      "option": "stars",
+      "chapter": 1,
+      "menu": 9,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0008-stars.mpg",
+      "label": "Star field",
+      "choice_audio": [
+        {
+          "source": "mission-set-one:8",
+          "text": "The stars are in view. Press now to choose the stars, or wait and the blue planet will return.",
+          "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/009-elena.wav"
+        }
+      ],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0009",
+      "kind": "dialogue",
+      "chapter": 1,
+      "menu": 10,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0009.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/010-chase.wav",
+      "role": "chase",
+      "text": "Planet view is steady. Cloud bands and the bright edge of the atmosphere are clear from this angle.",
+      "tag": "planet",
+      "source": "mission-set-one:9",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0010",
+      "kind": "dialogue",
+      "chapter": 1,
+      "menu": 11,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0010.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/011-elena.wav",
+      "role": "elena",
+      "text": "That’s your view. When you’re ready, capture the picture for Haven.",
+      "tag": "planet",
+      "source": "mission-set-one:10",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0011",
+      "kind": "dialogue",
+      "chapter": 1,
+      "menu": 12,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0011.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/012-ship.wav",
+      "role": "ship",
+      "text": "Picture captured. Establishing a signal link to Haven research station.",
+      "tag": "planet",
+      "source": "mission-set-one:11",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0012",
+      "kind": "dialogue",
+      "chapter": 1,
+      "menu": 13,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0012.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/013-ship.wav",
+      "role": "ship",
+      "text": "Connection confirmed. The planet picture has been transmitted to Haven.",
+      "tag": "planet",
+      "source": "mission-set-one:12",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0013",
+      "kind": "dialogue",
+      "chapter": 1,
+      "menu": 14,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0013.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/014-haven.wav",
+      "role": "haven",
+      "text": "We received it. The blue planet looks beautiful from there. Thank you, Signal Operator. We’re putting it in the common room.",
+      "tag": "planet",
+      "source": "mission-set-one:13",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0014",
+      "kind": "dialogue",
+      "chapter": 1,
+      "menu": 15,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0014.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/015-chase.wav",
+      "role": "chase",
+      "text": "Star field is steady. You’ve got a clear view beyond the Asterion.",
+      "tag": "stars",
+      "source": "mission-set-one:14",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0015",
+      "kind": "dialogue",
+      "chapter": 1,
+      "menu": 16,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0015.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/016-elena.wav",
+      "role": "elena",
+      "text": "That’s your view. When you’re ready, capture the picture for Haven.",
+      "tag": "stars",
+      "source": "mission-set-one:15",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0016",
+      "kind": "dialogue",
+      "chapter": 1,
+      "menu": 17,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0016.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/017-ship.wav",
+      "role": "ship",
+      "text": "Picture captured. Establishing a signal link to Haven research station.",
+      "tag": "stars",
+      "source": "mission-set-one:16",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0017",
+      "kind": "dialogue",
+      "chapter": 1,
+      "menu": 18,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0017.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/018-ship.wav",
+      "role": "ship",
+      "text": "Connection confirmed. The star picture has been transmitted to Haven.",
+      "tag": "stars",
+      "source": "mission-set-one:17",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0018",
+      "kind": "dialogue",
+      "chapter": 1,
+      "menu": 19,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0018.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/019-haven.wav",
+      "role": "haven",
+      "text": "We received it. Those stars will be a good reminder that there is a lot beyond this station. Thank you, Signal Operator.",
+      "tag": "stars",
+      "source": "mission-set-one:18",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0019",
+      "kind": "dialogue",
+      "chapter": 1,
+      "menu": 20,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0019.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/020-captain.wav",
+      "role": "captain",
+      "text": "Good work. Haven asked for something, you made the choice, and the crew carried your signal through. That is what your station is here to do.",
+      "tag": "all",
+      "source": "mission-set-one:19",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0020",
+      "kind": "dialogue",
+      "chapter": 1,
+      "menu": 21,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0020.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/021-elena.wav",
+      "role": "elena",
+      "text": "We’re off duty now. This is a good time to talk about the picture you chose, what you noticed, and what you might choose next time.",
+      "tag": "all",
+      "source": "mission-set-one:20",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0021",
+      "kind": "dialogue",
+      "chapter": 1,
+      "menu": 22,
+      "set": 1,
+      "episode": 1,
+      "media": "media/n0021.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/022-elena.wav",
+      "role": "elena",
+      "text": "Your first shift aboard the Asterion is complete. Signal Operations will be ready for you when the next mission begins.",
+      "tag": "all",
+      "source": "mission-set-one:21",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0022",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 1,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0022.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/023-ship.wav",
+      "role": "ship",
+      "text": "Haven research station has requested an observation session. Their common-room receiver is warming up.",
+      "tag": "all",
+      "source": "mission-set-one:22",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0023",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 2,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0023.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/024-captain.wav",
+      "role": "captain",
+      "text": "We have a little time before they call. Chase is preparing our observation positions. Operator, check in with him while I speak with the station coordinator. Once Haven is ready, we will bring everyone onto the same channel.",
+      "tag": "all",
+      "source": "mission-set-one:23",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0024",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 3,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0024.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/025-chase.wav",
+      "role": "chase",
+      "text": "Hello, Signal Operations. I am just finishing the route check. You caught me moving this picture again. Every time I put it somewhere sensible, a report opens over it.",
+      "tag": "all",
+      "source": "mission-set-one:24",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0025",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 4,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0025.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/026-elena.wav",
+      "role": "elena",
+      "text": "I have seen that picture on your console, but I do not know the story. Where did it come from?",
+      "tag": "all",
+      "source": "mission-set-one:25",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0026",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 5,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0026.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/027-chase.wav",
+      "role": "chase",
+      "text": "My sister sent it. She visited an observatory and took a picture through one of its telescopes. She thought I would laugh because I spend my working day looking out into space.",
+      "tag": "all",
+      "source": "mission-set-one:26",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0027",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 6,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0027.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/028-elena.wav",
+      "role": "elena",
+      "text": "But you kept it.",
+      "tag": "all",
+      "source": "mission-set-one:27",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0028",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 7,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0028.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/029-chase.wav",
+      "role": "chase",
+      "text": "Of course. I like knowing what she could see from where she was standing.",
+      "tag": "all",
+      "source": "mission-set-one:28",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0029",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 8,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0029.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/030-elena.wav",
+      "role": "elena",
+      "text": "Now I understand why it stays on his console. A moment ago, I only knew it was a picture. There are a couple of things we could ask him about it.",
+      "tag": "all",
+      "source": "mission-set-one:29",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0030",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 9,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0030.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/031-elena.wav",
+      "role": "elena",
+      "text": "What did your sister enjoy about the visit?",
+      "tag": "all",
+      "source": "mission-set-one:30",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0031",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 10,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0031.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/032-elena.wav",
+      "role": "elena",
+      "text": "What do you like about the picture?",
+      "tag": "all",
+      "source": "mission-set-one:31",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0032",
+      "kind": "choice",
+      "option": "visit",
+      "chapter": 2,
+      "menu": 11,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0032-visit.mpg",
+      "label": "Ask about the observatory visit",
+      "choice_audio": [],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0032",
+      "kind": "choice",
+      "option": "picture",
+      "chapter": 2,
+      "menu": 12,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0032-picture.mpg",
+      "label": "Ask about the picture",
+      "choice_audio": [],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0033",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 13,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0033.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/033-chase.wav",
+      "role": "chase",
+      "text": "She liked the moment when the telescope came into focus. At first, she could only see a bright blur. Then the rings appeared. She said she called the person beside her over to look, because she did not want them to miss it.",
+      "tag": "visit",
+      "source": "mission-set-one:32",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0034",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 14,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0034.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/035-elena.wav",
+      "role": "elena",
+      "text": "So part of what she enjoyed was getting to show somebody else.",
+      "tag": "visit",
+      "source": "mission-set-one:34",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0035",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 15,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0035.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/036-chase.wav",
+      "role": "chase",
+      "text": "Yes. And then she sent it to me, so I got a turn too.",
+      "tag": "visit",
+      "source": "mission-set-one:35",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0036",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 16,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0036.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/034-chase.wav",
+      "role": "chase",
+      "text": "I like that it is a little crooked. The planet is off to one side, and there is a dark corner where the camera did not line up. It looks like somebody taking a picture in a hurry because they were pleased with what they saw.",
+      "tag": "picture",
+      "source": "mission-set-one:33",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0037",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 17,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0037.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/037-elena.wav",
+      "role": "elena",
+      "text": "The crooked part helps you imagine her taking it.",
+      "tag": "picture",
+      "source": "mission-set-one:36",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0038",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 18,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0038.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/038-chase.wav",
+      "role": "chase",
+      "text": "Exactly. A perfect picture would show me the planet. This one reminds me of her visit.",
+      "tag": "picture",
+      "source": "mission-set-one:37",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0039",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 19,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0039.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/039-ship.wav",
+      "role": "ship",
+      "text": "Navigation report ready.",
+      "tag": "all",
+      "source": "mission-set-one:38",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0040",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 20,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0040.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/040-chase.wav",
+      "role": "chase",
+      "text": "That is my route check. I need to read it before we move. Thank you for asking about the picture. I enjoyed telling you.",
+      "tag": "all",
+      "source": "mission-set-one:39",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0041",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 21,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0041.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/041-elena.wav",
+      "role": "elena",
+      "text": "We will let you get back to it.",
+      "tag": "all",
+      "source": "mission-set-one:40",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0042",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 22,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0042.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/042-chase.wav",
+      "role": "chase",
+      "text": "I will join the observation channel when the captain calls. There are two good views for the operator to choose from.",
+      "tag": "all",
+      "source": "mission-set-one:41",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0043",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 23,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0043.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/043-haven.wav",
+      "role": "haven",
+      "text": "Haven to Asterion. Our receiver is ready. Can you hear us?",
+      "tag": "all",
+      "source": "mission-set-one:42",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0044",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 24,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0044.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/044-elena.wav",
+      "role": "elena",
+      "text": "Their voice is coming through clearly. Let us check that they can hear us too.",
+      "tag": "all",
+      "source": "mission-set-one:43",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0045",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 25,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0045.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/045-captain.wav",
+      "role": "captain",
+      "text": "Asterion to Haven. Our Signal Operator is at the station. We are preparing your observation.",
+      "tag": "all",
+      "source": "mission-set-one:44",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0046",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 26,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0046.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/046-ship.wav",
+      "role": "ship",
+      "text": "Reply ready to transmit.",
+      "tag": "all",
+      "source": "mission-set-one:45",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0047",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 27,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0047.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/047-haven.wav",
+      "role": "haven",
+      "text": "We hear you clearly. The picture you sent earlier has people wondering what else is out there. We thought we could gather by the display and look together.",
+      "tag": "all",
+      "source": "mission-set-one:46",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0048",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 28,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0048.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/048-captain.wav",
+      "role": "captain",
+      "text": "We can do that. Our pilot has prepared two observation positions. The operator will help choose our view.",
+      "tag": "all",
+      "source": "mission-set-one:47",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0049",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 29,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0049.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/049-haven.wav",
+      "role": "haven",
+      "text": "Then we will make room. Call when you are in position.",
+      "tag": "all",
+      "source": "mission-set-one:48",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0050",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 30,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0050.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/050-ship.wav",
+      "role": "ship",
+      "text": "Connection confirmed.",
+      "tag": "all",
+      "source": "mission-set-one:49",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0051",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 31,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0051.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/051-elena.wav",
+      "role": "elena",
+      "text": "Chase had a picture from someone else's window on the world. Now we are getting ready to share ours.",
+      "tag": "all",
+      "source": "mission-set-one:50",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0052",
+      "kind": "dialogue",
+      "chapter": 2,
+      "menu": 32,
+      "set": 1,
+      "episode": 2,
+      "media": "media/n0052.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/052-captain.wav",
+      "role": "captain",
+      "text": "The channel is ready and navigation has its report. That completes this part of the shift. Next, we choose where to take the Asterion.",
+      "tag": "all",
+      "source": "mission-set-one:51",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0053",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 1,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0053.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/053-captain.wav",
+      "role": "captain",
+      "text": "Our connection with Haven is ready. Now we need a view worth sharing. Chase has found two places where the Asterion can make an observation. We have time to hear about both. Operator, your choice will help decide what the people at Haven see when their gathering begins.",
+      "tag": "all",
+      "source": "mission-set-one:52",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0054",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 2,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0054.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/054-chase.wav",
+      "role": "chase",
+      "text": "I have kept the observation window covered while we travel. In a moment, I will show you our two possibilities. The ship can hold a steady position at either one. There is no wrong destination here. We are choosing what we want to spend some time noticing.",
+      "tag": "all",
+      "source": "mission-set-one:53",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0055",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 3,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0055.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/055-chase.wav",
+      "role": "chase",
+      "text": "Here is the planet. From this position, its curved edge runs across the window. There is a bright line where sunlight meets the atmosphere. Farther in, bands of cloud stretch over the surface. We could stay here and look at the difference between that bright edge and the clouds.",
+      "tag": "all",
+      "source": "mission-set-one:54",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0056",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 4,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0056.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/056-chase.wav",
+      "role": "chase",
+      "text": "Here is the open star field. With the planet out of the way, we can see lights across the whole window. Some appear close together. Others have more space around them. Two bright points make a pair near the middle. We could stay here and explore those patterns.",
+      "tag": "all",
+      "source": "mission-set-one:55",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0057",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 5,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0057.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/057-elena.wav",
+      "role": "elena",
+      "text": "I noticed the clouds first. Chase noticed the pair of lights. We can look at the same possibilities and want to explore different things.",
+      "tag": "all",
+      "source": "mission-set-one:56",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0058",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 6,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0058.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/058-chase.wav",
+      "role": "chase",
+      "text": "Both positions are ready. My job is to get us there; you can choose which view we spend time with.",
+      "tag": "all",
+      "source": "mission-set-one:57",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0059",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 7,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0059.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/059-elena.wav",
+      "role": "elena",
+      "text": "The planet and the star field will take turns on the display. Choose the one you want.",
+      "tag": "all",
+      "source": "mission-set-one:58",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0060",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 8,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0060.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/060-elena.wav",
+      "role": "elena",
+      "text": "Planet view.",
+      "tag": "all",
+      "source": "mission-set-one:59",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0061",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 9,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0061.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/061-elena.wav",
+      "role": "elena",
+      "text": "Star field.",
+      "tag": "all",
+      "source": "mission-set-one:60",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0062",
+      "kind": "choice",
+      "option": "planet",
+      "chapter": 3,
+      "menu": 10,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0062-planet.mpg",
+      "label": "Blue planet",
+      "choice_audio": [],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0062",
+      "kind": "choice",
+      "option": "stars",
+      "chapter": 3,
+      "menu": 11,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0062-stars.mpg",
+      "label": "Star field",
+      "choice_audio": [],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0063",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 12,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0063.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/062-chase.wav",
+      "role": "chase",
+      "text": "Planet view selected. I will bring the bright edge and the cloud bands into our observation window.",
+      "tag": "planet",
+      "source": "mission-set-one:61",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0064",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 13,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0064.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/063-chase.wav",
+      "role": "chase",
+      "text": "Star field selected. I will position the ship so the pair of lights and the wider group are both in view.",
+      "tag": "stars",
+      "source": "mission-set-one:62",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0065",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 14,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0065.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/064-captain.wav",
+      "role": "captain",
+      "text": "We have our destination. Let us prepare the ship.",
+      "tag": "all",
+      "source": "mission-set-one:63",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0066",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 15,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0066.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/065-ship.wav",
+      "role": "ship",
+      "text": "Observation camera secured. Communication link available. Cabin systems ready.",
+      "tag": "all",
+      "source": "mission-set-one:64",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0067",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 16,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0067.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/066-chase.wav",
+      "role": "chase",
+      "text": "The route is clear, and the ship is ready to move.",
+      "tag": "all",
+      "source": "mission-set-one:65",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0068",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 17,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0068.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/067-captain.wav",
+      "role": "captain",
+      "text": "I authorize the change of position.",
+      "tag": "all",
+      "source": "mission-set-one:66",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0069",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 18,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0069.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/068-elena.wav",
+      "role": "elena",
+      "text": "You have heard the reports. The crew has prepared its part. Your signal tells everyone that we are ready to take this step together.",
+      "tag": "all",
+      "source": "mission-set-one:67",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0070",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 19,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0070.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/069-ship.wav",
+      "role": "ship",
+      "text": "Ready signal received. Changing observation position.",
+      "tag": "all",
+      "source": "mission-set-one:68",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0071",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 20,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0071.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/070-chase.wav",
+      "role": "chase",
+      "text": "The movement you see is our view changing as the ship turns. We are keeping the ride gentle. I will bring us to a steady stop before we open the observation.",
+      "tag": "all",
+      "source": "mission-set-one:69",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0072",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 21,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0072.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/071-elena.wav",
+      "role": "elena",
+      "text": "Haven is getting its room ready while we get our window ready.",
+      "tag": "all",
+      "source": "mission-set-one:70",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0073",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 22,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0073.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/072-chase.wav",
+      "role": "chase",
+      "text": "We are in position. The ship is holding steady, and the camera has a clear view.",
+      "tag": "all",
+      "source": "mission-set-one:71",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0074",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 23,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0074.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/073-haven.wav",
+      "role": "haven",
+      "text": "We heard your arrival report. People are coming into the common room now. We have left the main display clear for your observation. Give us a call when you have something you want to share.",
+      "tag": "all",
+      "source": "mission-set-one:72",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0075",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 24,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0075.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/074-captain.wav",
+      "role": "captain",
+      "text": "Position confirmed. You helped choose our destination and brought the crew's preparations together.",
+      "tag": "all",
+      "source": "mission-set-one:73",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0076",
+      "kind": "dialogue",
+      "chapter": 3,
+      "menu": 25,
+      "set": 1,
+      "episode": 3,
+      "media": "media/n0076.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/075-elena.wav",
+      "role": "elena",
+      "text": "We now have a connection and a place to look. In the next episode, we will explore your view and make an observation for Haven. For now, this part of the job is complete.",
+      "tag": "all",
+      "source": "mission-set-one:74",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0077",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 1,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0077.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/076-captain.wav",
+      "role": "captain",
+      "text": "We have reached the place you chose. Today we will turn that view into something we can share. A useful observation does not have to explain everything outside the ship. We can notice one part, take a closer look, and tell Haven what caught our attention.",
+      "tag": "all",
+      "source": "mission-set-one:75",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0079",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 3,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0079.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/077-chase.wav",
+      "role": "chase",
+      "text": "The whole planet view is on the display. The bright edge curves along one side. Cloud bands lie farther across the surface. Keeping this wider picture will help Haven see where our closer view belongs.",
+      "tag": "planet",
+      "source": "mission-set-one:76",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0080",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 4,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0080.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/078-chase.wav",
+      "role": "chase",
+      "text": "The whole star field is on the display. The bright pair sits near the middle. A looser group spreads across one side. Keeping this wider picture will help Haven see where our closer view belongs.",
+      "tag": "stars",
+      "source": "mission-set-one:77",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0081",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 5,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0081.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/079-elena.wav",
+      "role": "elena",
+      "text": "We have saved the wide picture. Now we can choose a part to explore. You do not need to search for a hidden answer. The display will offer two details from your view. Pick the one you would like to hear more about, and Chase will bring it closer.",
+      "tag": "all",
+      "source": "mission-set-one:78",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0083",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 7,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0083.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/080-elena.wav",
+      "role": "elena",
+      "text": "Bright edge.",
+      "tag": "planet",
+      "source": "mission-set-one:79",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0084",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 8,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0084.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/081-elena.wav",
+      "role": "elena",
+      "text": "Cloud bands.",
+      "tag": "planet",
+      "source": "mission-set-one:80",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0085",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 9,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0085.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/082-elena.wav",
+      "role": "elena",
+      "text": "Bright pair.",
+      "tag": "stars",
+      "source": "mission-set-one:81",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0086",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 10,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0086.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/083-elena.wav",
+      "role": "elena",
+      "text": "Wider group.",
+      "tag": "stars",
+      "source": "mission-set-one:82",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0087",
+      "kind": "choice",
+      "option": "edge",
+      "chapter": 4,
+      "menu": 11,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0087-edge.mpg",
+      "label": "Bright edge",
+      "choice_audio": [],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0087",
+      "kind": "choice",
+      "option": "cloud",
+      "chapter": 4,
+      "menu": 12,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0087-cloud.mpg",
+      "label": "Cloud bands",
+      "choice_audio": [],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0087",
+      "kind": "choice",
+      "option": "pair",
+      "chapter": 4,
+      "menu": 13,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0087-pair.mpg",
+      "label": "Bright pair",
+      "choice_audio": [],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0087",
+      "kind": "choice",
+      "option": "group",
+      "chapter": 4,
+      "menu": 14,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0087-group.mpg",
+      "label": "Wider group",
+      "choice_audio": [],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0088",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 15,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0088.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/084-chase.wav",
+      "role": "chase",
+      "text": "Here is the bright edge. From this angle, the light makes a thin curved line beside the darker space. The curve continues beyond our close view. In the wide picture, you can see how this small part belongs to the larger shape.",
+      "tag": "edge",
+      "source": "mission-set-one:83",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0089",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 16,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0089.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/085-chase.wav",
+      "role": "chase",
+      "text": "Here are the cloud bands. Some areas look brighter and thicker than others. There are spaces between them where the surface is less covered. In the wide picture, those separate areas become a pattern stretching across a much larger part of the planet.",
+      "tag": "cloud",
+      "source": "mission-set-one:84",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0090",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 17,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0090.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/086-chase.wav",
+      "role": "chase",
+      "text": "Here are the two bright points. On our display, they appear beside one another, with dark space between them. A picture tells us where they appear from here. It does not, by itself, tell us how close they really are to each other.",
+      "tag": "pair",
+      "source": "mission-set-one:85",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0091",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 18,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0091.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/087-chase.wav",
+      "role": "chase",
+      "text": "Here is the wider group. The lights do not fill every part of the picture evenly. Some have neighbors nearby on the display, and some stand apart. We can describe that pattern without needing to give every point a name or count them all.",
+      "tag": "group",
+      "source": "mission-set-one:86",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0092",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 19,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0092.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/088-elena.wav",
+      "role": "elena",
+      "text": "Now we have two pictures with different jobs. The wide one shows where we were looking. The closer one shows what you picked out. Haven will be able to move between them, just as we did. Your choice has given the observation its own point of interest.",
+      "tag": "all",
+      "source": "mission-set-one:87",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0094",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 21,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0094.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/089-elena.wav",
+      "role": "elena",
+      "text": "Does the bright edge look like that all the way around?",
+      "tag": "edge",
+      "source": "mission-set-one:88",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0095",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 22,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0095.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/090-chase.wav",
+      "role": "chase",
+      "text": "We cannot see the whole planet from here. We can describe this part, but we would need another view to answer that.",
+      "tag": "edge",
+      "source": "mission-set-one:89",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0096",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 23,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0096.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/091-elena.wav",
+      "role": "elena",
+      "text": "Are those clouds moving?",
+      "tag": "cloud",
+      "source": "mission-set-one:90",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0097",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 24,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0097.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/092-chase.wav",
+      "role": "chase",
+      "text": "This picture cannot tell us. We could take another one later and compare them. For this report, we can show the pattern we see now.",
+      "tag": "cloud",
+      "source": "mission-set-one:91",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0098",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 25,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0098.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/093-elena.wav",
+      "role": "elena",
+      "text": "Are those two lights really next to each other?",
+      "tag": "pair",
+      "source": "mission-set-one:92",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0099",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 26,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0099.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/094-chase.wav",
+      "role": "chase",
+      "text": "They look close together from our window. One could be much farther away. We would need more information to find out.",
+      "tag": "pair",
+      "source": "mission-set-one:93",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0100",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 27,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0100.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/095-elena.wav",
+      "role": "elena",
+      "text": "I can almost see a shape in that group. Does it have a name?",
+      "tag": "group",
+      "source": "mission-set-one:94",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0101",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 28,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0101.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/096-chase.wav",
+      "role": "chase",
+      "text": "I would need to check our star chart. We can still show Haven the pattern without pretending we know its name.",
+      "tag": "group",
+      "source": "mission-set-one:95",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0102",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 29,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0102.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/097-elena.wav",
+      "role": "elena",
+      "text": "Then our report can include what we noticed and something we still wonder about.",
+      "tag": "all",
+      "source": "mission-set-one:96",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0103",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 30,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0103.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/098-elena.wav",
+      "role": "elena",
+      "text": "We can send an invitation with the pictures. One message invites Haven to look closely at your chosen detail. The other invites them to explore the whole view and find something of their own. Both fit the observation. Which invitation would you like the crew to include?",
+      "tag": "all",
+      "source": "mission-set-one:97",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0104",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 31,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0104.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/099-elena.wav",
+      "role": "elena",
+      "text": "Look at this detail.",
+      "tag": "all",
+      "source": "mission-set-one:98",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0105",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 32,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0105.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/100-elena.wav",
+      "role": "elena",
+      "text": "What do you notice?",
+      "tag": "all",
+      "source": "mission-set-one:99",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0106",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 33,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0106.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/101-ship.wav",
+      "role": "ship",
+      "text": "Observation report. One wide picture. One selected detail. One invitation.",
+      "tag": "all",
+      "source": "mission-set-one:100",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0107",
+      "kind": "choice",
+      "option": "detail",
+      "chapter": 4,
+      "menu": 34,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0107-detail.mpg",
+      "label": "Invite Haven to look closely",
+      "choice_audio": [],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0107",
+      "kind": "choice",
+      "option": "discovery",
+      "chapter": 4,
+      "menu": 35,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0107-discovery.mpg",
+      "label": "Ask Haven what they notice",
+      "choice_audio": [],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0108",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 36,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0108.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/102-captain.wav",
+      "role": "captain",
+      "text": "Here is the view from our ship. Our Signal Operator chose this detail for a closer look. We invite you to spend a moment with it.",
+      "tag": "detail",
+      "source": "mission-set-one:101",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0109",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 37,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0109.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/103-captain.wav",
+      "role": "captain",
+      "text": "Here is the view from our ship. Our Signal Operator has shared a closer look as well. What do you notice in these pictures?",
+      "tag": "discovery",
+      "source": "mission-set-one:102",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0110",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 38,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0110.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/104-captain.wav",
+      "role": "captain",
+      "text": "Report approved. You chose what to explore and how to invite Haven into the observation. We have a complete message ready to send.",
+      "tag": "all",
+      "source": "mission-set-one:103",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0111",
+      "kind": "dialogue",
+      "chapter": 4,
+      "menu": 39,
+      "set": 1,
+      "episode": 4,
+      "media": "media/n0111.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/105-elena.wav",
+      "role": "elena",
+      "text": "The pictures are saved. We do not have to do it all again. Next comes the part where the people at the other end get to respond.",
+      "tag": "all",
+      "source": "mission-set-one:104",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0112",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 1,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0112.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/106-haven.wav",
+      "role": "haven",
+      "text": "Haven to Asterion. Our gathering is ready. Some people are sitting close to the display, and others are farther back where they can see the whole picture. We have told them that your Signal Operator chose the observation. Whenever you are ready, we would like to see it.",
+      "tag": "all",
+      "source": "mission-set-one:105",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0113",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 2,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0113.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/107-elena.wav",
+      "role": "elena",
+      "text": "Everything you prepared is still here: the wide picture, the detail you chose, and your invitation. We will send them in that order. First, Haven gets to see where we were looking. Then we show what you picked out. Finally, they hear the message that goes with it.",
+      "tag": "all",
+      "source": "mission-set-one:106",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0114",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 3,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0114.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/108-ship.wav",
+      "role": "ship",
+      "text": "Haven connection open. Receiver check complete. Observation report available.",
+      "tag": "all",
+      "source": "mission-set-one:107",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0115",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 4,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0115.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/109-captain.wav",
+      "role": "captain",
+      "text": "Haven, this is the Asterion. Our Signal Operator has prepared two views for your gathering. We will begin with the wider picture.",
+      "tag": "all",
+      "source": "mission-set-one:108",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0116",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 5,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0116.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/110-elena.wav",
+      "role": "elena",
+      "text": "The connection is ready, and the report is ready. One press will send the first picture across.",
+      "tag": "all",
+      "source": "mission-set-one:109",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0118",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 7,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0118.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/111-haven.wav",
+      "role": "haven",
+      "text": "We have the planet view. The curve reaches across our display. We can see the bright edge and the clouds together.",
+      "tag": "planet",
+      "source": "mission-set-one:110",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0119",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 8,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0119.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/112-haven.wav",
+      "role": "haven",
+      "text": "We have the star field. The lights spread across our display. We can see the bright pair and the wider group together.",
+      "tag": "stars",
+      "source": "mission-set-one:111",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0120",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 9,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0120.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/113-haven.wav",
+      "role": "haven",
+      "text": "Now we know where your ship has been looking.",
+      "tag": "all",
+      "source": "mission-set-one:112",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0121",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 10,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0121.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/114-haven.wav",
+      "role": "haven",
+      "text": "The closer picture has arrived beside the first one. That gives us a new way to look. We can find the detail in the wide picture, then return to see it larger.",
+      "tag": "all",
+      "source": "mission-set-one:113",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0122",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 11,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0122.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/115-chase.wav",
+      "role": "chase",
+      "text": "That is the detail our Signal Operator selected. We kept both pictures so you could explore the connection between them.",
+      "tag": "all",
+      "source": "mission-set-one:114",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0124",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 13,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0124.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/116-captain.wav",
+      "role": "captain",
+      "text": "Our Signal Operator invites you to look closely at this detail.",
+      "tag": "detail",
+      "source": "mission-set-one:115",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0125",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 14,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0125.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/117-captain.wav",
+      "role": "captain",
+      "text": "Our Signal Operator asks: what do you notice in these pictures?",
+      "tag": "discovery",
+      "source": "mission-set-one:116",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0126",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 15,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0126.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/118-haven.wav",
+      "role": "haven",
+      "text": "Thank you. We can use that question here together. People may notice different things, and we have time to hear their answers.",
+      "tag": "all",
+      "source": "mission-set-one:117",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0127",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 16,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0127.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/119-haven.wav",
+      "role": "haven",
+      "text": "We have put the two pictures beside each other. From the back of the room, the wide view is easiest to see. Up close, the detail catches your attention. We are going to keep both.",
+      "tag": "all",
+      "source": "mission-set-one:118",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0128",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 17,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0128.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/120-chase.wav",
+      "role": "chase",
+      "text": "I wondered which one would work better on your display.",
+      "tag": "all",
+      "source": "mission-set-one:119",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0129",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 18,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0129.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/121-haven.wav",
+      "role": "haven",
+      "text": "They work together. And your invitation gives us somewhere to begin. We can carry on looking after the ship signs off.",
+      "tag": "all",
+      "source": "mission-set-one:120",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0130",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 19,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0130.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/122-elena.wav",
+      "role": "elena",
+      "text": "Our observation has reached its destination. Before we close the channel, you can choose our goodbye. We can thank Haven for joining us, or wish everyone a good evening at the station. There is no special answer to find. This is simply how you would like to end our visit.",
+      "tag": "all",
+      "source": "mission-set-one:121",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0131",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 20,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0131.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/123-elena.wav",
+      "role": "elena",
+      "text": "Thank you for joining us.",
+      "tag": "all",
+      "source": "mission-set-one:122",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0132",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 21,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0132.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/124-elena.wav",
+      "role": "elena",
+      "text": "Have a good evening.",
+      "tag": "all",
+      "source": "mission-set-one:123",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0133",
+      "kind": "choice",
+      "option": "thanks",
+      "chapter": 5,
+      "menu": 22,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0133-thanks.mpg",
+      "label": "Thank Haven",
+      "choice_audio": [],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0133",
+      "kind": "choice",
+      "option": "evening",
+      "chapter": 5,
+      "menu": 23,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0133-evening.mpg",
+      "label": "Wish Haven a good evening",
+      "choice_audio": [],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0134",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 24,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0134.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/125-captain.wav",
+      "role": "captain",
+      "text": "Thank you for joining us, Haven. We were glad to share the view.",
+      "tag": "thanks",
+      "source": "mission-set-one:124",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0135",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 25,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0135.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/126-captain.wav",
+      "role": "captain",
+      "text": "Have a good evening, Haven. We hope you enjoy the pictures.",
+      "tag": "evening",
+      "source": "mission-set-one:125",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0136",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 26,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0136.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/127-haven.wav",
+      "role": "haven",
+      "text": "And thank you, Signal Operator. Your choices brought this observation to our room. Goodbye from everyone here.",
+      "tag": "all",
+      "source": "mission-set-one:126",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0137",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 27,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0137.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/128-ship.wav",
+      "role": "ship",
+      "text": "Conversation complete. Closing the channel.",
+      "tag": "all",
+      "source": "mission-set-one:127",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0138",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 28,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0138.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/129-captain.wav",
+      "role": "captain",
+      "text": "You answered a request, checked our connection, helped choose a destination, and prepared an observation. Then you carried it through to the people waiting at Haven.",
+      "tag": "all",
+      "source": "mission-set-one:128",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0139",
+      "kind": "dialogue",
+      "chapter": 5,
+      "menu": 29,
+      "set": 1,
+      "episode": 5,
+      "media": "media/n0139.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-one/processed-clips/130-elena.wav",
+      "role": "elena",
+      "text": "That is the end of this mission set. You can leave the ship here for today. If you return, there will be other choices to try. For now, your work is complete.",
+      "tag": "all",
+      "source": "mission-set-one:129",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0140",
+      "kind": "dialogue",
+      "chapter": 6,
+      "menu": 1,
+      "set": 2,
+      "episode": 1,
+      "media": "media/n0140.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/001-ship.wav",
+      "role": "ship",
+      "text": "Signal Operations. Observation display available. Today's assignment: Our Place in Space.",
+      "tag": "all",
+      "source": "mission-set-two:0",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0141",
+      "kind": "dialogue",
+      "chapter": 6,
+      "menu": 2,
+      "set": 2,
+      "episode": 1,
+      "media": "media/n0141.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/002-haven.wav",
+      "role": "haven",
+      "text": "Hello, Asterion. After your last observation, we kept talking about the pictures. We have a new question for your crew. Where does Earth fit into all of this? We know it is our home, but we would like to see the bigger picture.",
+      "tag": "all",
+      "source": "mission-set-two:1",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0142",
+      "kind": "dialogue",
+      "chapter": 6,
+      "menu": 3,
+      "set": 2,
+      "episode": 1,
+      "media": "media/n0142.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/003-captain.wav",
+      "role": "captain",
+      "text": "That sounds like a job for our map display. Operator, we will build Haven a picture guide, beginning at Earth and moving outward. You will help choose some of the views. At the end, we will bring the whole journey back home.",
+      "tag": "all",
+      "source": "mission-set-two:2",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0143",
+      "kind": "dialogue",
+      "chapter": 6,
+      "menu": 4,
+      "set": 2,
+      "episode": 1,
+      "media": "media/n0143.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/004-elena.wav",
+      "role": "elena",
+      "text": "This time, we are exploring a map. We are not flying these enormous distances in a few minutes. The display lets us change our viewpoint while the ship stays where it is. Think of opening a map of a town, then pulling back to see the country around it.",
+      "tag": "all",
+      "source": "mission-set-two:3",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0144",
+      "kind": "dialogue",
+      "chapter": 6,
+      "menu": 5,
+      "set": 2,
+      "episode": 1,
+      "media": "media/n0144.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/005-chase.wav",
+      "role": "chase",
+      "text": "Here is Earth. It is a planet, a large, nearly round world moving around the Sun. From this view, blue oceans cover much of its surface. There are broad areas of land and white clouds above them. Everything in this picture belongs to the same world.",
+      "tag": "all",
+      "source": "mission-set-two:4",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0145",
+      "kind": "dialogue",
+      "chapter": 6,
+      "menu": 6,
+      "set": 2,
+      "episode": 1,
+      "media": "media/n0145.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/006-elena.wav",
+      "role": "elena",
+      "text": "The room where you are listening is on that world. So are the roads outside, the places you visit, and people you have never met. A picture from far away cannot show all those details. They are still there, even when they are too small to see.",
+      "tag": "all",
+      "source": "mission-set-two:5",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0146",
+      "kind": "dialogue",
+      "chapter": 6,
+      "menu": 7,
+      "set": 2,
+      "episode": 1,
+      "media": "media/n0146.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/007-chase.wav",
+      "role": "chase",
+      "text": "Around Earth is a layer of gases called the atmosphere. That is where our air is. Clouds and weather happen within it. From the ground, the sky can seem to go on forever. From space, the atmosphere makes a thin layer around a much larger planet.",
+      "tag": "all",
+      "source": "mission-set-two:6",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0147",
+      "kind": "dialogue",
+      "chapter": 6,
+      "menu": 8,
+      "set": 2,
+      "episode": 1,
+      "media": "media/n0147.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/008-elena.wav",
+      "role": "elena",
+      "text": "We can take a closer look at the ocean or the land. Both are parts of home. The choices will take turns. Pick the view you would like to put into Haven's guide.",
+      "tag": "all",
+      "source": "mission-set-two:7",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0148",
+      "kind": "dialogue",
+      "chapter": 6,
+      "menu": 9,
+      "set": 2,
+      "episode": 1,
+      "media": "media/n0148.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/009-elena.wav",
+      "role": "elena",
+      "text": "Look at the ocean.",
+      "tag": "all",
+      "source": "mission-set-two:8",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0149",
+      "kind": "dialogue",
+      "chapter": 6,
+      "menu": 10,
+      "set": 2,
+      "episode": 1,
+      "media": "media/n0149.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/010-elena.wav",
+      "role": "elena",
+      "text": "Look at the land.",
+      "tag": "all",
+      "source": "mission-set-two:9",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0150",
+      "kind": "choice",
+      "option": "ocean",
+      "chapter": 6,
+      "menu": 11,
+      "set": 2,
+      "episode": 1,
+      "media": "media/n0150-ocean.mpg",
+      "label": "Ocean",
+      "choice_audio": [],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0150",
+      "kind": "choice",
+      "option": "land",
+      "chapter": 6,
+      "menu": 12,
+      "set": 2,
+      "episode": 1,
+      "media": "media/n0150-land.mpg",
+      "label": "Land",
+      "choice_audio": [],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0151",
+      "kind": "dialogue",
+      "chapter": 6,
+      "menu": 13,
+      "set": 2,
+      "episode": 1,
+      "media": "media/n0151.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/011-chase.wav",
+      "role": "chase",
+      "text": "The ocean view is selected. Water stretches across a huge part of the picture, with clouds above it. Down at the surface, there are waves, coastlines, and living things. From here, those smaller details blend into broad areas of color.",
+      "tag": "ocean",
+      "source": "mission-set-two:10",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0152",
+      "kind": "dialogue",
+      "chapter": 6,
+      "menu": 14,
+      "set": 2,
+      "episode": 1,
+      "media": "media/n0152.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/012-chase.wav",
+      "role": "chase",
+      "text": "The land view is selected. We can see different colors across the surface. There are mountains, plains, forests, and dry regions. The streets and buildings that seem large when we are beside them are too small to pick out in this view.",
+      "tag": "land",
+      "source": "mission-set-two:11",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0153",
+      "kind": "dialogue",
+      "chapter": 6,
+      "menu": 15,
+      "set": 2,
+      "episode": 1,
+      "media": "media/n0153.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/013-ship.wav",
+      "role": "ship",
+      "text": "Home picture saved.",
+      "tag": "all",
+      "source": "mission-set-two:12",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0154",
+      "kind": "dialogue",
+      "chapter": 6,
+      "menu": 16,
+      "set": 2,
+      "episode": 1,
+      "media": "media/n0154.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/014-captain.wav",
+      "role": "captain",
+      "text": "We have our starting point. Whatever else we discover, Earth will stay marked on our map.",
+      "tag": "all",
+      "source": "mission-set-two:13",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0155",
+      "kind": "dialogue",
+      "chapter": 6,
+      "menu": 17,
+      "set": 2,
+      "episode": 1,
+      "media": "media/n0155.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/015-elena.wav",
+      "role": "elena",
+      "text": "We do not have to leave everything familiar behind to think about space. The familiar things are already in space, with us, on Earth. Next, we will pull back just far enough to find a neighbor.",
+      "tag": "all",
+      "source": "mission-set-two:14",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0156",
+      "kind": "dialogue",
+      "chapter": 7,
+      "menu": 1,
+      "set": 2,
+      "episode": 2,
+      "media": "media/n0156.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/016-ship.wav",
+      "role": "ship",
+      "text": "Map view expanding. Earth and its Moon.",
+      "tag": "all",
+      "source": "mission-set-two:15",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0157",
+      "kind": "dialogue",
+      "chapter": 7,
+      "menu": 2,
+      "set": 2,
+      "episode": 2,
+      "media": "media/n0157.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/017-chase.wav",
+      "role": "chase",
+      "text": "There is Earth again. Beside it on our diagram is the Moon. I have enlarged both worlds so they are easy to recognize. Their sizes and the gap on this display are not shown at the same scale. In space, there is much more room between them than this little diagram suggests.",
+      "tag": "all",
+      "source": "mission-set-two:16",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0158",
+      "kind": "dialogue",
+      "chapter": 7,
+      "menu": 3,
+      "set": 2,
+      "episode": 2,
+      "media": "media/n0158.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/018-elena.wav",
+      "role": "elena",
+      "text": "We sometimes see the Moon from a window or outside during the evening. Sometimes we can see it during the day. Here on the map, it becomes a whole place, with its own surface. It is not just a light attached to Earth's sky.",
+      "tag": "all",
+      "source": "mission-set-two:17",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0159",
+      "kind": "dialogue",
+      "chapter": 7,
+      "menu": 4,
+      "set": 2,
+      "episode": 2,
+      "media": "media/n0159.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/019-chase.wav",
+      "role": "chase",
+      "text": "The Moon travels around Earth. That journey is called an orbit. Gravity helps keep the two connected. The Moon does not stay over one building or one town. It moves around our planet while Earth and the Moon travel around the Sun together.",
+      "tag": "all",
+      "source": "mission-set-two:18",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0160",
+      "kind": "dialogue",
+      "chapter": 7,
+      "menu": 5,
+      "set": 2,
+      "episode": 2,
+      "media": "media/n0160.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/020-captain.wav",
+      "role": "captain",
+      "text": "Let us bring the lunar surface closer. Operator, open the close view.",
+      "tag": "all",
+      "source": "mission-set-two:19",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0161",
+      "kind": "dialogue",
+      "chapter": 7,
+      "menu": 6,
+      "set": 2,
+      "episode": 2,
+      "media": "media/n0161.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/021-ship.wav",
+      "role": "ship",
+      "text": "Close view available.",
+      "tag": "all",
+      "source": "mission-set-two:20",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0162",
+      "kind": "dialogue",
+      "chapter": 7,
+      "menu": 7,
+      "set": 2,
+      "episode": 2,
+      "media": "media/n0162.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/022-chase.wav",
+      "role": "chase",
+      "text": "These round hollows are craters. Many formed when objects from space struck the surface. The Moon also has darker plains made from ancient lava. Through a telescope, some places look rough and crowded with craters, while other areas look smoother.",
+      "tag": "all",
+      "source": "mission-set-two:21",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0163",
+      "kind": "dialogue",
+      "chapter": 7,
+      "menu": 8,
+      "set": 2,
+      "episode": 2,
+      "media": "media/n0163.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/023-elena.wav",
+      "role": "elena",
+      "text": "A picture can make it seem as though we could reach out and touch those ridges. But we are looking across a great distance. Our display is bringing the view closer; it is not bringing the Moon closer to Earth.",
+      "tag": "all",
+      "source": "mission-set-two:22",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0164",
+      "kind": "dialogue",
+      "chapter": 7,
+      "menu": 9,
+      "set": 2,
+      "episode": 2,
+      "media": "media/n0164.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/024-haven.wav",
+      "role": "haven",
+      "text": "We have another question. Sometimes the Moon looks round, and sometimes it looks like a thin curve. Is part of it missing?",
+      "tag": "all",
+      "source": "mission-set-two:23",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0165",
+      "kind": "dialogue",
+      "chapter": 7,
+      "menu": 10,
+      "set": 2,
+      "episode": 2,
+      "media": "media/n0165.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/025-chase.wav",
+      "role": "chase",
+      "text": "No. The Moon stays a whole, nearly round world. The Sun lights roughly half of it at a time. As the Moon goes around Earth, we see different amounts of that sunlit half. Those changing views are the Moon's phases.",
+      "tag": "all",
+      "source": "mission-set-two:24",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0166",
+      "kind": "dialogue",
+      "chapter": 7,
+      "menu": 11,
+      "set": 2,
+      "episode": 2,
+      "media": "media/n0166.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/026-elena.wav",
+      "role": "elena",
+      "text": "Imagine holding a ball beside a lamp. One side catches the light. When you change where you stand, you see more or less of the bright side. The ball has not lost a piece. Your view of its light and shadow has changed.",
+      "tag": "all",
+      "source": "mission-set-two:25",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0167",
+      "kind": "dialogue",
+      "chapter": 7,
+      "menu": 12,
+      "set": 2,
+      "episode": 2,
+      "media": "media/n0167.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/027-chase.wav",
+      "role": "chase",
+      "text": "Moonlight is sunlight reflected from the Moon's surface. The Moon does not make its own sunlight. And the ordinary changes from crescent to full Moon are not Earth casting a shadow over it. Earth's shadow on the Moon is a different event, called a lunar eclipse.",
+      "tag": "all",
+      "source": "mission-set-two:26",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0168",
+      "kind": "dialogue",
+      "chapter": 7,
+      "menu": 13,
+      "set": 2,
+      "episode": 2,
+      "media": "media/n0168.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/028-ship.wav",
+      "role": "ship",
+      "text": "Earth and Moon picture ready to save.",
+      "tag": "all",
+      "source": "mission-set-two:27",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0169",
+      "kind": "dialogue",
+      "chapter": 7,
+      "menu": 14,
+      "set": 2,
+      "episode": 2,
+      "media": "media/n0169.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/029-captain.wav",
+      "role": "captain",
+      "text": "Add it to the guide. We have home, and we have our nearest large celestial neighbor.",
+      "tag": "all",
+      "source": "mission-set-two:28",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0170",
+      "kind": "dialogue",
+      "chapter": 7,
+      "menu": 15,
+      "set": 2,
+      "episode": 2,
+      "media": "media/n0170.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/030-elena.wav",
+      "role": "elena",
+      "text": "Now there is another question waiting. If sunlight lights the Moon, where does that light begin? Our next map will bring the Sun into view.",
+      "tag": "all",
+      "source": "mission-set-two:29",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0171",
+      "kind": "dialogue",
+      "chapter": 8,
+      "menu": 1,
+      "set": 2,
+      "episode": 3,
+      "media": "media/n0171.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/031-ship.wav",
+      "role": "ship",
+      "text": "Solar system map available.",
+      "tag": "all",
+      "source": "mission-set-two:30",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0172",
+      "kind": "dialogue",
+      "chapter": 8,
+      "menu": 2,
+      "set": 2,
+      "episode": 3,
+      "media": "media/n0172.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/032-captain.wav",
+      "role": "captain",
+      "text": "Our guide has reached the Sun. It is the star at the center of our solar system. Earth and the other planets orbit it. This diagram spreads the worlds out so we can identify them; it is not a photograph of the planets lined up together.",
+      "tag": "all",
+      "source": "mission-set-two:31",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0173",
+      "kind": "dialogue",
+      "chapter": 8,
+      "menu": 3,
+      "set": 2,
+      "episode": 3,
+      "media": "media/n0173.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/033-chase.wav",
+      "role": "chase",
+      "text": "The Sun makes its own light. Deep inside, nuclear reactions release energy. Some of that energy eventually reaches Earth as sunlight. The light arriving here has traveled through space for about eight minutes. Even light takes time to make the journey.",
+      "tag": "all",
+      "source": "mission-set-two:32",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0174",
+      "kind": "dialogue",
+      "chapter": 8,
+      "menu": 4,
+      "set": 2,
+      "episode": 3,
+      "media": "media/n0174.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/034-elena.wav",
+      "role": "elena",
+      "text": "So the light on a sunny wall has come from a star. That makes the Sun part of ordinary life as well as part of astronomy. It helps warm our world and supplies the energy that most plants use to grow.",
+      "tag": "all",
+      "source": "mission-set-two:33",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0175",
+      "kind": "dialogue",
+      "chapter": 8,
+      "menu": 5,
+      "set": 2,
+      "episode": 3,
+      "media": "media/n0175.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/035-chase.wav",
+      "role": "chase",
+      "text": "There are eight planets in our solar system. Starting nearest the Sun, they are Mercury, Venus, Earth, and Mars. Farther out are Jupiter, Saturn, Uranus, and Neptune. You do not have to remember the whole list to use the map. We can return to any name when we need it.",
+      "tag": "all",
+      "source": "mission-set-two:34",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0176",
+      "kind": "dialogue",
+      "chapter": 8,
+      "menu": 6,
+      "set": 2,
+      "episode": 3,
+      "media": "media/n0176.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/036-elena.wav",
+      "role": "elena",
+      "text": "Here is our Earth marker again. It sits on the third planet from the Sun. Pulling back has made home smaller on the screen, but it has not changed what Earth is. We are simply fitting more of the neighborhood into one view.",
+      "tag": "all",
+      "source": "mission-set-two:35",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0177",
+      "kind": "dialogue",
+      "chapter": 8,
+      "menu": 7,
+      "set": 2,
+      "episode": 3,
+      "media": "media/n0177.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/037-chase.wav",
+      "role": "chase",
+      "text": "The four inner planets have rocky surfaces. The four outer planets are much larger and very different from Earth. Jupiter and Saturn are called gas giants. Uranus and Neptune are called ice giants. Those names describe kinds of planets, not places with ordinary ground and weather like ours.",
+      "tag": "all",
+      "source": "mission-set-two:36",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0178",
+      "kind": "dialogue",
+      "chapter": 8,
+      "menu": 8,
+      "set": 2,
+      "episode": 3,
+      "media": "media/n0178.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/038-captain.wav",
+      "role": "captain",
+      "text": "We have room for a closer look in Haven's guide. Operator, choose Mars or Saturn.",
+      "tag": "all",
+      "source": "mission-set-two:37",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0179",
+      "kind": "dialogue",
+      "chapter": 8,
+      "menu": 9,
+      "set": 2,
+      "episode": 3,
+      "media": "media/n0179.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/039-elena.wav",
+      "role": "elena",
+      "text": "Explore Mars.",
+      "tag": "all",
+      "source": "mission-set-two:38",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0180",
+      "kind": "dialogue",
+      "chapter": 8,
+      "menu": 10,
+      "set": 2,
+      "episode": 3,
+      "media": "media/n0180.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/040-elena.wav",
+      "role": "elena",
+      "text": "Explore Saturn.",
+      "tag": "all",
+      "source": "mission-set-two:39",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0181",
+      "kind": "choice",
+      "option": "mars",
+      "chapter": 8,
+      "menu": 11,
+      "set": 2,
+      "episode": 3,
+      "media": "media/n0181-mars.mpg",
+      "label": "Mars",
+      "choice_audio": [],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0181",
+      "kind": "choice",
+      "option": "saturn",
+      "chapter": 8,
+      "menu": 12,
+      "set": 2,
+      "episode": 3,
+      "media": "media/n0181-saturn.mpg",
+      "label": "Saturn",
+      "choice_audio": [],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0182",
+      "kind": "dialogue",
+      "chapter": 8,
+      "menu": 13,
+      "set": 2,
+      "episode": 3,
+      "media": "media/n0182.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/041-chase.wav",
+      "role": "chase",
+      "text": "Mars is a rocky world. Much of its surface looks reddish because of iron-bearing minerals that have rusted. Robotic rovers have traveled across parts of it and sent photographs back to Earth. Those pictures show a real landscape, with rocks, dust, hills, and traces of a very different past.",
+      "tag": "mars",
+      "source": "mission-set-two:40",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0183",
+      "kind": "dialogue",
+      "chapter": 8,
+      "menu": 14,
+      "set": 2,
+      "episode": 3,
+      "media": "media/n0183.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/042-chase.wav",
+      "role": "chase",
+      "text": "Saturn is surrounded by bright rings. From far away, they can look like solid bands, but they contain enormous numbers of separate pieces, mostly ice. Those pieces orbit Saturn. A close view helps us understand that something which looks smooth from a distance can have a complicated structure.",
+      "tag": "saturn",
+      "source": "mission-set-two:41",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0184",
+      "kind": "dialogue",
+      "chapter": 8,
+      "menu": 15,
+      "set": 2,
+      "episode": 3,
+      "media": "media/n0184.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/043-haven.wav",
+      "role": "haven",
+      "text": "That gives us something to compare with Earth. These are all planets, but that does not mean they all look alike.",
+      "tag": "all",
+      "source": "mission-set-two:42",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0185",
+      "kind": "dialogue",
+      "chapter": 8,
+      "menu": 16,
+      "set": 2,
+      "episode": 3,
+      "media": "media/n0185.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/044-elena.wav",
+      "role": "elena",
+      "text": "Exactly. A shared name can belong to very different places.",
+      "tag": "all",
+      "source": "mission-set-two:43",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0186",
+      "kind": "dialogue",
+      "chapter": 8,
+      "menu": 17,
+      "set": 2,
+      "episode": 3,
+      "media": "media/n0186.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/045-chase.wav",
+      "role": "chase",
+      "text": "The solar system also includes moons, asteroids, comets, and dwarf planets, including Pluto. Our map is a beginning, not a picture of every object.",
+      "tag": "all",
+      "source": "mission-set-two:44",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0187",
+      "kind": "dialogue",
+      "chapter": 8,
+      "menu": 18,
+      "set": 2,
+      "episode": 3,
+      "media": "media/n0187.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/046-captain.wav",
+      "role": "captain",
+      "text": "Save the planet view. Next we will explore something the Sun sends far beyond these worlds.",
+      "tag": "all",
+      "source": "mission-set-two:45",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0188",
+      "kind": "dialogue",
+      "chapter": 9,
+      "menu": 1,
+      "set": 2,
+      "episode": 4,
+      "media": "media/n0188.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/047-ship.wav",
+      "role": "ship",
+      "text": "Map display changing. The Sun's surrounding region.",
+      "tag": "all",
+      "source": "mission-set-two:46",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0189",
+      "kind": "dialogue",
+      "chapter": 9,
+      "menu": 2,
+      "set": 2,
+      "episode": 4,
+      "media": "media/n0189.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/048-elena.wav",
+      "role": "elena",
+      "text": "We have been looking at worlds with surfaces or visible clouds. Now we are going to add something much harder to see. The map will use colors and lines to help explain it. Those marks are part of the illustration, not glowing walls outside the ship.",
+      "tag": "all",
+      "source": "mission-set-two:47",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0190",
+      "kind": "dialogue",
+      "chapter": 9,
+      "menu": 3,
+      "set": 2,
+      "episode": 4,
+      "media": "media/n0190.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/049-chase.wav",
+      "role": "chase",
+      "text": "The Sun sends out more than light. A stream of tiny charged particles flows outward from it. Scientists call that stream the solar wind. It is very different from the air moving through trees on Earth. This wind travels through the space between the planets.",
+      "tag": "all",
+      "source": "mission-set-two:48",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0191",
+      "kind": "dialogue",
+      "chapter": 9,
+      "menu": 4,
+      "set": 2,
+      "episode": 4,
+      "media": "media/n0191.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/050-captain.wav",
+      "role": "captain",
+      "text": "As that flow spreads outward, it helps make a huge region around the Sun. The name of that region is the heliosphere.",
+      "tag": "all",
+      "source": "mission-set-two:49",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0192",
+      "kind": "dialogue",
+      "chapter": 9,
+      "menu": 5,
+      "set": 2,
+      "episode": 4,
+      "media": "media/n0192.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/051-elena.wav",
+      "role": "elena",
+      "text": "That is a long name for a useful idea. We can picture it as an enormous bubble made by the Sun's outward flow. Earth and all eight planets are inside it. We have been inside it throughout our journey on the map.",
+      "tag": "all",
+      "source": "mission-set-two:50",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0193",
+      "kind": "dialogue",
+      "chapter": 9,
+      "menu": 6,
+      "set": 2,
+      "episode": 4,
+      "media": "media/n0193.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/052-chase.wav",
+      "role": "chase",
+      "text": "This illustration draws a simple outline so we can talk about the region. Its actual shape is more complicated, and scientists are still studying it. It is not a hard shell. A spacecraft does not hit a wall when it reaches the boundary.",
+      "tag": "all",
+      "source": "mission-set-two:51",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0194",
+      "kind": "dialogue",
+      "chapter": 9,
+      "menu": 7,
+      "set": 2,
+      "episode": 4,
+      "media": "media/n0194.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/053-haven.wav",
+      "role": "haven",
+      "text": "How do people know about a place they cannot see like a planet?",
+      "tag": "all",
+      "source": "mission-set-two:52",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0195",
+      "kind": "dialogue",
+      "chapter": 9,
+      "menu": 8,
+      "set": 2,
+      "episode": 4,
+      "media": "media/n0195.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/054-chase.wav",
+      "role": "chase",
+      "text": "They use instruments. A spacecraft can measure particles and magnetic fields around it. Those measurements tell scientists about the space it is traveling through. A camera is one way to learn about a place, but it is not the only way.",
+      "tag": "all",
+      "source": "mission-set-two:53",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0196",
+      "kind": "dialogue",
+      "chapter": 9,
+      "menu": 9,
+      "set": 2,
+      "episode": 4,
+      "media": "media/n0196.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/055-captain.wav",
+      "role": "captain",
+      "text": "There is a real example for our guide. Both Voyager spacecraft traveled beyond the heliosphere into interstellar space, the space between stars. Their instruments detected changes in their surroundings. People on Earth used those measurements to understand the crossings.",
+      "tag": "all",
+      "source": "mission-set-two:54",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0197",
+      "kind": "dialogue",
+      "chapter": 9,
+      "menu": 10,
+      "set": 2,
+      "episode": 4,
+      "media": "media/n0197.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/056-elena.wav",
+      "role": "elena",
+      "text": "They did not reach another star when they crossed that boundary. There was still an enormous distance ahead of them. Leaving one region is not the same as arriving at the next familiar object on a map.",
+      "tag": "all",
+      "source": "mission-set-two:55",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0198",
+      "kind": "dialogue",
+      "chapter": 9,
+      "menu": 11,
+      "set": 2,
+      "episode": 4,
+      "media": "media/n0198.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/057-chase.wav",
+      "role": "chase",
+      "text": "The Sun's gravity reaches beyond this bubble, too. Some objects that orbit the Sun travel much farther out. That is why the boundary of the heliosphere and the outer limits of the solar system are not simply the same thing.",
+      "tag": "all",
+      "source": "mission-set-two:56",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0199",
+      "kind": "dialogue",
+      "chapter": 9,
+      "menu": 12,
+      "set": 2,
+      "episode": 4,
+      "media": "media/n0199.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/058-haven.wav",
+      "role": "haven",
+      "text": "Then we should not label this picture, the place where everything ends.",
+      "tag": "all",
+      "source": "mission-set-two:57",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0200",
+      "kind": "dialogue",
+      "chapter": 9,
+      "menu": 13,
+      "set": 2,
+      "episode": 4,
+      "media": "media/n0200.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/059-elena.wav",
+      "role": "elena",
+      "text": "Right. We can label it, the Sun's surrounding bubble. Beyond it, there is more space to explore. And sunlight does not stop at the outline, either.",
+      "tag": "all",
+      "source": "mission-set-two:58",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0201",
+      "kind": "dialogue",
+      "chapter": 9,
+      "menu": 14,
+      "set": 2,
+      "episode": 4,
+      "media": "media/n0201.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/060-ship.wav",
+      "role": "ship",
+      "text": "Heliosphere illustration ready.",
+      "tag": "all",
+      "source": "mission-set-two:59",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0202",
+      "kind": "dialogue",
+      "chapter": 9,
+      "menu": 15,
+      "set": 2,
+      "episode": 4,
+      "media": "media/n0202.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/061-captain.wav",
+      "role": "captain",
+      "text": "Add it to the guide, with its explanation. Our map now shows more than objects we can photograph. It also shows a region we understand by making measurements. Next, we will see where this whole neighborhood belongs.",
+      "tag": "all",
+      "source": "mission-set-two:60",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0203",
+      "kind": "dialogue",
+      "chapter": 10,
+      "menu": 1,
+      "set": 2,
+      "episode": 5,
+      "media": "media/n0203.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/062-ship.wav",
+      "role": "ship",
+      "text": "Wider map available. The Milky Way galaxy.",
+      "tag": "all",
+      "source": "mission-set-two:61",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0204",
+      "kind": "dialogue",
+      "chapter": 10,
+      "menu": 2,
+      "set": 2,
+      "episode": 5,
+      "media": "media/n0204.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/063-chase.wav",
+      "role": "chase",
+      "text": "As we pull back, the planets disappear into the tiny area marked as our solar system. They have not vanished from space. They are too small to show separately at this scale. The Sun becomes one star among a vast number of others.",
+      "tag": "all",
+      "source": "mission-set-two:62",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0205",
+      "kind": "dialogue",
+      "chapter": 10,
+      "menu": 3,
+      "set": 2,
+      "episode": 5,
+      "media": "media/n0205.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/064-elena.wav",
+      "role": "elena",
+      "text": "This is the moment to check what each mark means. Earlier, one circle stood for a planet. Now the bright points stand for stars, and the picture contains far more stars than we can pick out one by one.",
+      "tag": "all",
+      "source": "mission-set-two:63",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0206",
+      "kind": "dialogue",
+      "chapter": 10,
+      "menu": 4,
+      "set": 2,
+      "episode": 5,
+      "media": "media/n0206.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/065-captain.wav",
+      "role": "captain",
+      "text": "Our Sun belongs to the Milky Way, our home galaxy. A galaxy is an enormous collection of stars, gas, dust, and dark matter, held together by gravity. Our solar system is one small part of that much larger structure.",
+      "tag": "all",
+      "source": "mission-set-two:64",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0207",
+      "kind": "dialogue",
+      "chapter": 10,
+      "menu": 5,
+      "set": 2,
+      "episode": 5,
+      "media": "media/n0207.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/066-chase.wav",
+      "role": "chase",
+      "text": "This outside view of the Milky Way is an illustration informed by observations. Nobody has sent a camera far beyond our galaxy to take this portrait. We are inside it, so astronomers put together many kinds of measurements to understand its overall shape.",
+      "tag": "all",
+      "source": "mission-set-two:65",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0208",
+      "kind": "dialogue",
+      "chapter": 10,
+      "menu": 6,
+      "set": 2,
+      "episode": 5,
+      "media": "media/n0208.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/067-elena.wav",
+      "role": "elena",
+      "text": "The illustration shows a broad disk with spiral arms. Our Sun is away from the center, in a region called the Orion Spur. We will keep a marker there. Earth is much too small to draw here, but the marker tells us where to begin looking for home.",
+      "tag": "all",
+      "source": "mission-set-two:66",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0209",
+      "kind": "dialogue",
+      "chapter": 10,
+      "menu": 7,
+      "set": 2,
+      "episode": 5,
+      "media": "media/n0209.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/068-haven.wav",
+      "role": "haven",
+      "text": "When people talk about seeing the Milky Way in the night sky, are they seeing this whole shape?",
+      "tag": "all",
+      "source": "mission-set-two:67",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0210",
+      "kind": "dialogue",
+      "chapter": 10,
+      "menu": 8,
+      "set": 2,
+      "episode": 5,
+      "media": "media/n0210.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/069-chase.wav",
+      "role": "chase",
+      "text": "They are seeing it from inside. Under a dark sky, part of our galaxy can look like a faint band across the heavens. Many distant stars blend together in that view. It is a different viewpoint on the same galaxy, not another object with the same name.",
+      "tag": "all",
+      "source": "mission-set-two:68",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0211",
+      "kind": "dialogue",
+      "chapter": 10,
+      "menu": 9,
+      "set": 2,
+      "episode": 5,
+      "media": "media/n0211.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/070-elena.wav",
+      "role": "elena",
+      "text": "Like being inside a building instead of looking at a drawing of it from above. The view changes, and the drawing helps us connect what we see with the larger place.",
+      "tag": "all",
+      "source": "mission-set-two:69",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0212",
+      "kind": "dialogue",
+      "chapter": 10,
+      "menu": 10,
+      "set": 2,
+      "episode": 5,
+      "media": "media/n0212.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/071-captain.wav",
+      "role": "captain",
+      "text": "Our guide is ready. Before we send it, let us follow the map back.",
+      "tag": "all",
+      "source": "mission-set-two:70",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0213",
+      "kind": "dialogue",
+      "chapter": 10,
+      "menu": 11,
+      "set": 2,
+      "episode": 5,
+      "media": "media/n0213.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/072-ship.wav",
+      "role": "ship",
+      "text": "Milky Way. Our solar system. The Sun and its planets. Earth and its Moon. Earth.",
+      "tag": "all",
+      "source": "mission-set-two:71",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0214",
+      "kind": "dialogue",
+      "chapter": 10,
+      "menu": 12,
+      "set": 2,
+      "episode": 5,
+      "media": "media/n0214.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/073-elena.wav",
+      "role": "elena",
+      "text": "Here are the oceans and land again. Somewhere on this world is the place where you are listening. We have changed the scale of our map many times, and we have found our way back to the same home.",
+      "tag": "all",
+      "source": "mission-set-two:72",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0215",
+      "kind": "dialogue",
+      "chapter": 10,
+      "menu": 13,
+      "set": 2,
+      "episode": 5,
+      "media": "media/n0215.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/074-haven.wav",
+      "role": "haven",
+      "text": "Guide received, Asterion. We will put the pictures in order, so people can move outward and come back again. It helps to know what the smaller picture belongs to.",
+      "tag": "all",
+      "source": "mission-set-two:73",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0216",
+      "kind": "dialogue",
+      "chapter": 10,
+      "menu": 14,
+      "set": 2,
+      "episode": 5,
+      "media": "media/n0216.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/075-chase.wav",
+      "role": "chase",
+      "text": "There are other galaxies beyond ours. That can be another journey. We do not have to fit the whole universe into one visit.",
+      "tag": "all",
+      "source": "mission-set-two:74",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0217",
+      "kind": "dialogue",
+      "chapter": 10,
+      "menu": 15,
+      "set": 2,
+      "episode": 5,
+      "media": "media/n0217.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/076-captain.wav",
+      "role": "captain",
+      "text": "For today, the assignment is complete. Operator, you helped give Haven a way to explore our place in space.",
+      "tag": "all",
+      "source": "mission-set-two:75",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0218",
+      "kind": "dialogue",
+      "chapter": 10,
+      "menu": 16,
+      "set": 2,
+      "episode": 5,
+      "media": "media/n0218.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-two/processed-clips/077-elena.wav",
+      "role": "elena",
+      "text": "Our place in space includes the place you are right now. We will leave the map here, at Earth.",
+      "tag": "all",
+      "source": "mission-set-two:76",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0219",
+      "kind": "dialogue",
+      "chapter": 11,
+      "menu": 1,
+      "set": 3,
+      "episode": 1,
+      "media": "media/n0219.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/001-ship.wav",
+      "role": "ship",
+      "text": "Signal Operations. Wider universe map available.",
+      "tag": "all",
+      "source": "mission-set-three:0",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0220",
+      "kind": "dialogue",
+      "chapter": 11,
+      "menu": 2,
+      "set": 3,
+      "episode": 1,
+      "media": "media/n0220.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/002-haven.wav",
+      "role": "haven",
+      "text": "Hello again, Asterion. We followed your guide from Earth out to the Milky Way. We have reached the last picture, and there is a question beside it. What is beyond our galaxy?",
+      "tag": "all",
+      "source": "mission-set-three:1",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0221",
+      "kind": "dialogue",
+      "chapter": 11,
+      "menu": 3,
+      "set": 3,
+      "episode": 1,
+      "media": "media/n0221.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/003-captain.wav",
+      "role": "captain",
+      "text": "Then we have a place to begin. Operator, we will extend the guide. This time, our map will show other galaxies, their neighborhoods, and the larger patterns astronomers have discovered. We will keep a marker for the Milky Way so we can find our way home.",
+      "tag": "all",
+      "source": "mission-set-three:2",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0222",
+      "kind": "dialogue",
+      "chapter": 11,
+      "menu": 4,
+      "set": 3,
+      "episode": 1,
+      "media": "media/n0222.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/004-elena.wav",
+      "role": "elena",
+      "text": "The map is changing scale again. A small patch of light may now represent an entire galaxy, with enormous numbers of stars inside it. Earth and the Sun are still there, but they are much too small to draw separately on this view.",
+      "tag": "all",
+      "source": "mission-set-three:3",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0223",
+      "kind": "dialogue",
+      "chapter": 11,
+      "menu": 5,
+      "set": 3,
+      "episode": 1,
+      "media": "media/n0223.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/005-chase.wav",
+      "role": "chase",
+      "text": "Here is the Milky Way marker. Around it are other galaxies. Some are large, and some are much smaller. Between them lies intergalactic space. That means the space between galaxies. It contains matter too, although much of it is spread very thinly.",
+      "tag": "all",
+      "source": "mission-set-three:4",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0224",
+      "kind": "dialogue",
+      "chapter": 11,
+      "menu": 6,
+      "set": 3,
+      "episode": 1,
+      "media": "media/n0224.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/006-elena.wav",
+      "role": "elena",
+      "text": "It is tempting to imagine that a galaxy has a fence around it. But there is no sign floating in space that says, you are leaving the Milky Way. Its outer regions become more spread out, and different parts extend different distances.",
+      "tag": "all",
+      "source": "mission-set-three:5",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0225",
+      "kind": "dialogue",
+      "chapter": 11,
+      "menu": 7,
+      "set": 3,
+      "episode": 1,
+      "media": "media/n0225.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/007-chase.wav",
+      "role": "chase",
+      "text": "One of our large neighbors is Andromeda. Like the Milky Way, it is a spiral galaxy. Its light takes about two and a half million years to reach us. So the light we receive today began its journey long before any person now alive was born.",
+      "tag": "all",
+      "source": "mission-set-three:6",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0226",
+      "kind": "dialogue",
+      "chapter": 11,
+      "menu": 8,
+      "set": 3,
+      "episode": 1,
+      "media": "media/n0226.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/008-haven.wav",
+      "role": "haven",
+      "text": "When we see that picture, we are seeing something real, but not something happening at this very moment?",
+      "tag": "all",
+      "source": "mission-set-three:7",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0227",
+      "kind": "dialogue",
+      "chapter": 11,
+      "menu": 9,
+      "set": 3,
+      "episode": 1,
+      "media": "media/n0227.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/009-chase.wav",
+      "role": "chase",
+      "text": "That is right. Light carries information, and it takes time to travel. The farther away we look, the older the light reaching us generally is. A telescope collects that arriving light; it cannot make the journey happen instantly.",
+      "tag": "all",
+      "source": "mission-set-three:8",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0228",
+      "kind": "dialogue",
+      "chapter": 11,
+      "menu": 10,
+      "set": 3,
+      "episode": 1,
+      "media": "media/n0228.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/010-captain.wav",
+      "role": "captain",
+      "text": "For our first comparison, we have a spiral galaxy and an elliptical galaxy. Operator, choose one to examine more closely.",
+      "tag": "all",
+      "source": "mission-set-three:9",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0229",
+      "kind": "dialogue",
+      "chapter": 11,
+      "menu": 11,
+      "set": 3,
+      "episode": 1,
+      "media": "media/n0229.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/011-elena.wav",
+      "role": "elena",
+      "text": "Explore the spiral.",
+      "tag": "all",
+      "source": "mission-set-three:10",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0230",
+      "kind": "dialogue",
+      "chapter": 11,
+      "menu": 12,
+      "set": 3,
+      "episode": 1,
+      "media": "media/n0230.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/012-elena.wav",
+      "role": "elena",
+      "text": "Explore the elliptical galaxy.",
+      "tag": "all",
+      "source": "mission-set-three:11",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0231",
+      "kind": "choice",
+      "option": "spiral",
+      "chapter": 11,
+      "menu": 13,
+      "set": 3,
+      "episode": 1,
+      "media": "media/n0231-spiral.mpg",
+      "label": "Spiral galaxy",
+      "choice_audio": [],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0231",
+      "kind": "choice",
+      "option": "elliptical",
+      "chapter": 11,
+      "menu": 14,
+      "set": 3,
+      "episode": 1,
+      "media": "media/n0231-elliptical.mpg",
+      "label": "Elliptical galaxy",
+      "choice_audio": [],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0232",
+      "kind": "dialogue",
+      "chapter": 11,
+      "menu": 15,
+      "set": 3,
+      "episode": 1,
+      "media": "media/n0232.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/013-chase.wav",
+      "role": "chase",
+      "text": "The spiral view shows a broad disk and curved arms. Bright young stars can help trace those arms, and darker dust lies between some bright regions. The photograph combines the light of enormous numbers of stars. We are not looking at one object with a solid, painted surface.",
+      "tag": "spiral",
+      "source": "mission-set-three:12",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0233",
+      "kind": "dialogue",
+      "chapter": 11,
+      "menu": 16,
+      "set": 3,
+      "episode": 1,
+      "media": "media/n0233.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/014-chase.wav",
+      "role": "chase",
+      "text": "The elliptical view looks smoother and rounder, or stretched into an oval. It does not show the same clear spiral arms. Much of its light comes from older stars. It is still a galaxy, even though its shape differs from the familiar spiral picture of our own.",
+      "tag": "elliptical",
+      "source": "mission-set-three:13",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0234",
+      "kind": "dialogue",
+      "chapter": 11,
+      "menu": 17,
+      "set": 3,
+      "episode": 1,
+      "media": "media/n0234.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/015-elena.wav",
+      "role": "elena",
+      "text": "There are other shapes too, including galaxies called irregular because they do not fit those orderly patterns. We do not need to sort every galaxy today. We have discovered that the universe contains many kinds of galactic homes.",
+      "tag": "all",
+      "source": "mission-set-three:14",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0235",
+      "kind": "dialogue",
+      "chapter": 11,
+      "menu": 18,
+      "set": 3,
+      "episode": 1,
+      "media": "media/n0235.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/016-ship.wav",
+      "role": "ship",
+      "text": "Galaxy comparison saved.",
+      "tag": "all",
+      "source": "mission-set-three:15",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0236",
+      "kind": "dialogue",
+      "chapter": 11,
+      "menu": 19,
+      "set": 3,
+      "episode": 1,
+      "media": "media/n0236.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/017-captain.wav",
+      "role": "captain",
+      "text": "Next, let us see how some of these galaxies belong together.",
+      "tag": "all",
+      "source": "mission-set-three:16",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0237",
+      "kind": "dialogue",
+      "chapter": 12,
+      "menu": 1,
+      "set": 3,
+      "episode": 2,
+      "media": "media/n0237.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/018-ship.wav",
+      "role": "ship",
+      "text": "Neighborhood view. The Local Group.",
+      "tag": "all",
+      "source": "mission-set-three:17",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0238",
+      "kind": "dialogue",
+      "chapter": 12,
+      "menu": 2,
+      "set": 3,
+      "episode": 2,
+      "media": "media/n0238.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/019-chase.wav",
+      "role": "chase",
+      "text": "The Milky Way and Andromeda are members of a collection called the Local Group. The Triangulum galaxy is another member, along with many smaller galaxies. Local is an astronomer's neighborhood word. These distances are still enormous compared with anything in our everyday lives.",
+      "tag": "all",
+      "source": "mission-set-three:18",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0239",
+      "kind": "dialogue",
+      "chapter": 12,
+      "menu": 3,
+      "set": 3,
+      "episode": 2,
+      "media": "media/n0239.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/020-elena.wav",
+      "role": "elena",
+      "text": "On a street map, nearby might mean the next building. On this map, nearby can mean light needs millions of years to cross the gap. The word is familiar, but the size of the neighborhood has changed.",
+      "tag": "all",
+      "source": "mission-set-three:19",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0240",
+      "kind": "dialogue",
+      "chapter": 12,
+      "menu": 4,
+      "set": 3,
+      "episode": 2,
+      "media": "media/n0240.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/021-captain.wav",
+      "role": "captain",
+      "text": "Gravity connects the galaxies in a group. They move under one another's influence. They are not fastened to the points where we draw them, and the arrangement will not remain exactly the same forever.",
+      "tag": "all",
+      "source": "mission-set-three:20",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0241",
+      "kind": "dialogue",
+      "chapter": 12,
+      "menu": 5,
+      "set": 3,
+      "episode": 2,
+      "media": "media/n0241.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/022-haven.wav",
+      "role": "haven",
+      "text": "Is a group of galaxies the same thing as a group of stars?",
+      "tag": "all",
+      "source": "mission-set-three:21",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0242",
+      "kind": "dialogue",
+      "chapter": 12,
+      "menu": 6,
+      "set": 3,
+      "episode": 2,
+      "media": "media/n0242.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/023-chase.wav",
+      "role": "chase",
+      "text": "They are different sizes of structure. A star cluster is a collection of stars. A galaxy group is a collection of galaxies. Each galaxy can contain many star clusters, along with stars spread through its other regions.",
+      "tag": "all",
+      "source": "mission-set-three:22",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0243",
+      "kind": "dialogue",
+      "chapter": 12,
+      "menu": 7,
+      "set": 3,
+      "episode": 2,
+      "media": "media/n0243.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/024-elena.wav",
+      "role": "elena",
+      "text": "Our picture labels matter here. If every bright mark looks like a little dot, we could easily mistake one kind of thing for another. Before we compare the dots, we need to know what they stand for.",
+      "tag": "all",
+      "source": "mission-set-three:23",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0244",
+      "kind": "dialogue",
+      "chapter": 12,
+      "menu": 8,
+      "set": 3,
+      "episode": 2,
+      "media": "media/n0244.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/025-ship.wav",
+      "role": "ship",
+      "text": "Map labels enabled. Each marked object in this view is a galaxy.",
+      "tag": "all",
+      "source": "mission-set-three:24",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0245",
+      "kind": "dialogue",
+      "chapter": 12,
+      "menu": 9,
+      "set": 3,
+      "episode": 2,
+      "media": "media/n0245.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/026-chase.wav",
+      "role": "chase",
+      "text": "Some small galaxies orbit larger ones. We call them satellite galaxies. That does not mean they are machines launched from Earth. Here, satellite describes a relationship: one object traveling around another under gravity.",
+      "tag": "all",
+      "source": "mission-set-three:25",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0246",
+      "kind": "dialogue",
+      "chapter": 12,
+      "menu": 10,
+      "set": 3,
+      "episode": 2,
+      "media": "media/n0246.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/027-captain.wav",
+      "role": "captain",
+      "text": "There is also a difference between looking close together and belonging to the same group. Two galaxies might appear beside each other in a photograph while one lies much farther away. Astronomers need more than the flat picture to understand their positions.",
+      "tag": "all",
+      "source": "mission-set-three:26",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0247",
+      "kind": "dialogue",
+      "chapter": 12,
+      "menu": 11,
+      "set": 3,
+      "episode": 2,
+      "media": "media/n0247.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/028-elena.wav",
+      "role": "elena",
+      "text": "Like seeing two lights down a road at night. They may look side by side, but one could be near you and the other far beyond it. The view alone does not give you every distance.",
+      "tag": "all",
+      "source": "mission-set-three:27",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0248",
+      "kind": "dialogue",
+      "chapter": 12,
+      "menu": 12,
+      "set": 3,
+      "episode": 2,
+      "media": "media/n0248.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/029-chase.wav",
+      "role": "chase",
+      "text": "Astronomers combine measurements of distance and motion with their images. Those measurements help reveal which galaxies share a neighborhood and how that neighborhood behaves. Sometimes new measurements change the map.",
+      "tag": "all",
+      "source": "mission-set-three:28",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0249",
+      "kind": "dialogue",
+      "chapter": 12,
+      "menu": 13,
+      "set": 3,
+      "episode": 2,
+      "media": "media/n0249.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/030-haven.wav",
+      "role": "haven",
+      "text": "Then our guide can show what we have learned without pretending the map is finished forever.",
+      "tag": "all",
+      "source": "mission-set-three:29",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0250",
+      "kind": "dialogue",
+      "chapter": 12,
+      "menu": 14,
+      "set": 3,
+      "episode": 2,
+      "media": "media/n0250.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/031-captain.wav",
+      "role": "captain",
+      "text": "Exactly. A useful map can improve. Operator, save this neighborhood view with its labels.",
+      "tag": "all",
+      "source": "mission-set-three:30",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0251",
+      "kind": "dialogue",
+      "chapter": 12,
+      "menu": 15,
+      "set": 3,
+      "episode": 2,
+      "media": "media/n0251.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/032-elena.wav",
+      "role": "elena",
+      "text": "We have found our galaxy inside a group. But groups are not the only gatherings of galaxies. Our next picture shows a much more crowded collection, and some of what fills it cannot be seen with ordinary light.",
+      "tag": "all",
+      "source": "mission-set-three:31",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0252",
+      "kind": "dialogue",
+      "chapter": 13,
+      "menu": 1,
+      "set": 3,
+      "episode": 3,
+      "media": "media/n0252.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/033-ship.wav",
+      "role": "ship",
+      "text": "Galaxy cluster view available.",
+      "tag": "all",
+      "source": "mission-set-three:32",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0253",
+      "kind": "dialogue",
+      "chapter": 13,
+      "menu": 2,
+      "set": 3,
+      "episode": 3,
+      "media": "media/n0253.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/034-chase.wav",
+      "role": "chase",
+      "text": "This picture shows a galaxy cluster. A cluster can contain hundreds or thousands of galaxies held together by gravity. Some look like bright ovals, others like small smudges. Each one is much more than a single star.",
+      "tag": "all",
+      "source": "mission-set-three:33",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0254",
+      "kind": "dialogue",
+      "chapter": 13,
+      "menu": 3,
+      "set": 3,
+      "episode": 3,
+      "media": "media/n0254.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/035-elena.wav",
+      "role": "elena",
+      "text": "A photograph can make a cluster seem tightly packed. But the galaxies are still separated by enormous distances. We are fitting a huge region onto a small display. Close on the screen does not mean close enough for a short trip.",
+      "tag": "all",
+      "source": "mission-set-three:34",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0255",
+      "kind": "dialogue",
+      "chapter": 13,
+      "menu": 4,
+      "set": 3,
+      "episode": 3,
+      "media": "media/n0255.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/036-captain.wav",
+      "role": "captain",
+      "text": "Our Local Group is not itself a giant galaxy cluster. We are looking at another kind of neighborhood to understand the larger universe. The nearby Virgo Cluster is one example astronomers study, outside our own group.",
+      "tag": "all",
+      "source": "mission-set-three:35",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0256",
+      "kind": "dialogue",
+      "chapter": 13,
+      "menu": 5,
+      "set": 3,
+      "episode": 3,
+      "media": "media/n0256.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/037-chase.wav",
+      "role": "chase",
+      "text": "There is more in a cluster than its galaxies. Very hot, thin gas fills much of the space between them. It gives off X-rays. X-ray telescopes can reveal that gas even when an ordinary visible-light photograph does not show it.",
+      "tag": "all",
+      "source": "mission-set-three:36",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0257",
+      "kind": "dialogue",
+      "chapter": 13,
+      "menu": 6,
+      "set": 3,
+      "episode": 3,
+      "media": "media/n0257.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/038-elena.wav",
+      "role": "elena",
+      "text": "Let us add that information to the display. The colored layer tells us where instruments detected the gas. It does not mean a person looking through a window would see a bright cloud in exactly those colors.",
+      "tag": "all",
+      "source": "mission-set-three:37",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0258",
+      "kind": "dialogue",
+      "chapter": 13,
+      "menu": 7,
+      "set": 3,
+      "episode": 3,
+      "media": "media/n0258.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/039-ship.wav",
+      "role": "ship",
+      "text": "X-ray information added to the illustration.",
+      "tag": "all",
+      "source": "mission-set-three:38",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0259",
+      "kind": "dialogue",
+      "chapter": 13,
+      "menu": 8,
+      "set": 3,
+      "episode": 3,
+      "media": "media/n0259.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/040-haven.wav",
+      "role": "haven",
+      "text": "The same place looks different when we use a different kind of instrument.",
+      "tag": "all",
+      "source": "mission-set-three:39",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0260",
+      "kind": "dialogue",
+      "chapter": 13,
+      "menu": 9,
+      "set": 3,
+      "episode": 3,
+      "media": "media/n0260.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/041-chase.wav",
+      "role": "chase",
+      "text": "Yes. Each instrument can reveal something another misses. There is also evidence for a great deal of dark matter in clusters. We infer it from effects such as gravity, rather than seeing it shine like a star. Scientists are still investigating what it is made of.",
+      "tag": "all",
+      "source": "mission-set-three:40",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0261",
+      "kind": "dialogue",
+      "chapter": 13,
+      "menu": 10,
+      "set": 3,
+      "episode": 3,
+      "media": "media/n0261.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/042-captain.wav",
+      "role": "captain",
+      "text": "We can be clear about both parts: there is strong evidence for something affecting gravity, and there are important questions about its nature. A question does not make every observation disappear.",
+      "tag": "all",
+      "source": "mission-set-three:41",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0262",
+      "kind": "dialogue",
+      "chapter": 13,
+      "menu": 11,
+      "set": 3,
+      "episode": 3,
+      "media": "media/n0262.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/043-elena.wav",
+      "role": "elena",
+      "text": "Now pull back a little farther. Groups and clusters can be parts of much broader arrangements called superclusters. That name can sound like one extra-large cluster, but there is a difference worth keeping.",
+      "tag": "all",
+      "source": "mission-set-three:42",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0263",
+      "kind": "dialogue",
+      "chapter": 13,
+      "menu": 12,
+      "set": 3,
+      "episode": 3,
+      "media": "media/n0263.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/044-chase.wav",
+      "role": "chase",
+      "text": "A galaxy cluster is bound together by gravity. A supercluster is a larger arrangement whose parts are generally not all bound together as one object. We should not picture every level as a solid box sitting neatly inside the next box.",
+      "tag": "all",
+      "source": "mission-set-three:43",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0264",
+      "kind": "dialogue",
+      "chapter": 13,
+      "menu": 13,
+      "set": 3,
+      "episode": 3,
+      "media": "media/n0264.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/045-haven.wav",
+      "role": "haven",
+      "text": "More like a map that shows relationships at different scales, with different kinds of connections.",
+      "tag": "all",
+      "source": "mission-set-three:44",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0265",
+      "kind": "dialogue",
+      "chapter": 13,
+      "menu": 14,
+      "set": 3,
+      "episode": 3,
+      "media": "media/n0265.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/046-captain.wav",
+      "role": "captain",
+      "text": "That is a useful way to put it. Operator, add the cluster view to our guide. Next, we will pull back far enough for another pattern to emerge.",
+      "tag": "all",
+      "source": "mission-set-three:45",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0266",
+      "kind": "dialogue",
+      "chapter": 14,
+      "menu": 1,
+      "set": 3,
+      "episode": 4,
+      "media": "media/n0266.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/047-ship.wav",
+      "role": "ship",
+      "text": "Large-scale map available. The cosmic web.",
+      "tag": "all",
+      "source": "mission-set-three:46",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0267",
+      "kind": "dialogue",
+      "chapter": 14,
+      "menu": 2,
+      "set": 3,
+      "episode": 4,
+      "media": "media/n0267.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/048-elena.wav",
+      "role": "elena",
+      "text": "At first, this picture looks like threads and knots, with large spaces between them. The name scientists use is the cosmic web. It describes a pattern in where matter is gathered across enormous regions of the universe.",
+      "tag": "all",
+      "source": "mission-set-three:47",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0268",
+      "kind": "dialogue",
+      "chapter": 14,
+      "menu": 3,
+      "set": 3,
+      "episode": 4,
+      "media": "media/n0268.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/049-chase.wav",
+      "role": "chase",
+      "text": "Galaxies do not spread out perfectly evenly. Many lie along long strands, called filaments, and broad sheets. Dense regions form where parts of that pattern meet. Between them are enormous regions with far fewer galaxies, called voids.",
+      "tag": "all",
+      "source": "mission-set-three:48",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0269",
+      "kind": "dialogue",
+      "chapter": 14,
+      "menu": 4,
+      "set": 3,
+      "episode": 4,
+      "media": "media/n0269.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/050-captain.wav",
+      "role": "captain",
+      "text": "The web is not a net made by someone, and the strands are not ropes joining the galaxies. It is a way to describe the distribution of matter. Gravity has helped shape that pattern over billions of years.",
+      "tag": "all",
+      "source": "mission-set-three:49",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0270",
+      "kind": "dialogue",
+      "chapter": 14,
+      "menu": 5,
+      "set": 3,
+      "episode": 4,
+      "media": "media/n0270.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/051-elena.wav",
+      "role": "elena",
+      "text": "Our illustration makes the pattern easier to see. It is not a photograph taken by a spacecraft sitting outside the universe. Nobody has that camera position. We build these views from observations, maps, and computer models.",
+      "tag": "all",
+      "source": "mission-set-three:50",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0271",
+      "kind": "dialogue",
+      "chapter": 14,
+      "menu": 6,
+      "set": 3,
+      "episode": 4,
+      "media": "media/n0271.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/052-chase.wav",
+      "role": "chase",
+      "text": "A model is something we can compare with measurements. Scientists can ask whether its patterns resemble the universe we observe. When they do not match, that can reveal a problem with the model or something we still need to understand.",
+      "tag": "all",
+      "source": "mission-set-three:51",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0272",
+      "kind": "dialogue",
+      "chapter": 14,
+      "menu": 7,
+      "set": 3,
+      "episode": 4,
+      "media": "media/n0272.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/053-haven.wav",
+      "role": "haven",
+      "text": "We would like a picture of the strands and a picture that shows the spaces between them. Can the operator choose which one we look at first?",
+      "tag": "all",
+      "source": "mission-set-three:52",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0273",
+      "kind": "dialogue",
+      "chapter": 14,
+      "menu": 8,
+      "set": 3,
+      "episode": 4,
+      "media": "media/n0273.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/054-elena.wav",
+      "role": "elena",
+      "text": "Follow a strand.",
+      "tag": "all",
+      "source": "mission-set-three:53",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0274",
+      "kind": "dialogue",
+      "chapter": 14,
+      "menu": 9,
+      "set": 3,
+      "episode": 4,
+      "media": "media/n0274.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/055-elena.wav",
+      "role": "elena",
+      "text": "Explore a void.",
+      "tag": "all",
+      "source": "mission-set-three:54",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0275",
+      "kind": "choice",
+      "option": "strand",
+      "chapter": 14,
+      "menu": 10,
+      "set": 3,
+      "episode": 4,
+      "media": "media/n0275-strand.mpg",
+      "label": "Follow a filament",
+      "choice_audio": [],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0275",
+      "kind": "choice",
+      "option": "void",
+      "chapter": 14,
+      "menu": 11,
+      "set": 3,
+      "episode": 4,
+      "media": "media/n0275-void.mpg",
+      "label": "Look into a void",
+      "choice_audio": [],
+      "hold_after_playback": false,
+      "rendering_note": "Speak the option and allow selection time before cycling. Do not substitute a silent timed label."
+    },
+    {
+      "node": "n0276",
+      "kind": "dialogue",
+      "chapter": 14,
+      "menu": 12,
+      "set": 3,
+      "episode": 4,
+      "media": "media/n0276.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/056-chase.wav",
+      "role": "chase",
+      "text": "We are following a filament on the map. Galaxy markers gather along its length, and the route leads toward a denser region. The bright line helps our eyes follow the pattern. It does not represent a road a spacecraft could drive along.",
+      "tag": "strand",
+      "source": "mission-set-three:55",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0277",
+      "kind": "dialogue",
+      "chapter": 14,
+      "menu": 13,
+      "set": 3,
+      "episode": 4,
+      "media": "media/n0277.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/057-chase.wav",
+      "role": "chase",
+      "text": "We are looking into a void on the map. There are far fewer galaxy markers here than along the surrounding strands. A void is not necessarily completely empty. Its name describes a region with much less matter than the denser regions around it.",
+      "tag": "void",
+      "source": "mission-set-three:56",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0278",
+      "kind": "dialogue",
+      "chapter": 14,
+      "menu": 14,
+      "set": 3,
+      "episode": 4,
+      "media": "media/n0278.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/058-elena.wav",
+      "role": "elena",
+      "text": "Now let us bring both parts back into view. The strands and the less crowded spaces help us recognize the pattern together. Looking only at the brightest knots would leave out much of the shape.",
+      "tag": "all",
+      "source": "mission-set-three:57",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0279",
+      "kind": "dialogue",
+      "chapter": 14,
+      "menu": 15,
+      "set": 3,
+      "episode": 4,
+      "media": "media/n0279.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/059-captain.wav",
+      "role": "captain",
+      "text": "Our guide now reaches from one planet to a pattern made from vast numbers of galaxies. Each change of scale has shown something the previous picture could not fit.",
+      "tag": "all",
+      "source": "mission-set-three:58",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0280",
+      "kind": "dialogue",
+      "chapter": 14,
+      "menu": 16,
+      "set": 3,
+      "episode": 4,
+      "media": "media/n0280.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/060-haven.wav",
+      "role": "haven",
+      "text": "How far can we keep pulling back? Can we make a picture of absolutely everything?",
+      "tag": "all",
+      "source": "mission-set-three:59",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0281",
+      "kind": "dialogue",
+      "chapter": 14,
+      "menu": 17,
+      "set": 3,
+      "episode": 4,
+      "media": "media/n0281.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/061-chase.wav",
+      "role": "chase",
+      "text": "That is where the limits of observation become important. We can map only what we have information about. There is a difference between the whole universe and the part that can send us information.",
+      "tag": "all",
+      "source": "mission-set-three:60",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0282",
+      "kind": "dialogue",
+      "chapter": 14,
+      "menu": 18,
+      "set": 3,
+      "episode": 4,
+      "media": "media/n0282.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/062-ship.wav",
+      "role": "ship",
+      "text": "Cosmic web view saved. Final topic available: the observable universe.",
+      "tag": "all",
+      "source": "mission-set-three:61",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0283",
+      "kind": "dialogue",
+      "chapter": 15,
+      "menu": 1,
+      "set": 3,
+      "episode": 5,
+      "media": "media/n0283.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/063-captain.wav",
+      "role": "captain",
+      "text": "We have reached the widest part of today's guide. Scientists use the phrase observable universe for the region from which light or other signals have had time to reach us since the universe began.",
+      "tag": "all",
+      "source": "mission-set-three:62",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0284",
+      "kind": "dialogue",
+      "chapter": 15,
+      "menu": 2,
+      "set": 3,
+      "episode": 5,
+      "media": "media/n0284.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/064-elena.wav",
+      "role": "elena",
+      "text": "Observable means available to observation. It does not mean that every object in that region has already been photographed, or that our telescopes can see every detail. There are things too faint, obscured, or difficult for our instruments to detect.",
+      "tag": "all",
+      "source": "mission-set-three:63",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0285",
+      "kind": "dialogue",
+      "chapter": 15,
+      "menu": 3,
+      "set": 3,
+      "episode": 5,
+      "media": "media/n0285.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/065-chase.wav",
+      "role": "chase",
+      "text": "The universe has a history, and light has a travel time. Put those together and there is a limit to how far back and how far away our observations can reach. That limit is not a wall around space.",
+      "tag": "all",
+      "source": "mission-set-three:64",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0286",
+      "kind": "dialogue",
+      "chapter": 15,
+      "menu": 4,
+      "set": 3,
+      "episode": 5,
+      "media": "media/n0286.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/066-haven.wav",
+      "role": "haven",
+      "text": "So if a diagram puts a circle around the observable universe, the circle does not mark a solid outer edge?",
+      "tag": "all",
+      "source": "mission-set-three:65",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0287",
+      "kind": "dialogue",
+      "chapter": 15,
+      "menu": 5,
+      "set": 3,
+      "episode": 5,
+      "media": "media/n0287.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/067-chase.wav",
+      "role": "chase",
+      "text": "Correct. It marks a limit associated with what can reach an observer. It does not show that Earth sits at the center of the whole universe. An observer in a distant galaxy would have an observable region centered on their own location.",
+      "tag": "all",
+      "source": "mission-set-three:66",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0288",
+      "kind": "dialogue",
+      "chapter": 15,
+      "menu": 6,
+      "set": 3,
+      "episode": 5,
+      "media": "media/n0288.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/068-elena.wav",
+      "role": "elena",
+      "text": "There may be much more universe beyond what we can observe. We do not know its total size. Saying that clearly is part of explaining what we know, rather than filling the space beyond our measurements with a made-up answer.",
+      "tag": "all",
+      "source": "mission-set-three:67",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0289",
+      "kind": "dialogue",
+      "chapter": 15,
+      "menu": 7,
+      "set": 3,
+      "episode": 5,
+      "media": "media/n0289.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/069-captain.wav",
+      "role": "captain",
+      "text": "There is another important idea. On very large scales, the universe is expanding. Over time, the distances between widely separated galaxies that are not bound together tend to grow.",
+      "tag": "all",
+      "source": "mission-set-three:68",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0290",
+      "kind": "dialogue",
+      "chapter": 15,
+      "menu": 8,
+      "set": 3,
+      "episode": 5,
+      "media": "media/n0290.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/070-chase.wav",
+      "role": "chase",
+      "text": "That does not mean Earth is stretching, or that your room grows larger with the universe. Systems held together by gravity or other forces do not simply expand along with those enormous cosmic distances.",
+      "tag": "all",
+      "source": "mission-set-three:69",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0291",
+      "kind": "dialogue",
+      "chapter": 15,
+      "menu": 9,
+      "set": 3,
+      "episode": 5,
+      "media": "media/n0291.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/071-elena.wav",
+      "role": "elena",
+      "text": "And our map today is not a movie of that expansion. When we pulled back, we changed the scale of our view. The universe was not suddenly getting bigger each time the display changed.",
+      "tag": "all",
+      "source": "mission-set-three:70",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0292",
+      "kind": "dialogue",
+      "chapter": 15,
+      "menu": 10,
+      "set": 3,
+      "episode": 5,
+      "media": "media/n0292.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/072-haven.wav",
+      "role": "haven",
+      "text": "That helps. We have a journey through a map, and the universe also has its own history. Those are different things.",
+      "tag": "all",
+      "source": "mission-set-three:71",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0293",
+      "kind": "dialogue",
+      "chapter": 15,
+      "menu": 11,
+      "set": 3,
+      "episode": 5,
+      "media": "media/n0293.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/073-captain.wav",
+      "role": "captain",
+      "text": "They are. Now, Operator, let us return through the places we can name.",
+      "tag": "all",
+      "source": "mission-set-three:72",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0294",
+      "kind": "dialogue",
+      "chapter": 15,
+      "menu": 12,
+      "set": 3,
+      "episode": 5,
+      "media": "media/n0294.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/074-ship.wav",
+      "role": "ship",
+      "text": "The cosmic web. Galaxy clusters and groups. Our Local Group. The Milky Way. Our solar system. Earth.",
+      "tag": "all",
+      "source": "mission-set-three:73",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0295",
+      "kind": "dialogue",
+      "chapter": 15,
+      "menu": 13,
+      "set": 3,
+      "episode": 5,
+      "media": "media/n0295.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/075-elena.wav",
+      "role": "elena",
+      "text": "Earth is back on the display. The room where you are listening belongs to this world. Our world belongs to a solar system. Our solar system belongs to a galaxy. None of those connections requires us to memorize every name we heard.",
+      "tag": "all",
+      "source": "mission-set-three:74",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0296",
+      "kind": "dialogue",
+      "chapter": 15,
+      "menu": 14,
+      "set": 3,
+      "episode": 5,
+      "media": "media/n0296.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/076-haven.wav",
+      "role": "haven",
+      "text": "Your guide has arrived. We can start with home, explore farther, and return when we want to. There are enough questions here for more than one conversation.",
+      "tag": "all",
+      "source": "mission-set-three:75",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0297",
+      "kind": "dialogue",
+      "chapter": 15,
+      "menu": 15,
+      "set": 3,
+      "episode": 5,
+      "media": "media/n0297.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/077-chase.wav",
+      "role": "chase",
+      "text": "That is something I like about a good map. It helps me find a place, and sometimes it gives me a reason to wonder about another one.",
+      "tag": "all",
+      "source": "mission-set-three:76",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0298",
+      "kind": "dialogue",
+      "chapter": 15,
+      "menu": 16,
+      "set": 3,
+      "episode": 5,
+      "media": "media/n0298.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/078-captain.wav",
+      "role": "captain",
+      "text": "Mission complete. Thank you, Signal Operator.",
+      "tag": "all",
+      "source": "mission-set-three:77",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0299",
+      "kind": "dialogue",
+      "chapter": 15,
+      "menu": 17,
+      "set": 3,
+      "episode": 5,
+      "media": "media/n0299.mpg",
+      "audio": "/home/william/Documents/Codex/rift-signal-audio/outputs/production-audio-v1/mission-set-three/processed-clips/079-elena.wav",
+      "role": "elena",
+      "text": "We will leave the final picture at Earth. There is a much larger universe around it, and this is our place within it.",
+      "tag": "all",
+      "source": "mission-set-three:78",
+      "hold_after_playback": true
+    },
+    {
+      "node": "n0300",
+      "kind": "end",
+      "chapter": 15,
+      "menu": 18,
+      "set": 3,
+      "episode": 5,
+      "media": "media/n0300.mpg",
+      "title": "Your mission is complete",
+      "action": "START AGAIN",
+      "hold_after_playback": true
+    }
+  ],
+  "button_guard_seconds": 1.0,
+  "button_coordinates": {
+    "widescreen": [
+      45,
+      388,
+      675,
+      432
+    ],
+    "letterbox": [
+      45,
+      352,
+      675,
+      384
+    ]
+  },
+  "requirements": [
+    "Apply both widescreen and letterbox button overlays.",
+    "Use the approved processed voices and quiet room ambience.",
+    "Complete and review scene artwork before final rendering.",
+    "Generate spoken prompts for choices lacking recorded prompts.",
+    "Encode DVD-compliant MPEG-2 with stereo AC-3.",
+    "Run dvdauthor to verify DVD command compilation.",
+    "Test remembered choices and cycling on a physical player."
+  ]
+}
