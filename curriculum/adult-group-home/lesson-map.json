@@ -1,0 +1,318 @@
+{
+  "version": "draft-1",
+  "frozenCommit": "391035c3036e2b9cc7536078769faf9fa0d8f99a",
+  "lessons": [
+    {
+      "id": "S1E1",
+      "set": 1,
+      "episode": 1,
+      "title": "A picture for Haven",
+      "domains": [
+        "RS-1",
+        "RS-2",
+        "RS-5"
+      ],
+      "anchor": "n0005",
+      "stop": "n0020",
+      "anchorScene": 5,
+      "stopScene": 19,
+      "anchorText": "Asterion, this is Haven research station. Our common room needs something from the outside. Could your Signal Operator send us a picture from your current position?",
+      "stopText": "We’re off duty now. This is a good time to talk about the picture you chose, what you noticed, and what you might choose next time.",
+      "bookPages": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "S1E2",
+      "set": 1,
+      "episode": 2,
+      "title": "A picture has a story",
+      "domains": [
+        "RS-2",
+        "RS-3"
+      ],
+      "anchor": "n0025",
+      "stop": "n0041",
+      "anchorScene": 4,
+      "stopScene": 19,
+      "anchorText": "I have seen that picture on your console, but I do not know the story. Where did it come from?",
+      "stopText": "We will let you get back to it.",
+      "bookPages": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "S1E3",
+      "set": 1,
+      "episode": 3,
+      "title": "Choose a view; prepare together",
+      "domains": [
+        "RS-1",
+        "RS-2",
+        "RS-5"
+      ],
+      "anchor": "n0053",
+      "stop": "n0075",
+      "anchorScene": 1,
+      "stopScene": 22,
+      "anchorText": "Our connection with Haven is ready. Now we need a view worth sharing. Chase has found two places where the Asterion can make an observation. We have time to hear about both. Operator, your choice will help decide what the people at Haven see when their gathering begins.",
+      "stopText": "Position confirmed. You helped choose our destination and brought the crew's preparations together.",
+      "bookPages": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "S1E4",
+      "set": 1,
+      "episode": 4,
+      "title": "Look closely; keep a question",
+      "domains": [
+        "RS-1",
+        "RS-4",
+        "RS-6"
+      ],
+      "anchor": "n0081",
+      "stop": "n0102",
+      "anchorScene": 4,
+      "stopScene": 22,
+      "anchorText": "We have saved the wide picture. Now we can choose a part to explore. You do not need to search for a hidden answer. The display will offer two details from your view. Pick the one you would like to hear more about, and Chase will bring it closer.",
+      "stopText": "Then our report can include what we noticed and something we still wonder about.",
+      "bookPages": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "S1E5",
+      "set": 1,
+      "episode": 5,
+      "title": "Share the observation",
+      "domains": [
+        "RS-2",
+        "RS-3",
+        "RS-5"
+      ],
+      "anchor": "n0113",
+      "stop": "n0129",
+      "anchorScene": 2,
+      "stopScene": 16,
+      "anchorText": "Everything you prepared is still here: the wide picture, the detail you chose, and your invitation. We will send them in that order. First, Haven gets to see where we were looking. Then we show what you picked out. Finally, they hear the message that goes with it.",
+      "stopText": "They work together. And your invitation gives us somewhere to begin. We can carry on looking after the ship signs off.",
+      "bookPages": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": "S2E1",
+      "set": 2,
+      "episode": 1,
+      "title": "Earth is our home",
+      "domains": [
+        "RS-1",
+        "RS-4",
+        "RS-6"
+      ],
+      "anchor": "n0144",
+      "stop": "n0154",
+      "anchorScene": 5,
+      "stopScene": 14,
+      "anchorText": "Here is Earth. It is a planet, a large, nearly round world moving around the Sun. From this view, blue oceans cover much of its surface. There are broad areas of land and white clouds above them. Everything in this picture belongs to the same world.",
+      "stopText": "We have our starting point. Whatever else we discover, Earth will stay marked on our map.",
+      "bookPages": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "S2E2",
+      "set": 2,
+      "episode": 2,
+      "title": "The Moon and changing light",
+      "domains": [
+        "RS-4",
+        "RS-6"
+      ],
+      "anchor": "n0159",
+      "stop": "n0167",
+      "anchorScene": 4,
+      "stopScene": 12,
+      "anchorText": "The Moon travels around Earth. That journey is called an orbit. Gravity helps keep the two connected. The Moon does not stay over one building or one town. It moves around our planet while Earth and the Moon travel around the Sun together.",
+      "stopText": "Moonlight is sunlight reflected from the Moon's surface. The Moon does not make its own sunlight. And the ordinary changes from crescent to full Moon are not Earth casting a shadow over it. Earth's shadow on the Moon is a different event, called a lunar eclipse.",
+      "bookPages": [
+        15,
+        16
+      ]
+    },
+    {
+      "id": "S2E3",
+      "set": 2,
+      "episode": 3,
+      "title": "Different planets; one solar system",
+      "domains": [
+        "RS-1",
+        "RS-4",
+        "RS-6"
+      ],
+      "anchor": "n0172",
+      "stop": "n0186",
+      "anchorScene": 2,
+      "stopScene": 15,
+      "anchorText": "Our guide has reached the Sun. It is the star at the center of our solar system. Earth and the other planets orbit it. This diagram spreads the worlds out so we can identify them; it is not a photograph of the planets lined up together.",
+      "stopText": "The solar system also includes moons, asteroids, comets, and dwarf planets, including Pluto. Our map is a beginning, not a picture of every object.",
+      "bookPages": [
+        17,
+        18
+      ]
+    },
+    {
+      "id": "S2E4",
+      "set": 2,
+      "episode": 4,
+      "title": "Learning with instruments",
+      "domains": [
+        "RS-4",
+        "RS-6"
+      ],
+      "anchor": "n0190",
+      "stop": "n0200",
+      "anchorScene": 3,
+      "stopScene": 13,
+      "anchorText": "The Sun sends out more than light. A stream of tiny charged particles flows outward from it. Scientists call that stream the solar wind. It is very different from the air moving through trees on Earth. This wind travels through the space between the planets.",
+      "stopText": "Right. We can label it, the Sun's surrounding bubble. Beyond it, there is more space to explore. And sunlight does not stop at the outline, either.",
+      "bookPages": [
+        19,
+        20
+      ]
+    },
+    {
+      "id": "S2E5",
+      "set": 2,
+      "episode": 5,
+      "title": "Finding home on a larger map",
+      "domains": [
+        "RS-4",
+        "RS-5",
+        "RS-6"
+      ],
+      "anchor": "n0207",
+      "stop": "n0214",
+      "anchorScene": 5,
+      "stopScene": 12,
+      "anchorText": "This outside view of the Milky Way is an illustration informed by observations. Nobody has sent a camera far beyond our galaxy to take this portrait. We are inside it, so astronomers put together many kinds of measurements to understand its overall shape.",
+      "stopText": "Here are the oceans and land again. Somewhere on this world is the place where you are listening. We have changed the scale of our map many times, and we have found our way back to the same home.",
+      "bookPages": [
+        21,
+        22
+      ]
+    },
+    {
+      "id": "S3E1",
+      "set": 3,
+      "episode": 1,
+      "title": "Other galaxies",
+      "domains": [
+        "RS-1",
+        "RS-4",
+        "RS-6"
+      ],
+      "anchor": "n0225",
+      "stop": "n0235",
+      "anchorScene": 7,
+      "stopScene": 16,
+      "anchorText": "One of our large neighbors is Andromeda. Like the Milky Way, it is a spiral galaxy. Its light takes about two and a half million years to reach us. So the light we receive today began its journey long before any person now alive was born.",
+      "stopText": "Galaxy comparison saved.",
+      "bookPages": [
+        23,
+        24
+      ]
+    },
+    {
+      "id": "S3E2",
+      "set": 3,
+      "episode": 2,
+      "title": "What does a map symbol mean?",
+      "domains": [
+        "RS-2",
+        "RS-4",
+        "RS-6"
+      ],
+      "anchor": "n0241",
+      "stop": "n0248",
+      "anchorScene": 5,
+      "stopScene": 12,
+      "anchorText": "Is a group of galaxies the same thing as a group of stars?",
+      "stopText": "Astronomers combine measurements of distance and motion with their images. Those measurements help reveal which galaxies share a neighborhood and how that neighborhood behaves. Sometimes new measurements change the map.",
+      "bookPages": [
+        25,
+        26
+      ]
+    },
+    {
+      "id": "S3E3",
+      "set": 3,
+      "episode": 3,
+      "title": "Different tools; different information",
+      "domains": [
+        "RS-4",
+        "RS-6"
+      ],
+      "anchor": "n0256",
+      "stop": "n0264",
+      "anchorScene": 5,
+      "stopScene": 13,
+      "anchorText": "There is more in a cluster than its galaxies. Very hot, thin gas fills much of the space between them. It gives off X-rays. X-ray telescopes can reveal that gas even when an ordinary visible-light photograph does not show it.",
+      "stopText": "More like a map that shows relationships at different scales, with different kinds of connections.",
+      "bookPages": [
+        27,
+        28
+      ]
+    },
+    {
+      "id": "S3E4",
+      "set": 3,
+      "episode": 4,
+      "title": "Patterns and spaces",
+      "domains": [
+        "RS-1",
+        "RS-4",
+        "RS-6"
+      ],
+      "anchor": "n0268",
+      "stop": "n0278",
+      "anchorScene": 3,
+      "stopScene": 12,
+      "anchorText": "Galaxies do not spread out perfectly evenly. Many lie along long strands, called filaments, and broad sheets. Dense regions form where parts of that pattern meet. Between them are enormous regions with far fewer galaxies, called voids.",
+      "stopText": "Now let us bring both parts back into view. The strands and the less crowded spaces help us recognize the pattern together. Looking only at the brightest knots would leave out much of the shape.",
+      "bookPages": [
+        29,
+        30
+      ]
+    },
+    {
+      "id": "S3E5",
+      "set": 3,
+      "episode": 5,
+      "title": "Questions, discoveries, and home",
+      "domains": [
+        "RS-1",
+        "RS-2",
+        "RS-5",
+        "RS-6"
+      ],
+      "anchor": "n0287",
+      "stop": "n0299",
+      "anchorScene": 5,
+      "stopScene": 17,
+      "anchorText": "Correct. It marks a limit associated with what can reach an observer. It does not show that Earth sits at the center of the whole universe. An observer in a distant galaxy would have an observable region centered on their own location.",
+      "stopText": "We will leave the final picture at Earth. There is a much larger universe around it, and this is our place within it.",
+      "bookPages": [
+        31,
+        32
+      ]
+    }
+  ]
+}
